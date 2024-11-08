@@ -40,8 +40,11 @@ B27001 <br>
 
 KFF
 &ensp; Uninsured Rates for People Ages 0-64 by Race/Ethnicity <br>
+&ensp;   https://www.kff.org/uninsured/state-indicator/people-0-64-uninsured-rate-by-raceethnicity/ <br>
 &ensp; Employer-Sponsored Coverage Rates for People Ages 0-64 by Race/Ethnicity <br>
+&ensp;   https://www.kff.org/other/state-indicator/people-0-64-employer-coverage-rate-by-raceethnicity/ <br>
 &ensp; Medicaid Coverage Rates for People Ages 0-64 by Race/Ethnicity <br>
+&ensp;   https://www.kff.org/medicaid/state-indicator/people-0-64-medicaid-rate-by-raceethnicity/ <br>
 &ensp; Health Insurance Coverage of Population Ages 0-64 (overall % in each by state) <br>
 
 **Insurance Type**
@@ -82,7 +85,7 @@ S2703-S2704 <br>
 &ensp; Estimates: 1-year and 5-year <br>
 &ensp; https://data.census.gov/table/ACSDT1Y2023.S2703 <br>
 
-# Examples of the kinds of interactive visualization I am considering
+# Examples of kinds of interactive visualization I am considering
 
 A few visualizations inspired my idea to allow users to select a topic and a geographic area (for me, state) of interest. <br>
 &ensp;  https://www.nytimes.com/interactive/2018/08/30/climate/how-much-hotter-is-your-hometown.html <br>
