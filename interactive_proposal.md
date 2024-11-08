@@ -7,14 +7,14 @@ David Steffen
 I am planning to build an interactive visualization of health insurance coverage rates that will allow users to explore health insurance coverage at the national, state, and (possibly) county-level.
 
 The first choice a user can make is which topic they are interested in exploring health insurance coverage rates by, between: <br>
-&ensp; Race/ethnicity
-&ensp; Insurance type
-&ensp; Income
+&ensp; Race/ethnicity <br>
+&ensp; Insurance type <br>
+&ensp; Income <br>
 
-Once a choice has been made, the user can use a Selection dropdown based on the topic to select a "level"
-&ensp; Race/ethnicity: White, Black, Hispanic, Asian
-&ensp; Insurance type: private, public, no insurance, Medicaid
-&ensp; Income: based on % of Federal Poverty Level (FPL)
+Once a choice has been made, the user can use a Selection dropdown based on the topic to select a "level" <br>
+&ensp; Race/ethnicity: White, Black, Hispanic, Asian <br>
+&ensp; Insurance type: private, public, no insurance, Medicaid <br>
+&ensp; Income: based on % of Federal Poverty Level (FPL) <br>
 
 I think that for some levels, there also could be a second dropdown for age group as well (e.g., <19 vs. 19-34 vs. 35-64).
 
