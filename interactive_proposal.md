@@ -24,6 +24,7 @@ Users could then select a state to filter down to its data, which would also dis
 
 I am also considering adding additional visualizations on the state-level views comparing to the national level, though I'm less sure of what this would look like.
 
+I think this is most similar to Option A.
 
 # Data I plan to use
 
@@ -83,10 +84,21 @@ S2703-S2704 <br>
 
 # Examples of the kinds of interactive visualization I am considering
 
+A few visualizations inspired my idea to allow users to select a topic and a geographic area (for me, state) of interest. <br>
+&ensp;  https://www.nytimes.com/interactive/2018/08/30/climate/how-much-hotter-is-your-hometown.html <br>
+&ensp;  https://www.nature.org/en-us/get-involved/how-to-help/carbon-footprint-calculator/carbon-by-birth-year/ <br>
+
+A few visualizations inspired my idea of using a map, highlighting particular areas, then having more information populate as you zoom in on a particular area. <br>
+&ensp; https://especiales.eldiario.es/spain-lives-in-flats/ <br>
+&ensp; https://wfca.com/fire-map <br>
 
 # Questions
 
-1. Do you think that this would 
+1. Do you think that this would benefit from county-level data, or do you think state-level visualizations would suffice? One caveat is that some variables/tables (those labeled "1-year estimates" above) are only available for counties with >65,000 people, so this would limit what data I could display.
+
+2. More generally, do you think this is of an appropriate scope? Are there any changes you would suggest to the scope I proposed in either direction?
+
+3. On the state-level map, how would you recommend comparing to the national level?
 
 # Image file of mock-up
 
