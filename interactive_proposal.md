@@ -10,7 +10,7 @@ I am planning to build an interactive visualization of health insurance coverage
 
 **Race/Ethnicity**
 
-B27001
+B27001 <br>
 &ensp; Types: Only "with health insurance" vs. "no health insurance"
 	• Age groups: at 10 year level
 	• Breakdowns: Available for each race/ethnicity
