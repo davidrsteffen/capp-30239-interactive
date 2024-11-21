@@ -36,12 +36,11 @@
     <script src="https://unpkg.com/topojson@3"></script>
 
     <script>
-        // d3.csv("http://localhost:8000/data/income_clean.csv", function(data) {
-        //     header('Access-Control-Allow-Origin: https://localhost:8000');
-        //     for (var i = 0; i < data.length; i++) {
-        //         console.log(data[i].state);
-        //     }
-        // });
+        d3.csv("http://localhost:8080/data/income_clean.csv", function(data) {
+            for (var i = 0; i < data.length; i++) {
+                console.log(data[i].state);
+            }
+        });
 
         const width = 975;
         const height = 610;
@@ -54,22 +53,22 @@
 
             const projection = d3
                 .geoMercator()
-                // .center([15, 54])
+                .center([-95, 40])
                 .scale(600)
                 .translate([width / 2, height / 2]);
             const path = d3.geoPath().projection(projection);
 
             d3.json(
-            "https://github.com/topojson/us-atlas#states-10m.json",
+            "http://localhost:8080/data/states-10m.json",
         ).then((data) => {
             // using topojson 3rd party library to convert to GeoJSON which D3 understands
-            const geojson = mesh(data, data.objects.states, (a, b) => a !== b);
+            const geojson = topojson.feature(data, data.objects.states).features;
 
             // const geojson = topojson.feature(data, data.objects.countries);
 
             svg.append("g")
                 .selectAll("path")
-                .data(topojson.feature(data, data.objects.counties).features)
+                .data(geojson)
                 .join("path")
                 .attr("d", path)
 
