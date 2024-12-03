@@ -3,44 +3,34 @@
 <html>
   <head>
     <link href="style.css" rel="stylesheet" />
-    <!-- <script src="js/d3.v7.js"></script> -->
-    <style>
-        /* style for tooltip as well as the base map container, taken from example, to update*/
-        .tooltip {
-          position: absolute;
-          padding: 8px;
-          background: white;
-          border: 1px solid #333333;
-          border-radius: 4px;
-          pointer-events: none;
-          font-family: sans-serif;
-          font-size: 14px;
-          box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-        }
-        .container {
-          max-width: 1000px;
-          margin: 0 auto;
-        }
-    </style>
+    <title>
+      Health Insurance Enrollment (Percentages of State Population)
+    </title>
+    <link rel="stylesheet" href="style.css" />
+
   </head>
 
   <body>
-    <h1>Health Insurance Enrollment</h1>
+    <h1>Health Insurance Enrollment (Percentages of State Population)</h1>
 
     <div class="container">
-        <div id="map"></div>
+        <div id="map">
     </div>
 
     <!-- d3 and topojson -->
     <script src="https://d3js.org/d3.v7.min.js"></script>
     <script src="https://unpkg.com/topojson@3"></script>
 
+    <!-- buttons -->
+     <div class="buttons">
+      <select id="ageButton"></select>
+      <select id="incomeButton"></select>
+      <select id="typeButton"></select>
+     </div>
+
+
+
     <script>
-        d3.csv("http://localhost:8080/data/income_clean.csv", function(data) {
-            for (var i = 0; i < data.length; i++) {
-                console.log(data[i].state);
-            }
-        });
 
         const width = 975;
         const height = 610;
@@ -51,28 +41,436 @@
             .attr("width", width)
             .attr("height", height);
 
-            const projection = d3
-                .geoMercator()
-                .center([-95, 40])
-                .scale(600)
-                .translate([width / 2, height / 2]);
-            const path = d3.geoPath().projection(projection);
+        const projection = d3.geoAlbersUsa().scale(1200).translate([487.5, 305]);
+        const path = d3.geoPath().projection(projection);
 
-            d3.json(
-            "http://localhost:8080/data/states-10m.json",
-        ).then((data) => {
-            // using topojson 3rd party library to convert to GeoJSON which D3 understands
-            const geojson = topojson.feature(data, data.objects.states).features;
+        const income_path = "http://localhost:8080/data/income_clean.csv";
+        const states_path = "https://cdn.jsdelivr.net/npm/us-atlas@3/states-10m.json";
 
-            // const geojson = topojson.feature(data, data.objects.countries);
+        Promise.all([
+            d3.json(states_path),
+            d3.csv(income_path, 
+            function(d) {
+              return {
+                state: d.state,
+                level: d.level,
+                age: d.age,
+                type: d.type,
+                value: +d.value // numeric
+              };
+            }
+            )
+        ]).then(function([states_data, income_data]){
 
-            svg.append("g")
+          // Initial levels and filtering
+            const age = "all";
+            const level = "all";
+            const type = "private";
+
+            const filteredData = income_data.filter(row => 
+              row.level === level && 
+              row.age === age && 
+              row.type === type ); 
+
+          // Pull the maximum value and set the color scale based on it
+            const max_value = d3.max(filteredData, function(d) { return +d.value;} );
+
+            const color = d3.scaleSequential([0, max_value + 0.05], d3.interpolateBlues);
+
+
+          // geojson and map
+            const geojson = topojson.feature(states_data, states_data.objects.states).features;
+
+          // remove territories because they're not in the ACS data
+            const states = geojson.filter(
+              (d) => d.properties.name !== "American Samoa" &&
+                      d.properties.name !== "Guam" &&
+                      d.properties.name !== "Commonwealth of the Northern Mariana Islands" &&
+                      // d.properties.name !== "Puerto Rico" &&
+                      d.properties.name !== "United States Virgin Islands",
+            );
+
+          // Tooltip
+          const tooltip = d3.
+          select("body")
+          .append("div")
+          .attr("class", "tooltip")
+          .style("opacity", 1);
+
+          var mouseover = function(d) {
+            tooltip
+              .style("opacity", 1)
+            d3.select(this)
+              .style("stroke", "black")
+              .style("opacity", 1)
+          }
+          var mousemove = function(event, d) {
+            tooltip
+              .html("Test")
+              .style("left", 100)
+              .style("top", event.pageY + 10)
+              .style("opacity", 1);
+          }
+          var mouseleave = function(d) {
+            tooltip
+              .style("opacity", 0)
+            d3.select(this)
+              .style("stroke", "none")
+              .style("opacity", 0.8)
+          }
+
+          // Add the map to the svg
+            data = svg.append("g")
                 .selectAll("path")
-                .data(geojson)
+                .data(states)
                 .join("path")
                 .attr("d", path)
+                .attr("fill", (d) => {
+                    const score = filteredData.filter(row =>
+                      row.state == d.properties.name
+                    )[0].value;
+                    return score ? color(score) : "#ccc";
+                })
+                .on("mouseover", function (event, d) {
+                  tooltip.style("opacity", 1);
+                  const score = filteredData.filter(row =>
+                      row.state == d.properties.name
+                    )[0].value;
+                  const mean_value = d3.mean(filteredData, 
+                    function(d) { return +d.value;} );
+                  const relative = score / mean_value;
+                  tooltip
+                  .html(`
+                    <strong>${d.properties.name}</strong><br/>
+                    Percentage: ${d3.format(".1%")(score)}<br/>
+                    ${d3.format(".0%")(relative)} of national average
+                  `)
+                  .style("left", event.pageX + 10 + "px")
+                  .style("top", event.pageY - 28 + "px");
+                })
+                .on("mouseout", function (d) {
+                  tooltip.html('');
+                  tooltip.style("opacity", 0);
+                })
+                ;
+
+
+            // State borders
+            const statemesh = topojson.mesh(states_data, 
+              states_data.objects.states, (a, b) => a !== b);
+
+            borders = svg.append("path")
+                .datum(statemesh)
+                .attr("fill", "none")
+                .attr("stroke", "white")
+                .attr("stroke-linejoin", "round")
+                .attr("d", path);
+
+        // add the legend
+        const legendWidth = 250;
+        const legendHeight = 20;
+
+        const defs = svg.append("defs");
+        const gradient = defs
+          .append("linearGradient")
+          .attr("id", "legend-gradient")
+          .attr("x1", "0%")
+          .attr("x2", "100%")
+          .attr("y1", "0%")
+          .attr("y2", "0%");
+
+        const legendScale = d3
+          .scaleLinear()
+          .domain([0, max_value + 0.05])
+          .range([0, legendWidth]);
+
+        // Add gradient stops
+        const stops = d3.range(0, max_value + 0.05, (max_value + 0.05) / 10 );
+        stops.forEach((stop, i) => {
+          gradient
+            .append("stop")
+            .attr("offset", `${(i / (stops.length - 1)) * 100}%`)
+            .attr("stop-color", color(stop));
+        });
+
+        const legendAxis = d3
+          .axisBottom(legendScale)
+          .ticks(8)
+          .tickFormat(d3.format(".0%"));
+
+        const legend = svg
+          .append("g")
+          .attr(
+            "transform",
+            `translate(${width - legendWidth - 225}, ${height - 40})`,
+          );
+
+        legend
+          .append("rect")
+          .attr("width", legendWidth)
+          .attr("height", legendHeight)
+          .style("fill", "url(#legend-gradient)");
+
+        legend
+          .append("g")
+          .attr("transform", `translate(0, ${legendHeight})`)
+          .call(legendAxis);
+        
+
+          // List of ages
+          var ages = [{"label": "Age: all", "value": "all"},
+                {"label": "Age: Under 19", "value": "u19"},
+                {"label": "Age: 19-64", "value": "1964"},
+                {"label": "Age: Over 65", "value": "o65"}
+          ]
+
+          // Age button
+          d3.select("#ageButton")
+            .selectAll('myOptions')
+            .data(ages)
+            .enter()
+            .append('option')
+            .text(function (d) { return d.label; }) // text showed in the menu
+            .attr("value", function (d) { return d.value; })
+            .attr("y", "600")
+            .style("position", "absolute")
+            .style("top", "1000")
+
+          // When the button is changed, run the updateChart function
+          d3.select("#ageButton").on("change", function(d) {
+              // recover the option that has been chosen
+              var selectedAge = d3.select(this).property("value")
+
+              // run the updateChart function with this selected option
+              update_age(selectedAge)
+          })
+
+          // update Age
+          function update_age(selectedAge) {
+            const age = selectedAge;
+
+            var type = d3.select("#typeButton").property("value");
+            var level = d3.select("#incomeButton").property("value");
+
+            const filteredData = income_data.filter(row => 
+              row.level === level && row.age === age && row.type === type );
+
+              // Pull the maximum value and set the color scale based on it
+              const max_value = d3.max(filteredData, function(d) { return +d.value;} );
+
+              const color = d3.scaleSequential([0, max_value + 0.05], d3.interpolateBlues);
+
+              data
+                .attr("fill", (d) => {
+                        const score = filteredData.filter(row =>
+                          row.state == d.properties.name)[0].value;
+                        return score ? color(score) : "#ccc";
+                    })
+                  .on("mouseover", function (event, d) {
+                  tooltip.style("opacity", 1);
+                  const score = filteredData.filter(row =>
+                      row.state == d.properties.name
+                    )[0].value;
+                  const mean_value = d3.mean(filteredData, 
+                    function(d) { return +d.value;} );
+                  const relative = score / mean_value;
+                  tooltip
+                  .html(`
+                    <strong>${d.properties.name}</strong><br/>
+                    Percentage: ${d3.format(".1%")(score)}<br/>
+                    ${d3.format(".0%")(relative)} of national average
+                  `)
+                  .style("left", event.pageX + 10 + "px")
+                  .style("top", event.pageY - 28 + "px");
+                })
+                .on("mouseout", function (d) {
+                  tooltip.html('');
+                  tooltip.style("opacity", 0);
+                })    
+                    ;
+
+            // legend
+            legend.selectAll("g").remove()
+
+            legendScale
+              .domain([0, max_value + 0.05]);
+
+            legend
+              .append("g")
+              .attr("transform", `translate(0, ${legendHeight})`)
+              .call(legendAxis);
+
+          }
+
+
+          // List of types
+          var types = [{"label": "Insurance Type: Private", "value": "private"},
+                {"label": "Insurance Type: Public", "value": "public"}
+          ]
+
+          // Type button
+          d3.select("#typeButton")
+            .selectAll('myOptions')
+            .data(types)
+            .enter()
+            .append('option')
+            .text(function (d) { return d.label; }) // text showed in the menu
+            .attr("value", function (d) { return d.value; }) 
+
+          // When the button is changed, run the updateChart function
+          d3.select("#typeButton").on("change", function(d) {
+              // recover the option that has been chosen
+              var selectedType = d3.select(this).property("value")
+              // run the updateChart function with this selected option
+              update_type(selectedType)
+          })
+
+          // update type
+          function update_type(selectedType) {
+            const type = selectedType;
+
+            var age = d3.select("#ageButton").property("value");
+            var level = d3.select("#incomeButton").property("value");
+
+            const filteredData = income_data.filter(row => 
+              row.level === level && row.age === age && row.type === type );
+
+              // Pull the maximum value and set the color scale based on it
+              const max_value = d3.max(filteredData, function(d) { return +d.value;} );
+
+              const color = d3.scaleSequential([0, max_value + 0.05], d3.interpolateBlues);
+
+              data
+                .attr("fill", (d) => {
+                        const score = filteredData.filter(row =>
+                          row.state == d.properties.name)[0].value;
+                        return score ? color(score) : "#ccc";
+                    })
+                    .on("mouseover", function (event, d) {
+                  tooltip.style("opacity", 1);
+                  const score = filteredData.filter(row =>
+                      row.state == d.properties.name
+                    )[0].value;
+                  const mean_value = d3.mean(filteredData, 
+                    function(d) { return +d.value;} );
+                  const relative = score / mean_value;
+                  tooltip
+                  .html(`
+                    <strong>${d.properties.name}</strong><br/>
+                    Percentage: ${d3.format(".1%")(score)}<br/>
+                    ${d3.format(".0%")(relative)} of national average
+                  `)
+                  .style("left", event.pageX + 10 + "px")
+                  .style("top", event.pageY - 28 + "px");
+                })
+                .on("mouseout", function (d) {
+                  tooltip.html('');
+                  tooltip.style("opacity", 0);
+                });
+
+            // legend
+            legend.selectAll("g").remove()
+
+            legendScale
+              .domain([0, max_value + 0.05]);
+
+            legend
+              .append("g")
+              .attr("transform", `translate(0, ${legendHeight})`)
+              .call(legendAxis);
+
+          }          
+
+
+          // List of income levels
+          var types = [
+                {"label": "Income Level: all", "value": "all"},
+                {"label": "Income Level: < 50% of FPL", "value": "u050"},
+                {"label": "Income Level: 50–99% of FPL", "value": "050099"},
+                {"label": "Income Level: 100–138% of FPL", "value": "100137"},
+                {"label": "Income Level: 138–149% of FPL", "value": "138149"},
+                {"label": "Income Level: 150–199% of FPL", "value": "150199"},
+                {"label": "Income Level: 200–249% of FPL", "value": "200249"},
+                {"label": "Income Level: 250–299% of FPL", "value": "250299"},
+                {"label": "Income Level: 300–399% of FPL", "value": "300399"},
+                {"label": "Income Level: > 400% of FPL", "value": "o400"}
+          ]
+
+          // income levels button
+          d3.select("#incomeButton")
+            .selectAll('myOptions')
+            .data(types)
+            .enter()
+            .append('option')
+            .text(function (d) { return d.label; }) // text showed in the menu
+            .attr("value", function (d) { return d.value; }) 
+
+          // When the button is changed, run the updateChart function
+          d3.select("#incomeButton").on("change", function(d) {
+              // recover the option that has been chosen
+              var selectedOption = d3.select(this).property("value")
+              // run the updateChart function with this selected option
+              update_income(selectedOption)
+          })
+
+          // update income level
+          function update_income(selectedOption) {
+            const level = selectedOption;
+
+            var age = d3.select("#ageButton").property("value");
+            var type = d3.select("#typeButton").property("value");
+
+            const filteredData = income_data.filter(row => 
+              row.level === level && row.age === age && row.type === type );
+
+              // Pull the maximum value and set the color scale based on it
+              const max_value = d3.max(filteredData, function(d) { return +d.value;} );
+
+              const color = d3.scaleSequential([0, max_value + 0.05], d3.interpolateBlues);
+
+              data
+                .attr("fill", (d) => {
+                        const score = filteredData.filter(row =>
+                          row.state == d.properties.name)[0].value;
+                        return score ? color(score) : "#ccc";
+                    })
+                    .on("mouseover", function (event, d) {
+                  tooltip.style("opacity", 1);
+                  const score = filteredData.filter(row =>
+                      row.state == d.properties.name
+                    )[0].value;
+                  const mean_value = d3.mean(filteredData, 
+                    function(d) { return +d.value;} );
+                  const relative = score / mean_value;
+                  tooltip
+                  .html(`
+                    <strong>${d.properties.name}</strong><br/>
+                    Percentage: ${d3.format(".1%")(score)}<br/>
+                    ${d3.format(".0%")(relative)} of national average
+                  `)
+                  .style("left", event.pageX + 10 + "px")
+                  .style("top", event.pageY - 28 + "px");
+                })
+                .on("mouseout", function (d) {
+                  tooltip.html('');
+                  tooltip.style("opacity", 0);
+                });
+
+            // legend
+            legend.selectAll("g").remove()
+
+            legendScale
+              .domain([0, max_value + 0.05]);
+
+            legend
+              .append("g")
+              .attr("transform", `translate(0, ${legendHeight})`)
+              .call(legendAxis);
+
+          }        
 
         });
+
 
     </script>
 

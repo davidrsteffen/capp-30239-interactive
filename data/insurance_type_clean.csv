@@ -4679,3 +4679,3799 @@
 4677,Wisconsin,0.1416460980336939,o75,female,medicaid
 4678,Wyoming,0.09989768393637802,o75,female,medicaid
 4679,Puerto Rico,0.42111886052395553,o75,female,medicaid
+4680,Alabama,0.6705521055856063,all,male,private
+4681,Alaska,0.6597096744338367,all,male,private
+4682,Arizona,0.6399910564860486,all,male,private
+4683,Arkansas,0.6023544522679111,all,male,private
+4684,California,0.6338558737374247,all,male,private
+4685,Colorado,0.7033074098361564,all,male,private
+4686,Connecticut,0.6783951966256844,all,male,private
+4687,Delaware,0.691379505140662,all,male,private
+4688,District of Columbia,0.7367437539024106,all,male,private
+4689,Florida,0.6422071307132836,all,male,private
+4690,Georgia,0.6625826919265503,all,male,private
+4691,Hawaii,0.7524746727888303,all,male,private
+4692,Idaho,0.6876404459596197,all,male,private
+4693,Illinois,0.6967906679268028,all,male,private
+4694,Indiana,0.6780896119025233,all,male,private
+4695,Iowa,0.717867976703706,all,male,private
+4696,Kansas,0.7322904199058549,all,male,private
+4697,Kentucky,0.6276637414210102,all,male,private
+4698,Louisiana,0.5769411057437315,all,male,private
+4699,Maine,0.6747784625073097,all,male,private
+4700,Maryland,0.73114093708356,all,male,private
+4701,Massachusetts,0.7312619202993911,all,male,private
+4702,Michigan,0.6987772108913746,all,male,private
+4703,Minnesota,0.7502660697218028,all,male,private
+4704,Mississippi,0.6205581204401782,all,male,private
+4705,Missouri,0.6837191543375902,all,male,private
+4706,Montana,0.6536585846886469,all,male,private
+4707,Nebraska,0.7405041985806445,all,male,private
+4708,Nevada,0.6408090355599365,all,male,private
+4709,New Hampshire,0.759000617597488,all,male,private
+4710,New Jersey,0.7012510787268812,all,male,private
+4711,New Mexico,0.540550341543476,all,male,private
+4712,New York,0.6512543486469543,all,male,private
+4713,North Carolina,0.6728577657521155,all,male,private
+4714,North Dakota,0.8079178770408284,all,male,private
+4715,Ohio,0.6728930029344513,all,male,private
+4716,Oklahoma,0.6153324749388469,all,male,private
+4717,Oregon,0.6690029274807567,all,male,private
+4718,Pennsylvania,0.701297722652894,all,male,private
+4719,Rhode Island,0.7051485685866096,all,male,private
+4720,South Carolina,0.6677775010642101,all,male,private
+4721,South Dakota,0.7333571041383417,all,male,private
+4722,Tennessee,0.6625042299259799,all,male,private
+4723,Texas,0.633462773874738,all,male,private
+4724,Utah,0.7809965910642301,all,male,private
+4725,Vermont,0.6988929452515638,all,male,private
+4726,Virginia,0.7276467186704325,all,male,private
+4727,Washington,0.7019442737109411,all,male,private
+4728,West Virginia,0.6331465204418999,all,male,private
+4729,Wisconsin,0.7278866269476337,all,male,private
+4730,Wyoming,0.7097862120171644,all,male,private
+4731,Puerto Rico,0.3844184467179355,all,male,private
+4732,Alabama,0.6667544177295466,all,female,private
+4733,Alaska,0.6627784783522488,all,female,private
+4734,Arizona,0.6407884009895424,all,female,private
+4735,Arkansas,0.5974487742294594,all,female,private
+4736,California,0.6284517220088993,all,female,private
+4737,Colorado,0.6997318083382973,all,female,private
+4738,Connecticut,0.6736831146629261,all,female,private
+4739,Delaware,0.6885844697034182,all,female,private
+4740,District of Columbia,0.7329668005920914,all,female,private
+4741,Florida,0.6445227364266999,all,female,private
+4742,Georgia,0.6634669184501328,all,female,private
+4743,Hawaii,0.7482749474860684,all,female,private
+4744,Idaho,0.685184285621267,all,female,private
+4745,Illinois,0.6913325475444627,all,female,private
+4746,Indiana,0.6695431369523314,all,female,private
+4747,Iowa,0.7099673909269121,all,female,private
+4748,Kansas,0.7328793527904992,all,female,private
+4749,Kentucky,0.6205379661766067,all,female,private
+4750,Louisiana,0.574392136285302,all,female,private
+4751,Maine,0.6751765097596166,all,female,private
+4752,Maryland,0.7276806001416254,all,female,private
+4753,Massachusetts,0.7233839723436057,all,female,private
+4754,Michigan,0.6950214502990655,all,female,private
+4755,Minnesota,0.7474180930180304,all,female,private
+4756,Mississippi,0.6258137643379913,all,female,private
+4757,Missouri,0.678545919386925,all,female,private
+4758,Montana,0.651504131636272,all,female,private
+4759,Nebraska,0.7354886090574433,all,female,private
+4760,Nevada,0.6354539142070091,all,female,private
+4761,New Hampshire,0.7529487617641737,all,female,private
+4762,New Jersey,0.6927158727765186,all,female,private
+4763,New Mexico,0.5330951455282085,all,female,private
+4764,New York,0.64708761541378,all,female,private
+4765,North Carolina,0.6762822789601926,all,female,private
+4766,North Dakota,0.8054609861380678,all,female,private
+4767,Ohio,0.6649389080043846,all,female,private
+4768,Oklahoma,0.6169650685647813,all,female,private
+4769,Oregon,0.6636953633874464,all,female,private
+4770,Pennsylvania,0.6930198349427499,all,female,private
+4771,Rhode Island,0.6983530176617185,all,female,private
+4772,South Carolina,0.6647377565476579,all,female,private
+4773,South Dakota,0.7346826801346499,all,female,private
+4774,Tennessee,0.6574066751083024,all,female,private
+4775,Texas,0.6318969345435116,all,female,private
+4776,Utah,0.7853282248494652,all,female,private
+4777,Vermont,0.7016022520818735,all,female,private
+4778,Virginia,0.7212540405460511,all,female,private
+4779,Washington,0.6962066505442925,all,female,private
+4780,West Virginia,0.6247089594338171,all,female,private
+4781,Wisconsin,0.7218405467218879,all,female,private
+4782,Wyoming,0.7118683218596772,all,female,private
+4783,Puerto Rico,0.3811369732011671,all,female,private
+4784,Alabama,0.3857861946027289,all,male,public
+4785,Alaska,0.3783259648448346,all,male,public
+4786,Arizona,0.3837196358618519,all,male,public
+4787,Arkansas,0.42968056913092034,all,male,public
+4788,California,0.4026763994691954,all,male,public
+4789,Colorado,0.3393912282973518,all,male,public
+4790,Connecticut,0.38306199443117045,all,male,public
+4791,Delaware,0.4131707053489412,all,male,public
+4792,District of Columbia,0.3364886221391036,all,male,public
+4793,Florida,0.3749341511555931,all,male,public
+4794,Georgia,0.3350576289905435,all,male,public
+4795,Hawaii,0.40272623973088795,all,male,public
+4796,Idaho,0.35742300271978195,all,male,public
+4797,Illinois,0.3561055622234482,all,male,public
+4798,Indiana,0.3735133672763398,all,male,public
+4799,Iowa,0.3778187427894833,all,male,public
+4800,Kansas,0.31658845569159094,all,male,public
+4801,Kentucky,0.451622016600604,all,male,public
+4802,Louisiana,0.47930903801872005,all,male,public
+4803,Maine,0.4186278677986711,all,male,public
+4804,Maryland,0.34622687320774753,all,male,public
+4805,Massachusetts,0.37953800615078437,all,male,public
+4806,Michigan,0.4134063874049389,all,male,public
+4807,Minnesota,0.3508435946807542,all,male,public
+4808,Mississippi,0.4005229117451614,all,male,public
+4809,Missouri,0.36017934753359404,all,male,public
+4810,Montana,0.4111391805903436,all,male,public
+4811,Nebraska,0.3265224562196327,all,male,public
+4812,Nevada,0.3740342108675671,all,male,public
+4813,New Hampshire,0.3333265994043359,all,male,public
+4814,New Jersey,0.34119070587497774,all,male,public
+4815,New Mexico,0.5220611464919074,all,male,public
+4816,New York,0.4333152750007033,all,male,public
+4817,North Carolina,0.3643985884489883,all,male,public
+4818,North Dakota,0.2930201247351147,all,male,public
+4819,Ohio,0.3922798457766654,all,male,public
+4820,Oklahoma,0.4030121781776897,all,male,public
+4821,Oregon,0.41438269507098097,all,male,public
+4822,Pennsylvania,0.3949158124720693,all,male,public
+4823,Rhode Island,0.3884353319373144,all,male,public
+4824,South Carolina,0.390932589163366,all,male,public
+4825,South Dakota,0.32284418792709696,all,male,public
+4826,Tennessee,0.36921111525019834,all,male,public
+4827,Texas,0.2933290264951162,all,male,public
+4828,Utah,0.2256767965616367,all,male,public
+4829,Vermont,0.4224859204066884,all,male,public
+4830,Virginia,0.3491551734150586,all,male,public
+4831,Washington,0.36514656299702347,all,male,public
+4832,West Virginia,0.4731502067805592,all,male,public
+4833,Wisconsin,0.35992973829428737,all,male,public
+4834,Wyoming,0.3317199597034228,all,male,public
+4835,Puerto Rico,0.6308729115707,all,male,public
+4836,Alabama,0.40194929981166094,all,female,public
+4837,Alaska,0.3715292373079258,all,female,public
+4838,Arizona,0.3954320165385048,all,female,public
+4839,Arkansas,0.44618489851734466,all,female,public
+4840,California,0.42118844150436285,all,female,public
+4841,Colorado,0.3563017385834136,all,female,public
+4842,Connecticut,0.403159922084113,all,female,public
+4843,Delaware,0.4297285385420036,all,female,public
+4844,District of Columbia,0.3432353563121167,all,female,public
+4845,Florida,0.3843088166981729,all,female,public
+4846,Georgia,0.3476139091809615,all,female,public
+4847,Hawaii,0.40981716216273717,all,female,public
+4848,Idaho,0.3657941164615259,all,female,public
+4849,Illinois,0.3784566238189339,all,female,public
+4850,Indiana,0.3967239218067798,all,female,public
+4851,Iowa,0.39949618508568957,all,female,public
+4852,Kansas,0.33330680230252435,all,female,public
+4853,Kentucky,0.4711068044922483,all,female,public
+4854,Louisiana,0.5042812283475566,all,female,public
+4855,Maine,0.4263169577429517,all,female,public
+4856,Maryland,0.36010527086889693,all,female,public
+4857,Massachusetts,0.3970372814568539,all,female,public
+4858,Michigan,0.43401581517885574,all,female,public
+4859,Minnesota,0.36523739809281375,all,female,public
+4860,Mississippi,0.4108924290593984,all,female,public
+4861,Missouri,0.37706912178600394,all,female,public
+4862,Montana,0.42375465821736547,all,female,public
+4863,Nebraska,0.345463801159887,all,female,public
+4864,Nevada,0.3830780966089797,all,female,public
+4865,New Hampshire,0.3493252382990089,all,female,public
+4866,New Jersey,0.36543723553850593,all,female,public
+4867,New Mexico,0.5420465799996027,all,female,public
+4868,New York,0.4512172187654937,all,female,public
+4869,North Carolina,0.3772860354458414,all,female,public
+4870,North Dakota,0.3106234157413005,all,female,public
+4871,Ohio,0.4149447907805471,all,female,public
+4872,Oklahoma,0.4172293454389192,all,female,public
+4873,Oregon,0.43324275653296196,all,female,public
+4874,Pennsylvania,0.4163327071544436,all,female,public
+4875,Rhode Island,0.40466644995846424,all,female,public
+4876,South Carolina,0.4051658878496157,all,female,public
+4877,South Dakota,0.3317989966472457,all,female,public
+4878,Tennessee,0.38866656288061247,all,female,public
+4879,Texas,0.30464624460713924,all,female,public
+4880,Utah,0.2331209956068467,all,female,public
+4881,Vermont,0.4347472918591457,all,female,public
+4882,Virginia,0.3640245879870042,all,female,public
+4883,Washington,0.3829301223732377,all,female,public
+4884,West Virginia,0.49201041648859484,all,female,public
+4885,Wisconsin,0.37883133321583645,all,female,public
+4886,Wyoming,0.3361600408781809,all,female,public
+4887,Puerto Rico,0.6492687196985972,all,female,public
+4888,Alabama,0.5364597633773472,all,male,employer
+4889,Alaska,0.5398973395128966,all,male,employer
+4890,Arizona,0.5227044104444618,all,male,employer
+4891,Arkansas,0.4733567539491174,all,male,employer
+4892,California,0.5258665137276739,all,male,employer
+4893,Colorado,0.5727717760492369,all,male,employer
+4894,Connecticut,0.57719203060254,all,male,employer
+4895,Delaware,0.5857014437081538,all,male,employer
+4896,District of Columbia,0.6473654807321744,all,male,employer
+4897,Florida,0.4573360763861409,all,male,employer
+4898,Georgia,0.5299507635540079,all,male,employer
+4899,Hawaii,0.6155531787990091,all,male,employer
+4900,Idaho,0.5385364363580825,all,male,employer
+4901,Illinois,0.5947757077016328,all,male,employer
+4902,Indiana,0.5716210742311081,all,male,employer
+4903,Iowa,0.5826802755682393,all,male,employer
+4904,Kansas,0.5806093329639185,all,male,employer
+4905,Kentucky,0.5283117916874519,all,male,employer
+4906,Louisiana,0.4734768047240286,all,male,employer
+4907,Maine,0.5344883126003939,all,male,employer
+4908,Maryland,0.6185446055664635,all,male,employer
+4909,Massachusetts,0.6220823974358513,all,male,employer
+4910,Michigan,0.59718995021869,all,male,employer
+4911,Minnesota,0.6156535470180378,all,male,employer
+4912,Mississippi,0.4731484992815617,all,male,employer
+4913,Missouri,0.5652579622140226,all,male,employer
+4914,Montana,0.48552200565493425,all,male,employer
+4915,Nebraska,0.5875912203064869,all,male,employer
+4916,Nevada,0.5315620316503314,all,male,employer
+4917,New Hampshire,0.6236003047583867,all,male,employer
+4918,New Jersey,0.6025927254233613,all,male,employer
+4919,New Mexico,0.4321810816121314,all,male,employer
+4920,New York,0.5488795015383996,all,male,employer
+4921,North Carolina,0.5246817157303142,all,male,employer
+4922,North Dakota,0.6320995156757097,all,male,employer
+4923,Ohio,0.5740563927383457,all,male,employer
+4924,Oklahoma,0.48993092176241765,all,male,employer
+4925,Oregon,0.5455827236899374,all,male,employer
+4926,Pennsylvania,0.578274998636476,all,male,employer
+4927,Rhode Island,0.579386461703174,all,male,employer
+4928,South Carolina,0.5126333010753544,all,male,employer
+4929,South Dakota,0.5581040672513841,all,male,employer
+4930,Tennessee,0.5264979625264103,all,male,employer
+4931,Texas,0.5150150850372925,all,male,employer
+4932,Utah,0.6433980729384283,all,male,employer
+4933,Vermont,0.5618738941912332,all,male,employer
+4934,Virginia,0.5814647854341081,all,male,employer
+4935,Washington,0.5838257888331927,all,male,employer
+4936,West Virginia,0.5416706026011727,all,male,employer
+4937,Wisconsin,0.6003983410772402,all,male,employer
+4938,Wyoming,0.5398643302088381,all,male,employer
+4939,Puerto Rico,0.26054637146216775,all,male,employer
+4940,Alabama,0.5272915385367031,all,female,employer
+4941,Alaska,0.5409398206529354,all,female,employer
+4942,Arizona,0.5171877838230587,all,female,employer
+4943,Arkansas,0.4627951118737926,all,female,employer
+4944,California,0.5163103247138437,all,female,employer
+4945,Colorado,0.5644769914657433,all,female,employer
+4946,Connecticut,0.5684457095578466,all,female,employer
+4947,Delaware,0.5858448861927488,all,female,employer
+4948,District of Columbia,0.6431606400225559,all,female,employer
+4949,Florida,0.45392570348758066,all,female,employer
+4950,Georgia,0.5253457026956817,all,female,employer
+4951,Hawaii,0.60224863165927,all,female,employer
+4952,Idaho,0.5305706079394593,all,female,employer
+4953,Illinois,0.5834062994427465,all,female,employer
+4954,Indiana,0.5555860728904266,all,female,employer
+4955,Iowa,0.5688316607898782,all,female,employer
+4956,Kansas,0.5716417424935062,all,female,employer
+4957,Kentucky,0.5183073865943792,all,female,employer
+4958,Louisiana,0.46806874972782864,all,female,employer
+4959,Maine,0.5278417288707644,all,female,employer
+4960,Maryland,0.6121144584445497,all,female,employer
+4961,Massachusetts,0.6093224616983771,all,female,employer
+4962,Michigan,0.5874662444627421,all,female,employer
+4963,Minnesota,0.605769173201628,all,female,employer
+4964,Mississippi,0.46818558204408645,all,female,employer
+4965,Missouri,0.5547157733509878,all,female,employer
+4966,Montana,0.47218031576862834,all,female,employer
+4967,Nebraska,0.5752758879936741,all,female,employer
+4968,Nevada,0.522553794845933,all,female,employer
+4969,New Hampshire,0.6150555576297326,all,female,employer
+4970,New Jersey,0.5902075636813786,all,female,employer
+4971,New Mexico,0.42060674512296753,all,female,employer
+4972,New York,0.541775941638667,all,female,employer
+4973,North Carolina,0.5221376267797928,all,female,employer
+4974,North Dakota,0.6185900495296276,all,female,employer
+4975,Ohio,0.561121875039677,all,female,employer
+4976,Oklahoma,0.4849911849883598,all,female,employer
+4977,Oregon,0.5322197992823143,all,female,employer
+4978,Pennsylvania,0.563044437792671,all,female,employer
+4979,Rhode Island,0.5666738902734135,all,female,employer
+4980,South Carolina,0.5034870909297001,all,female,employer
+4981,South Dakota,0.5488285597997792,all,female,employer
+4982,Tennessee,0.5154193053715943,all,female,employer
+4983,Texas,0.5071584542394962,all,female,employer
+4984,Utah,0.6409504731774841,all,female,employer
+4985,Vermont,0.564542731889405,all,female,employer
+4986,Virginia,0.5671867065977582,all,female,employer
+4987,Washington,0.5687282253736367,all,female,employer
+4988,West Virginia,0.5289011972123927,all,female,employer
+4989,Wisconsin,0.5869896853867392,all,female,employer
+4990,Wyoming,0.5318678318814812,all,female,employer
+4991,Puerto Rico,0.256701195958841,all,female,employer
+4992,Alabama,0.20822064710945526,all,male,medicare
+4993,Alaska,0.152047158326392,all,male,medicare
+4994,Arizona,0.20124736615016553,all,male,medicare
+4995,Arkansas,0.2038951017502402,all,male,medicare
+4996,California,0.16655512988990617,all,male,medicare
+4997,Colorado,0.16567188622006052,all,male,medicare
+4998,Connecticut,0.19728995940199578,all,male,medicare
+4999,Delaware,0.22673242522338424,all,male,medicare
+5000,District of Columbia,0.12918808946939167,all,male,medicare
+5001,Florida,0.22576608775647156,all,male,medicare
+5002,Georgia,0.16819936878907624,all,male,medicare
+5003,Hawaii,0.2180237156444598,all,male,medicare
+5004,Idaho,0.18612885399192888,all,male,medicare
+5005,Illinois,0.18133147506611635,all,male,medicare
+5006,Indiana,0.18631443405654408,all,male,medicare
+5007,Iowa,0.1950226562025624,all,male,medicare
+5008,Kansas,0.18549506521714193,all,male,medicare
+5009,Kentucky,0.2024598806730286,all,male,medicare
+5010,Louisiana,0.19626505709295464,all,male,medicare
+5011,Maine,0.24707724319861396,all,male,medicare
+5012,Maryland,0.17713631238221403,all,male,medicare
+5013,Massachusetts,0.18691115974372935,all,male,medicare
+5014,Michigan,0.2092288090616262,all,male,medicare
+5015,Minnesota,0.18276625508561695,all,male,medicare
+5016,Mississippi,0.20290402151487846,all,male,medicare
+5017,Missouri,0.20056719658395653,all,male,medicare
+5018,Montana,0.2133688813665075,all,male,medicare
+5019,Nebraska,0.18021848297741852,all,male,medicare
+5020,Nevada,0.18276191040850315,all,male,medicare
+5021,New Hampshire,0.21642174404913075,all,male,medicare
+5022,New Jersey,0.17939976338900648,all,male,medicare
+5023,New Mexico,0.22002633332948063,all,male,medicare
+5024,New York,0.19645779654100767,all,male,medicare
+5025,North Carolina,0.19425742205179453,all,male,medicare
+5026,North Dakota,0.1753861628366892,all,male,medicare
+5027,Ohio,0.20053243155364592,all,male,medicare
+5028,Oklahoma,0.18785529767870504,all,male,medicare
+5029,Oregon,0.20692054065978618,all,male,medicare
+5030,Pennsylvania,0.21173057831334163,all,male,medicare
+5031,Rhode Island,0.2076098160941044,all,male,medicare
+5032,South Carolina,0.21387873956590844,all,male,medicare
+5033,South Dakota,0.19189815431917748,all,male,medicare
+5034,Tennessee,0.19360634247186922,all,male,medicare
+5035,Texas,0.14490692952370243,all,male,medicare
+5036,Utah,0.12564321142331103,all,male,medicare
+5037,Vermont,0.2371134341747863,all,male,medicare
+5038,Virginia,0.1832160341005108,all,male,medicare
+5039,Washington,0.1781649344996385,all,male,medicare
+5040,West Virginia,0.24484430979068508,all,male,medicare
+5041,Wisconsin,0.20180825793798163,all,male,medicare
+5042,Wyoming,0.20354303123681908,all,male,medicare
+5043,Puerto Rico,0.2725308273229748,all,male,medicare
+5044,Alabama,0.21906152345808164,all,female,medicare
+5045,Alaska,0.16010170006071645,all,female,medicare
+5046,Arizona,0.21382066923855408,all,female,medicare
+5047,Arkansas,0.2157071337953206,all,female,medicare
+5048,California,0.1808202763784609,all,female,medicare
+5049,Colorado,0.17823715825395678,all,female,medicare
+5050,Connecticut,0.212589826552222,all,female,medicare
+5051,Delaware,0.23969984318754883,all,female,medicare
+5052,District of Columbia,0.14284626770987524,all,female,medicare
+5053,Florida,0.23925770148914402,all,female,medicare
+5054,Georgia,0.18066230898570088,all,female,medicare
+5055,Hawaii,0.23191797472806933,all,female,medicare
+5056,Idaho,0.19382520952470525,all,female,medicare
+5057,Illinois,0.19672208490332255,all,female,medicare
+5058,Indiana,0.20282116818991439,all,female,medicare
+5059,Iowa,0.2090516220883065,all,female,medicare
+5060,Kansas,0.19982503361943013,all,female,medicare
+5061,Kentucky,0.21449737225882995,all,female,medicare
+5062,Louisiana,0.20941089832282087,all,female,medicare
+5063,Maine,0.25730014769619547,all,female,medicare
+5064,Maryland,0.19049631999096844,all,female,medicare
+5065,Massachusetts,0.20140922831418803,all,female,medicare
+5066,Michigan,0.22296758118598756,all,female,medicare
+5067,Minnesota,0.1931507664631898,all,female,medicare
+5068,Mississippi,0.21422427649241088,all,female,medicare
+5069,Missouri,0.21417497495587465,all,female,medicare
+5070,Montana,0.22167353772480963,all,female,medicare
+5071,Nebraska,0.19450231588176609,all,female,medicare
+5072,Nevada,0.19229994348721874,all,female,medicare
+5073,New Hampshire,0.23127712185917743,all,female,medicare
+5074,New Jersey,0.19602426087284797,all,female,medicare
+5075,New Mexico,0.23253108123831173,all,female,medicare
+5076,New York,0.21193243472917675,all,female,medicare
+5077,North Carolina,0.20796168242201746,all,female,medicare
+5078,North Dakota,0.1857493609935622,all,female,medicare
+5079,Ohio,0.21578767833487808,all,female,medicare
+5080,Oklahoma,0.20111014130287705,all,female,medicare
+5081,Oregon,0.21998399473923896,all,female,medicare
+5082,Pennsylvania,0.2278837628723731,all,female,medicare
+5083,Rhode Island,0.2190883808285477,all,female,medicare
+5084,South Carolina,0.22626272419160903,all,female,medicare
+5085,South Dakota,0.20595040801962633,all,female,medicare
+5086,Tennessee,0.20770059221876547,all,female,medicare
+5087,Texas,0.15550246531247022,all,female,medicare
+5088,Utah,0.13534625689294202,all,female,medicare
+5089,Vermont,0.24997364716970602,all,female,medicare
+5090,Virginia,0.19665665025602166,all,female,medicare
+5091,Washington,0.1919272907784092,all,female,medicare
+5092,West Virginia,0.25661486913858833,all,female,medicare
+5093,Wisconsin,0.21403035578717064,all,female,medicare
+5094,Wyoming,0.20685829480588114,all,female,medicare
+5095,Puerto Rico,0.2871937724684883,all,female,medicare
+5096,Alabama,0.2064243044249324,all,male,medicaid
+5097,Alaska,0.23451442728690117,all,male,medicaid
+5098,Arizona,0.20500055521356464,all,male,medicaid
+5099,Arkansas,0.25511821215626207,all,male,medicaid
+5100,California,0.27208500915586964,all,male,medicaid
+5101,Colorado,0.18744655053143053,all,male,medicaid
+5102,Connecticut,0.2249259266202756,all,male,medicaid
+5103,Delaware,0.21429069670339387,all,male,medicaid
+5104,District of Columbia,0.24422592604763854,all,male,medicaid
+5105,Florida,0.17752031443864105,all,male,medicaid
+5106,Georgia,0.18793834925299754,all,male,medicaid
+5107,Hawaii,0.20402391010635904,all,male,medicaid
+5108,Idaho,0.18495858924274894,all,male,medicaid
+5109,Illinois,0.19877260330101482,all,male,medicaid
+5110,Indiana,0.2114232409066449,all,male,medicaid
+5111,Iowa,0.20564678335053738,all,male,medicaid
+5112,Kansas,0.14650661314090385,all,male,medicaid
+5113,Kentucky,0.28004132142104626,all,male,medicaid
+5114,Louisiana,0.3234796967220821,all,male,medicaid
+5115,Maine,0.21286898126852796,all,male,medicaid
+5116,Maryland,0.19083644800857916,all,male,medicaid
+5117,Massachusetts,0.23404159891550064,all,male,medicaid
+5118,Michigan,0.23857159931004338,all,male,medicaid
+5119,Minnesota,0.1843749135922838,all,male,medicaid
+5120,Mississippi,0.23510571306305209,all,male,medicaid
+5121,Missouri,0.1766479023177482,all,male,medicaid
+5122,Montana,0.2103899107653525,all,male,medicaid
+5123,Nebraska,0.1644939799593284,all,male,medicaid
+5124,Nevada,0.2075682928522806,all,male,medicaid
+5125,New Hampshire,0.132385196130492,all,male,medicaid
+5126,New Jersey,0.18841853397010497,all,male,medicaid
+5127,New Mexico,0.3417765654557573,all,male,medicaid
+5128,New York,0.28771982621672426,all,male,medicaid
+5129,North Carolina,0.19118339770811227,all,male,medicaid
+5130,North Dakota,0.12759810251749093,all,male,medicaid
+5131,Ohio,0.2159236875654316,all,male,medicaid
+5132,Oklahoma,0.23059991489996712,all,male,medicaid
+5133,Oregon,0.23859337828894414,all,male,medicaid
+5134,Pennsylvania,0.21492110693572392,all,male,medicaid
+5135,Rhode Island,0.2235701842207871,all,male,medicaid
+5136,South Carolina,0.20021193226809983,all,male,medicaid
+5137,South Dakota,0.14639816764860086,all,male,medicaid
+5138,Tennessee,0.19898794577732531,all,male,medicaid
+5139,Texas,0.16201755095422204,all,male,medicaid
+5140,Utah,0.11190603473924045,all,male,medicaid
+5141,Vermont,0.22374249296020335,all,male,medicaid
+5142,Virginia,0.17061398895097651,all,male,medicaid
+5143,Washington,0.20639070269317605,all,male,medicaid
+5144,West Virginia,0.26435886506848527,all,male,medicaid
+5145,Wisconsin,0.18499651443012258,all,male,medicaid
+5146,Wyoming,0.1380088052901458,all,male,medicaid
+5147,Puerto Rico,0.47245128308317247,all,male,medicaid
+5148,Alabama,0.2229152895689277,all,female,medicaid
+5149,Alaska,0.23747139320909813,all,female,medicaid
+5150,Arizona,0.21311624743748325,all,female,medicaid
+5151,Arkansas,0.26772329402951783,all,female,medicaid
+5152,California,0.28608718326083205,all,female,medicaid
+5153,Colorado,0.20105850113289056,all,female,medicaid
+5154,Connecticut,0.2398028541761984,all,female,medicaid
+5155,Delaware,0.22679544581836616,all,female,medicaid
+5156,District of Columbia,0.24762670050045815,all,female,medicaid
+5157,Florida,0.184787760838782,all,female,medicaid
+5158,Georgia,0.19830427974798817,all,female,medicaid
+5159,Hawaii,0.20603757742347717,all,female,medicaid
+5160,Idaho,0.1951543439233443,all,female,medicaid
+5161,Illinois,0.21369131205561098,all,female,medicaid
+5162,Indiana,0.22885785555728963,all,female,medicaid
+5163,Iowa,0.22261358721901112,all,female,medicaid
+5164,Kansas,0.156797699967263,all,female,medicaid
+5165,Kentucky,0.296820271538421,all,female,medicaid
+5166,Louisiana,0.34585616159281785,all,female,medicaid
+5167,Maine,0.22238095373608768,all,female,medicaid
+5168,Maryland,0.20025534432954514,all,female,medicaid
+5169,Massachusetts,0.2452567983145794,all,female,medicaid
+5170,Michigan,0.2529265385815568,all,female,medicaid
+5171,Minnesota,0.19490531863153382,all,female,medicaid
+5172,Mississippi,0.24492092760279277,all,female,medicaid
+5173,Missouri,0.18998144736350145,all,female,medicaid
+5174,Montana,0.22824274938340505,all,female,medicaid
+5175,Nebraska,0.1803540297981567,all,female,medicaid
+5176,Nevada,0.21819762240845816,all,female,medicaid
+5177,New Hampshire,0.14060431307564397,all,female,medicaid
+5178,New Jersey,0.20306952893834473,all,female,medicaid
+5179,New Mexico,0.35963804534649324,all,female,medicaid
+5180,New York,0.2988918466908766,all,female,medicaid
+5181,North Carolina,0.20084789821423127,all,female,medicaid
+5182,North Dakota,0.14438894015081613,all,female,medicaid
+5183,Ohio,0.23237761497864848,all,female,medicaid
+5184,Oklahoma,0.2461417905898202,all,female,medicaid
+5185,Oregon,0.25315192148162985,all,female,medicaid
+5186,Pennsylvania,0.2286987332368775,all,female,medicaid
+5187,Rhode Island,0.2363365478383357,all,female,medicaid
+5188,South Carolina,0.21395302896718327,all,female,medicaid
+5189,South Dakota,0.1568328952191208,all,female,medicaid
+5190,Tennessee,0.21375570372356056,all,female,medicaid
+5191,Texas,0.17201383686968064,all,female,medicaid
+5192,Utah,0.11621622264991294,all,female,medicaid
+5193,Vermont,0.22849454031362967,all,female,medicaid
+5194,Virginia,0.18189991326042193,all,female,medicaid
+5195,Washington,0.22099538550103895,all,female,medicaid
+5196,West Virginia,0.2831199320762888,all,female,medicaid
+5197,Wisconsin,0.19980255068246489,all,female,medicaid
+5198,Wyoming,0.14759893184753278,all,female,medicaid
+5199,Puerto Rico,0.4879193101203338,all,female,medicaid
+5200,Alabama,0.5226744483403327,u6,all,private
+5201,Alaska,0.5748400302421214,u6,all,private
+5202,Arizona,0.5893156034963735,u6,all,private
+5203,Arkansas,0.46756236397120376,u6,all,private
+5204,California,0.596938502897692,u6,all,private
+5205,Colorado,0.6430550424824529,u6,all,private
+5206,Connecticut,0.6235635876349218,u6,all,private
+5207,Delaware,0.5881518049984573,u6,all,private
+5208,District of Columbia,0.7572849188638776,u6,all,private
+5209,Florida,0.5206929896196016,u6,all,private
+5210,Georgia,0.5381204683402222,u6,all,private
+5211,Hawaii,0.6875613105748479,u6,all,private
+5212,Idaho,0.6042449424626855,u6,all,private
+5213,Illinois,0.6400471883406511,u6,all,private
+5214,Indiana,0.5770324059473086,u6,all,private
+5215,Iowa,0.6169904910042097,u6,all,private
+5216,Kansas,0.6706417668994706,u6,all,private
+5217,Kentucky,0.49814269164903796,u6,all,private
+5218,Louisiana,0.4343113851468877,u6,all,private
+5219,Maine,0.6394520245263215,u6,all,private
+5220,Maryland,0.6373060940839359,u6,all,private
+5221,Massachusetts,0.668831310971828,u6,all,private
+5222,Michigan,0.6170150400100319,u6,all,private
+5223,Minnesota,0.6859196597790412,u6,all,private
+5224,Mississippi,0.4691491284440517,u6,all,private
+5225,Missouri,0.5810842653705816,u6,all,private
+5226,Montana,0.5516323845969864,u6,all,private
+5227,Nebraska,0.7048417132216015,u6,all,private
+5228,Nevada,0.5543769625488244,u6,all,private
+5229,New Hampshire,0.6951384697914571,u6,all,private
+5230,New Jersey,0.6329474225914407,u6,all,private
+5231,New Mexico,0.3957315423423997,u6,all,private
+5232,New York,0.5773375015486003,u6,all,private
+5233,North Carolina,0.5544063521406737,u6,all,private
+5234,North Dakota,0.7659976012417101,u6,all,private
+5235,Ohio,0.5824832397460165,u6,all,private
+5236,Oklahoma,0.46370923465466124,u6,all,private
+5237,Oregon,0.6233604358413471,u6,all,private
+5238,Pennsylvania,0.5933529358466585,u6,all,private
+5239,Rhode Island,0.6667268188516948,u6,all,private
+5240,South Carolina,0.5219972805997756,u6,all,private
+5241,South Dakota,0.650713409709551,u6,all,private
+5242,Tennessee,0.535940856286622,u6,all,private
+5243,Texas,0.5226135679660631,u6,all,private
+5244,Utah,0.8007147519233032,u6,all,private
+5245,Vermont,0.6407018395968672,u6,all,private
+5246,Virginia,0.6705430572318747,u6,all,private
+5247,Washington,0.6148476427940016,u6,all,private
+5248,West Virginia,0.5329365655392655,u6,all,private
+5249,Wisconsin,0.6543286301938872,u6,all,private
+5250,Wyoming,0.563048683160415,u6,all,private
+5251,Puerto Rico,0.33534557817488286,u6,all,private
+5252,Alabama,0.49918451545442666,u6,all,public
+5253,Alaska,0.4279628980803629,u6,all,public
+5254,Arizona,0.3918161529747916,u6,all,public
+5255,Arkansas,0.5241596443253902,u6,all,public
+5256,California,0.43180275757239844,u6,all,public
+5257,Colorado,0.3689019752710837,u6,all,public
+5258,Connecticut,0.39796424113371026,u6,all,public
+5259,Delaware,0.4503702560937982,u6,all,public
+5260,District of Columbia,0.31061377472539375,u6,all,public
+5261,Florida,0.4544129222841004,u6,all,public
+5262,Georgia,0.4635512253767628,u6,all,public
+5263,Hawaii,0.3485383558956249,u6,all,public
+5264,Idaho,0.4065626427382163,u6,all,public
+5265,Illinois,0.3758434480803942,u6,all,public
+5266,Indiana,0.4276921301020145,u6,all,public
+5267,Iowa,0.42417446271686887,u6,all,public
+5268,Kansas,0.3504278934738303,u6,all,public
+5269,Kentucky,0.5204776115644203,u6,all,public
+5270,Louisiana,0.5752851984693449,u6,all,public
+5271,Maine,0.38557145224548417,u6,all,public
+5272,Maryland,0.3569772810570758,u6,all,public
+5273,Massachusetts,0.36347539723655187,u6,all,public
+5274,Michigan,0.4320503475896013,u6,all,public
+5275,Minnesota,0.34297138630795543,u6,all,public
+5276,Mississippi,0.519850992047554,u6,all,public
+5277,Missouri,0.41185851281843777,u6,all,public
+5278,Montana,0.42020449653193015,u6,all,public
+5279,Nebraska,0.32851802440312405,u6,all,public
+5280,Nevada,0.4506251436011335,u6,all,public
+5281,New Hampshire,0.3049285857976262,u6,all,public
+5282,New Jersey,0.3770396959594442,u6,all,public
+5283,New Mexico,0.6320643610841437,u6,all,public
+5284,New York,0.4708179344809333,u6,all,public
+5285,North Carolina,0.44846263495793265,u6,all,public
+5286,North Dakota,0.2703541696063214,u6,all,public
+5287,Ohio,0.4210239106626235,u6,all,public
+5288,Oklahoma,0.5314078456132645,u6,all,public
+5289,Oregon,0.4222790870444509,u6,all,public
+5290,Pennsylvania,0.4197391268731095,u6,all,public
+5291,Rhode Island,0.3688080844536678,u6,all,public
+5292,South Carolina,0.48315450426029705,u6,all,public
+5293,South Dakota,0.30868056594179055,u6,all,public
+5294,Tennessee,0.4765128751283709,u6,all,public
+5295,Texas,0.4236872887567255,u6,all,public
+5296,Utah,0.19374627733373279,u6,all,public
+5297,Vermont,0.3824904377390565,u6,all,public
+5298,Virginia,0.33450402784405087,u6,all,public
+5299,Washington,0.4235577895024755,u6,all,public
+5300,West Virginia,0.49734359123239946,u6,all,public
+5301,Wisconsin,0.372544921011376,u6,all,public
+5302,Wyoming,0.39805799414737963,u6,all,public
+5303,Puerto Rico,0.6762884033334715,u6,all,public
+5304,Alabama,0.45122152197262017,u6,all,employer
+5305,Alaska,0.42101089822788546,u6,all,employer
+5306,Arizona,0.5209964157100107,u6,all,employer
+5307,Arkansas,0.4053565117101029,u6,all,employer
+5308,California,0.5164367360512437,u6,all,employer
+5309,Colorado,0.5539885699385036,u6,all,employer
+5310,Connecticut,0.5671488361847419,u6,all,employer
+5311,Delaware,0.5314409132983647,u6,all,employer
+5312,District of Columbia,0.6717290985116017,u6,all,employer
+5313,Florida,0.40936019481304375,u6,all,employer
+5314,Georgia,0.4553576653208003,u6,all,employer
+5315,Hawaii,0.4943757766006147,u6,all,employer
+5316,Idaho,0.5255418526867937,u6,all,employer
+5317,Illinois,0.5964651010148725,u6,all,employer
+5318,Indiana,0.5261921105195134,u6,all,employer
+5319,Iowa,0.5657784670757238,u6,all,employer
+5320,Kansas,0.5693744593293485,u6,all,employer
+5321,Kentucky,0.4394580437191498,u6,all,employer
+5322,Louisiana,0.3823608795268884,u6,all,employer
+5323,Maine,0.5655692426669613,u6,all,employer
+5324,Maryland,0.5626781982873925,u6,all,employer
+5325,Massachusetts,0.6168214752172549,u6,all,employer
+5326,Michigan,0.5696174555030449,u6,all,employer
+5327,Minnesota,0.6377422353708583,u6,all,employer
+5328,Mississippi,0.3818579805606876,u6,all,employer
+5329,Missouri,0.5200946357973708,u6,all,employer
+5330,Montana,0.45265785697201627,u6,all,employer
+5331,Nebraska,0.6249270407737847,u6,all,employer
+5332,Nevada,0.4769950984146435,u6,all,employer
+5333,New Hampshire,0.625722523972373,u6,all,employer
+5334,New Jersey,0.5791985373322295,u6,all,employer
+5335,New Mexico,0.30818996387248737,u6,all,employer
+5336,New York,0.4972366534787596,u6,all,employer
+5337,North Carolina,0.44837215258946617,u6,all,employer
+5338,North Dakota,0.6621631155637082,u6,all,employer
+5339,Ohio,0.5393655476282421,u6,all,employer
+5340,Oklahoma,0.39475472164269243,u6,all,employer
+5341,Oregon,0.5703949812208511,u6,all,employer
+5342,Pennsylvania,0.5461865085226251,u6,all,employer
+5343,Rhode Island,0.5900177448945833,u6,all,employer
+5344,South Carolina,0.43171203349095033,u6,all,employer
+5345,South Dakota,0.5567886093745327,u6,all,employer
+5346,Tennessee,0.4467027940319781,u6,all,employer
+5347,Texas,0.44700234382302606,u6,all,employer
+5348,Utah,0.6785827653480849,u6,all,employer
+5349,Vermont,0.5880031570639306,u6,all,employer
+5350,Virginia,0.5521795267634098,u6,all,employer
+5351,Washington,0.535592958310375,u6,all,employer
+5352,West Virginia,0.48029225335075243,u6,all,employer
+5353,Wisconsin,0.6103897844059439,u6,all,employer
+5354,Wyoming,0.47541899441340785,u6,all,employer
+5355,Puerto Rico,0.2134333927608939,u6,all,employer
+5356,Alabama,0.004750836795117321,u6,all,medicare
+5357,Alaska,0.0011801803463091704,u6,all,medicare
+5358,Arizona,0.003045378463827413,u6,all,medicare
+5359,Arkansas,0.011365961642204736,u6,all,medicare
+5360,California,0.00717823736431648,u6,all,medicare
+5361,Colorado,0.007244290401790565,u6,all,medicare
+5362,Connecticut,0.003317974888024084,u6,all,medicare
+5363,Delaware,0.004134526380746683,u6,all,medicare
+5364,District of Columbia,0.00283813939380809,u6,all,medicare
+5365,Florida,0.00595966355834515,u6,all,medicare
+5366,Georgia,0.006122894091486996,u6,all,medicare
+5367,Hawaii,0.002942907592701589,u6,all,medicare
+5368,Idaho,0.0021143673842254932,u6,all,medicare
+5369,Illinois,0.004332227796866376,u6,all,medicare
+5370,Indiana,0.00534499213607983,u6,all,medicare
+5371,Iowa,0.004250335731306436,u6,all,medicare
+5372,Kansas,0.00516600116320556,u6,all,medicare
+5373,Kentucky,0.004432356200261912,u6,all,medicare
+5374,Louisiana,0.0046333505272123125,u6,all,medicare
+5375,Maine,0.0027895928851571564,u6,all,medicare
+5376,Maryland,0.012756498436376964,u6,all,medicare
+5377,Massachusetts,0.0032907457807677433,u6,all,medicare
+5378,Michigan,0.008382905018300376,u6,all,medicare
+5379,Minnesota,0.0020082487146694606,u6,all,medicare
+5380,Mississippi,0.006968431199293116,u6,all,medicare
+5381,Missouri,0.004300978014314378,u6,all,medicare
+5382,Montana,0.0010015546519971299,u6,all,medicare
+5383,Nebraska,0.004836154423413658,u6,all,medicare
+5384,Nevada,0.0015652523550585894,u6,all,medicare
+5385,New Hampshire,0.007993026218735332,u6,all,medicare
+5386,New Jersey,0.002561906070902309,u6,all,medicare
+5387,New Mexico,0.007177756911177248,u6,all,medicare
+5388,New York,0.010253745199339049,u6,all,medicare
+5389,North Carolina,0.008499774490097053,u6,all,medicare
+5390,North Dakota,0.00037039650063496545,u6,all,medicare
+5391,Ohio,0.005749447655463621,u6,all,medicare
+5392,Oklahoma,0.006996678379268695,u6,all,medicare
+5393,Oregon,0.005340707416732015,u6,all,medicare
+5394,Pennsylvania,0.0036342017106068296,u6,all,medicare
+5395,Rhode Island,0.005579115161358237,u6,all,medicare
+5396,South Carolina,0.0056475390587628176,u6,all,medicare
+5397,South Dakota,0.00043372917352158175,u6,all,medicare
+5398,Tennessee,0.007270849139889776,u6,all,medicare
+5399,Texas,0.006765463073212365,u6,all,medicare
+5400,Utah,0.0019152783573545618,u6,all,medicare
+5401,Vermont,0.0,u6,all,medicare
+5402,Virginia,0.006604892356920313,u6,all,medicare
+5403,Washington,0.0047033127336295775,u6,all,medicare
+5404,West Virginia,0.00501282237383268,u6,all,medicare
+5405,Wisconsin,0.0036687167530918786,u6,all,medicare
+5406,Wyoming,0.0026868848097898377,u6,all,medicare
+5407,Puerto Rico,0.00597868900037315,u6,all,medicare
+5408,Alabama,0.4946979297489899,u6,all,medicaid
+5409,Alaska,0.4230024525622822,u6,all,medicaid
+5410,Arizona,0.387614756454258,u6,all,medicaid
+5411,Arkansas,0.5182813401045445,u6,all,medicaid
+5412,California,0.42717251136228607,u6,all,medicaid
+5413,Colorado,0.3630375497077294,u6,all,medicaid
+5414,Connecticut,0.3975374476833835,u6,all,medicaid
+5415,Delaware,0.44717679728478865,u6,all,medicaid
+5416,District of Columbia,0.30628073748293866,u6,all,medicaid
+5417,Florida,0.44977697326332483,u6,all,medicaid
+5418,Georgia,0.4588367033189171,u6,all,medicaid
+5419,Hawaii,0.3454864517254158,u6,all,medicaid
+5420,Idaho,0.40418305853924474,u6,all,medicaid
+5421,Illinois,0.37314093352361155,u6,all,medicaid
+5422,Indiana,0.4254968286654835,u6,all,medicaid
+5423,Iowa,0.42250597986064325,u6,all,medicaid
+5424,Kansas,0.3491180653643326,u6,all,medicaid
+5425,Kentucky,0.5178584919915382,u6,all,medicaid
+5426,Louisiana,0.5730749853052314,u6,all,medicaid
+5427,Maine,0.382781859360327,u6,all,medicaid
+5428,Maryland,0.3487593353293128,u6,all,medicaid
+5429,Massachusetts,0.3632589328060357,u6,all,medicaid
+5430,Michigan,0.42800153613442743,u6,all,medicaid
+5431,Minnesota,0.34141512195873586,u6,all,medicaid
+5432,Mississippi,0.5178478191019359,u6,all,medicaid
+5433,Missouri,0.4088832928306719,u6,all,medicaid
+5434,Montana,0.42020449653193015,u6,all,medicaid
+5435,Nebraska,0.32662803301926124,u6,all,medicaid
+5436,Nevada,0.45026614076740445,u6,all,medicaid
+5437,New Hampshire,0.304003218668276,u6,all,medicaid
+5438,New Jersey,0.3747015371436425,u6,all,medicaid
+5439,New Mexico,0.6268282590358569,u6,all,medicaid
+5440,New York,0.46507081729090677,u6,all,medicaid
+5441,North Carolina,0.44469439232041336,u6,all,medicaid
+5442,North Dakota,0.26998377310568644,u6,all,medicaid
+5443,Ohio,0.4184207694206871,u6,all,medicaid
+5444,Oklahoma,0.5267616943010871,u6,all,medicaid
+5445,Oregon,0.41930744149572824,u6,all,medicaid
+5446,Pennsylvania,0.4168521210060086,u6,all,medicaid
+5447,Rhode Island,0.3688080844536678,u6,all,medicaid
+5448,South Carolina,0.47926674764951627,u6,all,medicaid
+5449,South Dakota,0.3033112978971613,u6,all,medicaid
+5450,Tennessee,0.47173437378010086,u6,all,medicaid
+5451,Texas,0.4188808354248365,u6,all,medicaid
+5452,Utah,0.1914529365818166,u6,all,medicaid
+5453,Vermont,0.3824904377390565,u6,all,medicaid
+5454,Virginia,0.3244309091419429,u6,all,medicaid
+5455,Washington,0.4210247791048444,u6,all,medicaid
+5456,West Virginia,0.4947210528862438,u6,all,medicaid
+5457,Wisconsin,0.3709236108319599,u6,all,medicaid
+5458,Wyoming,0.3953711093375898,u6,all,medicaid
+5459,Puerto Rico,0.6693395248559227,u6,all,medicaid
+5460,Alabama,0.5649292243479574,618,all,private
+5461,Alaska,0.6136781012452248,618,all,private
+5462,Arizona,0.599745594542747,618,all,private
+5463,Arkansas,0.5104250481352672,618,all,private
+5464,California,0.578695315726228,618,all,private
+5465,Colorado,0.669268370635004,618,all,private
+5466,Connecticut,0.6484748492102861,618,all,private
+5467,Delaware,0.6347885233737324,618,all,private
+5468,District of Columbia,0.6102749917650132,618,all,private
+5469,Florida,0.5867350411559649,618,all,private
+5470,Georgia,0.5777227540815233,618,all,private
+5471,Hawaii,0.6935086729851301,618,all,private
+5472,Idaho,0.670716391982429,618,all,private
+5473,Illinois,0.6520564368868047,618,all,private
+5474,Indiana,0.6336872704529616,618,all,private
+5475,Iowa,0.6728191268267405,618,all,private
+5476,Kansas,0.6853476292644767,618,all,private
+5477,Kentucky,0.5718514466815209,618,all,private
+5478,Louisiana,0.4900177484659174,618,all,private
+5479,Maine,0.6591732717331412,618,all,private
+5480,Maryland,0.6691627967800708,618,all,private
+5481,Massachusetts,0.7049502999753231,618,all,private
+5482,Michigan,0.6637794823894437,618,all,private
+5483,Minnesota,0.719598133462529,618,all,private
+5484,Mississippi,0.5073050448119745,618,all,private
+5485,Missouri,0.640578980589107,618,all,private
+5486,Montana,0.5998130200035404,618,all,private
+5487,Nebraska,0.7039424132516224,618,all,private
+5488,Nevada,0.618362926662044,618,all,private
+5489,New Hampshire,0.7202648720624752,618,all,private
+5490,New Jersey,0.6648041116679514,618,all,private
+5491,New Mexico,0.4112171011564958,618,all,private
+5492,New York,0.6079294216609827,618,all,private
+5493,North Carolina,0.5830024170033173,618,all,private
+5494,North Dakota,0.8018451784619526,618,all,private
+5495,Ohio,0.6410752761264434,618,all,private
+5496,Oklahoma,0.5312014855778773,618,all,private
+5497,Oregon,0.6325276338841205,618,all,private
+5498,Pennsylvania,0.6427250861080653,618,all,private
+5499,Rhode Island,0.6814702470072008,618,all,private
+5500,South Carolina,0.569795542774982,618,all,private
+5501,South Dakota,0.7043899091680662,618,all,private
+5502,Tennessee,0.5905999373201117,618,all,private
+5503,Texas,0.5610254159639264,618,all,private
+5504,Utah,0.7941508326939568,618,all,private
+5505,Vermont,0.6381667819841191,618,all,private
+5506,Virginia,0.6901605640553461,618,all,private
+5507,Washington,0.6430134833894535,618,all,private
+5508,West Virginia,0.588714114876415,618,all,private
+5509,Wisconsin,0.7041074105236179,618,all,private
+5510,Wyoming,0.6857059138535531,618,all,private
+5511,Puerto Rico,0.3745368898924588,618,all,private
+5512,Alabama,0.4395833726793707,618,all,public
+5513,Alaska,0.37784476145459617,618,all,public
+5514,Arizona,0.35847066165229824,618,all,public
+5515,Arkansas,0.46576574359285045,618,all,public
+5516,California,0.43940938442097327,618,all,public
+5517,Colorado,0.3401019228748555,618,all,public
+5518,Connecticut,0.36178568090811714,618,all,public
+5519,Delaware,0.37448676725204055,618,all,public
+5520,District of Columbia,0.4334442690171401,618,all,public
+5521,Florida,0.3746663522639427,618,all,public
+5522,Georgia,0.40086287003162513,618,all,public
+5523,Hawaii,0.3516422044009152,618,all,public
+5524,Idaho,0.3214137524688387,618,all,public
+5525,Illinois,0.3599692120108078,618,all,public
+5526,Indiana,0.35600481181871446,618,all,public
+5527,Iowa,0.3643428311937055,618,all,public
+5528,Kansas,0.3039668524600851,618,all,public
+5529,Kentucky,0.44989100620178735,618,all,public
+5530,Louisiana,0.5303879451612741,618,all,public
+5531,Maine,0.36000084770906626,618,all,public
+5532,Maryland,0.326840314205622,618,all,public
+5533,Massachusetts,0.3499455255347227,618,all,public
+5534,Michigan,0.3781078644230973,618,all,public
+5535,Minnesota,0.31086722594793076,618,all,public
+5536,Mississippi,0.47418114201238104,618,all,public
+5537,Missouri,0.3510008848409286,618,all,public
+5538,Montana,0.3808085501858736,618,all,public
+5539,Nebraska,0.30947596614833034,618,all,public
+5540,Nevada,0.3650672764528519,618,all,public
+5541,New Hampshire,0.29478327480990596,618,all,public
+5542,New Jersey,0.32692241013727785,618,all,public
+5543,New Mexico,0.5983617255507258,618,all,public
+5544,New York,0.43600637137408516,618,all,public
+5545,North Carolina,0.4075658224835784,618,all,public
+5546,North Dakota,0.2046518234968674,618,all,public
+5547,Ohio,0.36616004004399894,618,all,public
+5548,Oklahoma,0.4496972564117204,618,all,public
+5549,Oregon,0.4025267516164404,618,all,public
+5550,Pennsylvania,0.38210300997329966,618,all,public
+5551,Rhode Island,0.36776267605177365,618,all,public
+5552,South Carolina,0.42376764917325666,618,all,public
+5553,South Dakota,0.28435993282409666,618,all,public
+5554,Tennessee,0.40377371338180695,618,all,public
+5555,Texas,0.3454801831665308,618,all,public
+5556,Utah,0.17118743512208331,618,all,public
+5557,Vermont,0.3923319385412891,618,all,public
+5558,Virginia,0.31623144656203445,618,all,public
+5559,Washington,0.37850643293949526,618,all,public
+5560,West Virginia,0.44585592393417606,618,all,public
+5561,Wisconsin,0.3250172529519092,618,all,public
+5562,Wyoming,0.3129805700659789,618,all,public
+5563,Puerto Rico,0.6364283240750843,618,all,public
+5564,Alabama,0.478809798107613,618,all,employer
+5565,Alaska,0.4907363641294662,618,all,employer
+5566,Arizona,0.5190539947104796,618,all,employer
+5567,Arkansas,0.4374090068326521,618,all,employer
+5568,California,0.49775229761687745,618,all,employer
+5569,Colorado,0.5667227067353158,618,all,employer
+5570,Connecticut,0.5770716961057074,618,all,employer
+5571,Delaware,0.5697563690328964,618,all,employer
+5572,District of Columbia,0.5214280034984495,618,all,employer
+5573,Florida,0.4490129739742611,618,all,employer
+5574,Georgia,0.4847374815770415,618,all,employer
+5575,Hawaii,0.5454420402492538,618,all,employer
+5576,Idaho,0.5744828578225535,618,all,employer
+5577,Illinois,0.5909334512860581,618,all,employer
+5578,Indiana,0.5749921610395681,618,all,employer
+5579,Iowa,0.6100310735859871,618,all,employer
+5580,Kansas,0.6018613854551939,618,all,employer
+5581,Kentucky,0.5138863193344004,618,all,employer
+5582,Louisiana,0.41680532655664637,618,all,employer
+5583,Maine,0.5784395795363031,618,all,employer
+5584,Maryland,0.5817700564677334,618,all,employer
+5585,Massachusetts,0.6392873549989222,618,all,employer
+5586,Michigan,0.608767304711321,618,all,employer
+5587,Minnesota,0.6563133335033277,618,all,employer
+5588,Mississippi,0.4071999445625058,618,all,employer
+5589,Missouri,0.5664113603039092,618,all,employer
+5590,Montana,0.5011229863692689,618,all,employer
+5591,Nebraska,0.5987020747349259,618,all,employer
+5592,Nevada,0.5397971188381859,618,all,employer
+5593,New Hampshire,0.6330298340950804,618,all,employer
+5594,New Jersey,0.5970913469873284,618,all,employer
+5595,New Mexico,0.3490313354745718,618,all,employer
+5596,New York,0.5131222942351902,618,all,employer
+5597,North Carolina,0.4786715943333744,618,all,employer
+5598,North Dakota,0.6833290966999118,618,all,employer
+5599,Ohio,0.5850904079791376,618,all,employer
+5600,Oklahoma,0.4476322922869036,618,all,employer
+5601,Oregon,0.5714038139171425,618,all,employer
+5602,Pennsylvania,0.5745464808713961,618,all,employer
+5603,Rhode Island,0.6043995929663549,618,all,employer
+5604,South Carolina,0.4620353702372394,618,all,employer
+5605,South Dakota,0.6064671855343072,618,all,employer
+5606,Tennessee,0.5005346996035802,618,all,employer
+5607,Texas,0.4734677788955662,618,all,employer
+5608,Utah,0.6780151306584826,618,all,employer
+5609,Vermont,0.5769936191009631,618,all,employer
+5610,Virginia,0.566383854181995,618,all,employer
+5611,Washington,0.5603204265025145,618,all,employer
+5612,West Virginia,0.5378751751612217,618,all,employer
+5613,Wisconsin,0.6500387075359423,618,all,employer
+5614,Wyoming,0.5830697881197523,618,all,employer
+5615,Puerto Rico,0.2575817232202578,618,all,employer
+5616,Alabama,0.00782828759749948,618,all,medicare
+5617,Alaska,0.002688817772543064,618,all,medicare
+5618,Arizona,0.005202022036366278,618,all,medicare
+5619,Arkansas,0.005524433026188993,618,all,medicare
+5620,California,0.0075507298677172895,618,all,medicare
+5621,Colorado,0.004860819235753564,618,all,medicare
+5622,Connecticut,0.009034802050308769,618,all,medicare
+5623,Delaware,0.009089784813257482,618,all,medicare
+5624,District of Columbia,0.004316268926271311,618,all,medicare
+5625,Florida,0.0066355788818607455,618,all,medicare
+5626,Georgia,0.007558654506694387,618,all,medicare
+5627,Hawaii,0.0036590230683522015,618,all,medicare
+5628,Idaho,0.005549008868455848,618,all,medicare
+5629,Illinois,0.005845255919097623,618,all,medicare
+5630,Indiana,0.006465355998086705,618,all,medicare
+5631,Iowa,0.006086540944073038,618,all,medicare
+5632,Kansas,0.005644745344139646,618,all,medicare
+5633,Kentucky,0.0077341355705885665,618,all,medicare
+5634,Louisiana,0.00576951196760905,618,all,medicare
+5635,Maine,0.009414868817021999,618,all,medicare
+5636,Maryland,0.011290596937586586,618,all,medicare
+5637,Massachusetts,0.005644471451381174,618,all,medicare
+5638,Michigan,0.005476525701572685,618,all,medicare
+5639,Minnesota,0.002713109110844787,618,all,medicare
+5640,Mississippi,0.007834395885305984,618,all,medicare
+5641,Missouri,0.005339288205470405,618,all,medicare
+5642,Montana,0.0017259691980881571,618,all,medicare
+5643,Nebraska,0.004004947124136685,618,all,medicare
+5644,Nevada,0.00564078191833332,618,all,medicare
+5645,New Hampshire,0.007470091358240493,618,all,medicare
+5646,New Jersey,0.00635246830767097,618,all,medicare
+5647,New Mexico,0.006750008511990558,618,all,medicare
+5648,New York,0.006812910984877277,618,all,medicare
+5649,North Carolina,0.008991940455130612,618,all,medicare
+5650,North Dakota,0.0005532544821089463,618,all,medicare
+5651,Ohio,0.0053052118994945064,618,all,medicare
+5652,Oklahoma,0.010713615712759276,618,all,medicare
+5653,Oregon,0.0031399276540502387,618,all,medicare
+5654,Pennsylvania,0.006553454438280686,618,all,medicare
+5655,Rhode Island,0.008361041435765814,618,all,medicare
+5656,South Carolina,0.007396117900790798,618,all,medicare
+5657,South Dakota,0.004815476942894463,618,all,medicare
+5658,Tennessee,0.007442145502892615,618,all,medicare
+5659,Texas,0.006514503746122341,618,all,medicare
+5660,Utah,0.0018236336146590243,618,all,medicare
+5661,Vermont,0.0020976793735516678,618,all,medicare
+5662,Virginia,0.006975013559022742,618,all,medicare
+5663,Washington,0.006425665157376259,618,all,medicare
+5664,West Virginia,0.004706426124149872,618,all,medicare
+5665,Wisconsin,0.0027016494557310787,618,all,medicare
+5666,Wyoming,0.007345586080771135,618,all,medicare
+5667,Puerto Rico,0.002988572268895604,618,all,medicare
+5668,Alabama,0.43377825832404765,618,all,medicaid
+5669,Alaska,0.3742183444011375,618,all,medicaid
+5670,Arizona,0.35379362946282644,618,all,medicaid
+5671,Arkansas,0.4606104896071367,618,all,medicaid
+5672,California,0.43463774478254025,618,all,medicaid
+5673,Colorado,0.33556399075338866,618,all,medicaid
+5674,Connecticut,0.3590808117842431,618,all,medicaid
+5675,Delaware,0.37237818451644816,618,all,medicaid
+5676,District of Columbia,0.4334442690171401,618,all,medicaid
+5677,Florida,0.36958992323063383,618,all,medicaid
+5678,Georgia,0.3955949521999614,618,all,medicaid
+5679,Hawaii,0.3495467488342022,618,all,medicaid
+5680,Idaho,0.3189684265268073,618,all,medicaid
+5681,Illinois,0.3562953144347072,618,all,medicaid
+5682,Indiana,0.3528019765108598,618,all,medicaid
+5683,Iowa,0.36256484345101747,618,all,medicaid
+5684,Kansas,0.3000496599539447,618,all,medicaid
+5685,Kentucky,0.446501875551337,618,all,medicaid
+5686,Louisiana,0.5268987581116036,618,all,medicaid
+5687,Maine,0.3511210952401136,618,all,medicaid
+5688,Maryland,0.3196557464251687,618,all,medicaid
+5689,Massachusetts,0.3468409199308267,618,all,medicaid
+5690,Michigan,0.37553203296764964,618,all,medicaid
+5691,Minnesota,0.30931177805543514,618,all,medicaid
+5692,Mississippi,0.46931111213773136,618,all,medicaid
+5693,Missouri,0.3474615211264308,618,all,medicaid
+5694,Montana,0.3805264206054169,618,all,medicaid
+5695,Nebraska,0.30680507497116494,618,all,medicaid
+5696,Nevada,0.3614619286176189,618,all,medicaid
+5697,New Hampshire,0.29163174968767513,618,all,medicaid
+5698,New Jersey,0.3236478250780806,618,all,medicaid
+5699,New Mexico,0.5967614713259412,618,all,medicaid
+5700,New York,0.4326879192193547,618,all,medicaid
+5701,North Carolina,0.40145077541939167,618,all,medicaid
+5702,North Dakota,0.20456958296574307,618,all,medicaid
+5703,Ohio,0.3631387162025765,618,all,medicaid
+5704,Oklahoma,0.4415937336019554,618,all,medicaid
+5705,Oregon,0.4006188477584099,618,all,medicaid
+5706,Pennsylvania,0.3783594633950181,618,all,medicaid
+5707,Rhode Island,0.36360808104376907,618,all,medicaid
+5708,South Carolina,0.4187502516175413,618,all,medicaid
+5709,South Dakota,0.2812900662730014,618,all,medicaid
+5710,Tennessee,0.39852274502991264,618,all,medicaid
+5711,Texas,0.3395547268138119,618,all,medicaid
+5712,Utah,0.1700689962540055,618,all,medicaid
+5713,Vermont,0.39023425916773746,618,all,medicaid
+5714,Virginia,0.30462954787841584,618,all,medicaid
+5715,Washington,0.37385732275267414,618,all,medicaid
+5716,West Virginia,0.43972252995165184,618,all,medicaid
+5717,Wisconsin,0.32297631014767686,618,all,medicaid
+5718,Wyoming,0.30882783845773004,618,all,medicaid
+5719,Puerto Rico,0.6342983733628079,618,all,medicaid
+5720,Alabama,0.733443941336582,1925,all,private
+5721,Alaska,0.6132884777123633,1925,all,private
+5722,Arizona,0.6579917283290662,1925,all,private
+5723,Arkansas,0.656905248611862,1925,all,private
+5724,California,0.6342389724184282,1925,all,private
+5725,Colorado,0.7402746455030098,1925,all,private
+5726,Connecticut,0.7073449894151554,1925,all,private
+5727,Delaware,0.6970213583374353,1925,all,private
+5728,District of Columbia,0.7354866446620254,1925,all,private
+5729,Florida,0.689274337968813,1925,all,private
+5730,Georgia,0.6944275821305622,1925,all,private
+5731,Hawaii,0.7607365123851131,1925,all,private
+5732,Idaho,0.7244030291755127,1925,all,private
+5733,Illinois,0.716635107778751,1925,all,private
+5734,Indiana,0.7253158553822501,1925,all,private
+5735,Iowa,0.7508456158566275,1925,all,private
+5736,Kansas,0.7771046695120789,1925,all,private
+5737,Kentucky,0.6547407062433225,1925,all,private
+5738,Louisiana,0.5874723475683993,1925,all,private
+5739,Maine,0.7373887646602474,1925,all,private
+5740,Maryland,0.7228502592677051,1925,all,private
+5741,Massachusetts,0.7796650735485405,1925,all,private
+5742,Michigan,0.7209135353544279,1925,all,private
+5743,Minnesota,0.7753792781750223,1925,all,private
+5744,Mississippi,0.6562372521824263,1925,all,private
+5745,Missouri,0.7331981124564845,1925,all,private
+5746,Montana,0.6891488733441264,1925,all,private
+5747,Nebraska,0.7673444252035644,1925,all,private
+5748,Nevada,0.6619246031746032,1925,all,private
+5749,New Hampshire,0.8400696323618125,1925,all,private
+5750,New Jersey,0.7134528122223818,1925,all,private
+5751,New Mexico,0.5243447967448255,1925,all,private
+5752,New York,0.6923173975609401,1925,all,private
+5753,North Carolina,0.7047428293109782,1925,all,private
+5754,North Dakota,0.8312641651976832,1925,all,private
+5755,Ohio,0.7179935660105418,1925,all,private
+5756,Oklahoma,0.6163231812664347,1925,all,private
+5757,Oregon,0.6829299312652618,1925,all,private
+5758,Pennsylvania,0.7463284402840279,1925,all,private
+5759,Rhode Island,0.7833974440957431,1925,all,private
+5760,South Carolina,0.7102404214878789,1925,all,private
+5761,South Dakota,0.7648218596362625,1925,all,private
+5762,Tennessee,0.7221521568032468,1925,all,private
+5763,Texas,0.6306984862708285,1925,all,private
+5764,Utah,0.8264577162360224,1925,all,private
+5765,Vermont,0.7534933655410733,1925,all,private
+5766,Virginia,0.7453266514855956,1925,all,private
+5767,Washington,0.7112300641152504,1925,all,private
+5768,West Virginia,0.6732222519774528,1925,all,private
+5769,Wisconsin,0.7775855511890292,1925,all,private
+5770,Wyoming,0.7503193391807885,1925,all,private
+5771,Puerto Rico,0.43249586096902215,1925,all,private
+5772,Alabama,0.14003058403581484,1925,all,public
+5773,Alaska,0.22698813195028503,1925,all,public
+5774,Arizona,0.19293753896318322,1925,all,public
+5775,Arkansas,0.2111258685931744,1925,all,public
+5776,California,0.297040187069357,1925,all,public
+5777,Colorado,0.20195186147981092,1925,all,public
+5778,Connecticut,0.23615043232075905,1925,all,public
+5779,Delaware,0.21427971138030807,1925,all,public
+5780,District of Columbia,0.2472193714808754,1925,all,public
+5781,Florida,0.1483183418622304,1925,all,public
+5782,Georgia,0.1310884046742334,1925,all,public
+5783,Hawaii,0.2198924288010551,1925,all,public
+5784,Idaho,0.18612248024688655,1925,all,public
+5785,Illinois,0.20332040690976097,1925,all,public
+5786,Indiana,0.20456982914672553,1925,all,public
+5787,Iowa,0.19911714157656976,1925,all,public
+5788,Kansas,0.11562752636242644,1925,all,public
+5789,Kentucky,0.2788363596516351,1925,all,public
+5790,Louisiana,0.3490708264903819,1925,all,public
+5791,Maine,0.2241226669100534,1925,all,public
+5792,Maryland,0.21926413579084086,1925,all,public
+5793,Massachusetts,0.21327218534678194,1925,all,public
+5794,Michigan,0.24287156557143458,1925,all,public
+5795,Minnesota,0.18137907220471025,1925,all,public
+5796,Mississippi,0.1707855251544572,1925,all,public
+5797,Missouri,0.1537030737719749,1925,all,public
+5798,Montana,0.20522141104356945,1925,all,public
+5799,Nebraska,0.14807699393122759,1925,all,public
+5800,Nevada,0.21341269841269842,1925,all,public
+5801,New Hampshire,0.10745617814853754,1925,all,public
+5802,New Jersey,0.19782639919567194,1925,all,public
+5803,New Mexico,0.3735169245888244,1925,all,public
+5804,New York,0.27816445484541474,1925,all,public
+5805,North Carolina,0.18829121108180508,1925,all,public
+5806,North Dakota,0.11402669352807857,1925,all,public
+5807,Ohio,0.2149112292944808,1925,all,public
+5808,Oklahoma,0.2152828937192115,1925,all,public
+5809,Oregon,0.2593125395676947,1925,all,public
+5810,Pennsylvania,0.20375306129503748,1925,all,public
+5811,Rhode Island,0.19987800918866272,1925,all,public
+5812,South Carolina,0.1815599052986095,1925,all,public
+5813,South Dakota,0.11075161457477598,1925,all,public
+5814,Tennessee,0.1647464527406115,1925,all,public
+5815,Texas,0.12152998960673216,1925,all,public
+5816,Utah,0.08373732921992066,1925,all,public
+5817,Vermont,0.24125610185697752,1925,all,public
+5818,Virginia,0.18719920122536818,1925,all,public
+5819,Washington,0.23124683900192566,1925,all,public
+5820,West Virginia,0.2632445248561407,1925,all,public
+5821,Wisconsin,0.17553373949485834,1925,all,public
+5822,Wyoming,0.0746402111896449,1925,all,public
+5823,Puerto Rico,0.5234668725785404,1925,all,public
+5824,Alabama,0.6064626879022674,1925,all,employer
+5825,Alaska,0.5044388374918232,1925,all,employer
+5826,Arizona,0.5620338300383375,1925,all,employer
+5827,Arkansas,0.5400617904922833,1925,all,employer
+5828,California,0.5198163011584277,1925,all,employer
+5829,Colorado,0.608156730421609,1925,all,employer
+5830,Connecticut,0.5885364858316117,1925,all,employer
+5831,Delaware,0.591730397512396,1925,all,employer
+5832,District of Columbia,0.5369317393836851,1925,all,employer
+5833,Florida,0.4983319189366458,1925,all,employer
+5834,Georgia,0.5497825427126848,1925,all,employer
+5835,Hawaii,0.6127642913077526,1925,all,employer
+5836,Idaho,0.6009816367178096,1925,all,employer
+5837,Illinois,0.6172800357627014,1925,all,employer
+5838,Indiana,0.6268892429389739,1925,all,employer
+5839,Iowa,0.6353485162625875,1925,all,employer
+5840,Kansas,0.6321051461009733,1925,all,employer
+5841,Kentucky,0.571325395422045,1925,all,employer
+5842,Louisiana,0.49495650732303736,1925,all,employer
+5843,Maine,0.633331812166294,1925,all,employer
+5844,Maryland,0.6066646176421016,1925,all,employer
+5845,Massachusetts,0.647142421787315,1925,all,employer
+5846,Michigan,0.6266991267156955,1925,all,employer
+5847,Minnesota,0.6650902533636769,1925,all,employer
+5848,Mississippi,0.5336542383943869,1925,all,employer
+5849,Missouri,0.6254188710926474,1925,all,employer
+5850,Montana,0.5483499811630062,1925,all,employer
+5851,Nebraska,0.610840627615283,1925,all,employer
+5852,Nevada,0.5819960317460318,1925,all,employer
+5853,New Hampshire,0.6962288215929264,1925,all,employer
+5854,New Jersey,0.6152830309123697,1925,all,employer
+5855,New Mexico,0.441353304587389,1925,all,employer
+5856,New York,0.5622884718810414,1925,all,employer
+5857,North Carolina,0.5662316166606817,1925,all,employer
+5858,North Dakota,0.6813271216318307,1925,all,employer
+5859,Ohio,0.6271551447746279,1925,all,employer
+5860,Oklahoma,0.513815008140355,1925,all,employer
+5861,Oregon,0.5848048747399838,1925,all,employer
+5862,Pennsylvania,0.6382996262184242,1925,all,employer
+5863,Rhode Island,0.6422816216907533,1925,all,employer
+5864,South Carolina,0.5687796636544511,1925,all,employer
+5865,South Dakota,0.621980966343541,1925,all,employer
+5866,Tennessee,0.5931501307009808,1925,all,employer
+5867,Texas,0.511896729473296,1925,all,employer
+5868,Utah,0.6803862986460586,1925,all,employer
+5869,Vermont,0.6055893848657172,1925,all,employer
+5870,Virginia,0.6145749164088877,1925,all,employer
+5871,Washington,0.6054697439473758,1925,all,employer
+5872,West Virginia,0.5762078627833913,1925,all,employer
+5873,Wisconsin,0.672977830142952,1925,all,employer
+5874,Wyoming,0.5967384825002129,1925,all,employer
+5875,Puerto Rico,0.303506458911477,1925,all,employer
+5876,Alabama,0.00871730213023347,1925,all,medicare
+5877,Alaska,0.011251284926642369,1925,all,medicare
+5878,Arizona,0.007380237725394148,1925,all,medicare
+5879,Arkansas,0.007628942007868801,1925,all,medicare
+5880,California,0.009459874905563737,1925,all,medicare
+5881,Colorado,0.006094306815638611,1925,all,medicare
+5882,Connecticut,0.01333626648302599,1925,all,medicare
+5883,Delaware,0.002497208648986109,1925,all,medicare
+5884,District of Columbia,0.015990347543893713,1925,all,medicare
+5885,Florida,0.009073113821234997,1925,all,medicare
+5886,Georgia,0.009759618840707045,1925,all,medicare
+5887,Hawaii,0.010056464575691383,1925,all,medicare
+5888,Idaho,0.009022959574514653,1925,all,medicare
+5889,Illinois,0.00744692836919901,1925,all,medicare
+5890,Indiana,0.006171423611972128,1925,all,medicare
+5891,Iowa,0.01097930216135866,1925,all,medicare
+5892,Kansas,0.011339285399081418,1925,all,medicare
+5893,Kentucky,0.008843606876645257,1925,all,medicare
+5894,Louisiana,0.009092274933815491,1925,all,medicare
+5895,Maine,0.024305206954775702,1925,all,medicare
+5896,Maryland,0.016170769673114486,1925,all,medicare
+5897,Massachusetts,0.011308413298943784,1925,all,medicare
+5898,Michigan,0.008294323099728494,1925,all,medicare
+5899,Minnesota,0.006948469054979938,1925,all,medicare
+5900,Mississippi,0.012612458928849563,1925,all,medicare
+5901,Missouri,0.0127814488054484,1925,all,medicare
+5902,Montana,0.005773284051684638,1925,all,medicare
+5903,Nebraska,0.009995315518266847,1925,all,medicare
+5904,Nevada,0.010988095238095238,1925,all,medicare
+5905,New Hampshire,0.006428928454471811,1925,all,medicare
+5906,New Jersey,0.0090167727932845,1925,all,medicare
+5907,New Mexico,0.014266233085072905,1925,all,medicare
+5908,New York,0.008821314882916407,1925,all,medicare
+5909,North Carolina,0.007703150604075601,1925,all,medicare
+5910,North Dakota,0.007516998237219844,1925,all,medicare
+5911,Ohio,0.010424404569888496,1925,all,medicare
+5912,Oklahoma,0.012185626309207645,1925,all,medicare
+5913,Oregon,0.005030749751288776,1925,all,medicare
+5914,Pennsylvania,0.00787892916054703,1925,all,medicare
+5915,Rhode Island,0.019115173099058507,1925,all,medicare
+5916,South Carolina,0.007571665166116465,1925,all,medicare
+5917,South Dakota,0.004865841790629779,1925,all,medicare
+5918,Tennessee,0.00957262201655651,1925,all,medicare
+5919,Texas,0.007212774220225523,1925,all,medicare
+5920,Utah,0.003551405700697982,1925,all,medicare
+5921,Vermont,0.021756999312230553,1925,all,medicare
+5922,Virginia,0.00965412731967037,1925,all,medicare
+5923,Washington,0.010314670486565954,1925,all,medicare
+5924,West Virginia,0.0105943135577168,1925,all,medicare
+5925,Wisconsin,0.007857883237261467,1925,all,medicare
+5926,Wyoming,0.0017457208549774333,1925,all,medicare
+5927,Puerto Rico,0.008837800564459295,1925,all,medicare
+5928,Alabama,0.13304055579456728,1925,all,medicaid
+5929,Alaska,0.22110083169797215,1925,all,medicaid
+5930,Arizona,0.18394620600399517,1925,all,medicaid
+5931,Arkansas,0.2075816862432025,1925,all,medicaid
+5932,California,0.2887867381146913,1925,all,medicaid
+5933,Colorado,0.1945491724099674,1925,all,medicaid
+5934,Connecticut,0.22942650547096183,1925,all,medicaid
+5935,Delaware,0.21252686300169282,1925,all,medicaid
+5936,District of Columbia,0.23491803733392505,1925,all,medicaid
+5937,Florida,0.13963411626850974,1925,all,medicaid
+5938,Georgia,0.12316189685056352,1925,all,medicaid
+5939,Hawaii,0.20975353418785805,1925,all,medicaid
+5940,Idaho,0.17623497997329773,1925,all,medicaid
+5941,Illinois,0.19700378343212901,1925,all,medicaid
+5942,Indiana,0.19834106181962458,1925,all,medicaid
+5943,Iowa,0.18907615863076332,1925,all,medicaid
+5944,Kansas,0.10453889141892869,1925,all,medicaid
+5945,Kentucky,0.27116077632473545,1925,all,medicaid
+5946,Louisiana,0.3404655451997451,1925,all,medicaid
+5947,Maine,0.20106785926162551,1925,all,medicaid
+5948,Maryland,0.21092592776196945,1925,all,medicaid
+5949,Massachusetts,0.20793239034615013,1925,all,medicaid
+5950,Michigan,0.23745247526283583,1925,all,medicaid
+5951,Minnesota,0.17697292298123854,1925,all,medicaid
+5952,Mississippi,0.156949275738539,1925,all,medicaid
+5953,Missouri,0.14275271587693333,1925,all,medicaid
+5954,Montana,0.19073219904084063,1925,all,medicaid
+5955,Nebraska,0.14251351394028075,1925,all,medicaid
+5956,Nevada,0.2054047619047619,1925,all,medicaid
+5957,New Hampshire,0.10170806115238111,1925,all,medicaid
+5958,New Jersey,0.19260784219849666,1925,all,medicaid
+5959,New Mexico,0.36335278561451356,1925,all,medicaid
+5960,New York,0.2723979243280957,1925,all,medicaid
+5961,North Carolina,0.17812284590396704,1925,all,medicaid
+5962,North Dakota,0.11244019138755981,1925,all,medicaid
+5963,Ohio,0.2083312370089545,1925,all,medicaid
+5964,Oklahoma,0.2039729126740476,1925,all,medicaid
+5965,Oregon,0.2533462964637786,1925,all,medicaid
+5966,Pennsylvania,0.19729143528756896,1925,all,medicaid
+5967,Rhode Island,0.18911527147874507,1925,all,medicaid
+5968,South Carolina,0.17340135827581224,1925,all,medicaid
+5969,South Dakota,0.10333278566282876,1925,all,medicaid
+5970,Tennessee,0.1560130353287754,1925,all,medicaid
+5971,Texas,0.11269815659190219,1925,all,medicaid
+5972,Utah,0.079565836809577,1925,all,medicaid
+5973,Vermont,0.22080754197909852,1925,all,medicaid
+5974,Virginia,0.17083057870351478,1925,all,medicaid
+5975,Washington,0.22232693437375328,1925,all,medicaid
+5976,West Virginia,0.24997224054708983,1925,all,medicaid
+5977,Wisconsin,0.16857256843722268,1925,all,medicaid
+5978,Wyoming,0.07110619092225155,1925,all,medicaid
+5979,Puerto Rico,0.516078997326068,1925,all,medicaid
+5980,Alabama,0.7346567729229103,2634,all,private
+5981,Alaska,0.6641549600059017,2634,all,private
+5982,Arizona,0.6683042531976002,2634,all,private
+5983,Arkansas,0.6384318168613097,2634,all,private
+5984,California,0.6753902778784452,2634,all,private
+5985,Colorado,0.7502926640510582,2634,all,private
+5986,Connecticut,0.6927619839155198,2634,all,private
+5987,Delaware,0.687199125714647,2634,all,private
+5988,District of Columbia,0.8234089863517865,2634,all,private
+5989,Florida,0.6928373873879313,2634,all,private
+5990,Georgia,0.6893138496989721,2634,all,private
+5991,Hawaii,0.7741586514820715,2634,all,private
+5992,Idaho,0.6823266916657017,2634,all,private
+5993,Illinois,0.7393934005150435,2634,all,private
+5994,Indiana,0.7063567118160867,2634,all,private
+5995,Iowa,0.7507685191974686,2634,all,private
+5996,Kansas,0.7616850961978788,2634,all,private
+5997,Kentucky,0.6572331693977528,2634,all,private
+5998,Louisiana,0.5779352737003355,2634,all,private
+5999,Maine,0.6706060026511379,2634,all,private
+6000,Maryland,0.7356742589221752,2634,all,private
+6001,Massachusetts,0.7589766524260415,2634,all,private
+6002,Michigan,0.6966440510896221,2634,all,private
+6003,Minnesota,0.7670546818361377,2634,all,private
+6004,Mississippi,0.6808110952717196,2634,all,private
+6005,Missouri,0.7371992605788403,2634,all,private
+6006,Montana,0.6501493695441319,2634,all,private
+6007,Nebraska,0.7865866800775918,2634,all,private
+6008,Nevada,0.6589577444515862,2634,all,private
+6009,New Hampshire,0.793657369917704,2634,all,private
+6010,New Jersey,0.712832677294804,2634,all,private
+6011,New Mexico,0.5620054626717431,2634,all,private
+6012,New York,0.6802315338197942,2634,all,private
+6013,North Carolina,0.715569278900597,2634,all,private
+6014,North Dakota,0.8452382143178658,2634,all,private
+6015,Ohio,0.687368652425573,2634,all,private
+6016,Oklahoma,0.6430361373775321,2634,all,private
+6017,Oregon,0.6828149267988162,2634,all,private
+6018,Pennsylvania,0.7250188125453289,2634,all,private
+6019,Rhode Island,0.7138871553907713,2634,all,private
+6020,South Carolina,0.6966328605892367,2634,all,private
+6021,South Dakota,0.7646172272681905,2634,all,private
+6022,Tennessee,0.7081700918867213,2634,all,private
+6023,Texas,0.6736545133135322,2634,all,private
+6024,Utah,0.8168827536831743,2634,all,private
+6025,Vermont,0.6819223649025888,2634,all,private
+6026,Virginia,0.7367279729340628,2634,all,private
+6027,Washington,0.7429630996380885,2634,all,private
+6028,West Virginia,0.6469016734995632,2634,all,private
+6029,Wisconsin,0.7624567309219092,2634,all,private
+6030,Wyoming,0.7080224151447403,2634,all,private
+6031,Puerto Rico,0.413059407369578,2634,all,private
+6032,Alabama,0.1565832750143794,2634,all,public
+6033,Alaska,0.24006997649885656,2634,all,public
+6034,Arizona,0.20626744007570663,2634,all,public
+6035,Arkansas,0.23793794666201848,2634,all,public
+6036,California,0.2530781886221451,2634,all,public
+6037,Colorado,0.17629519149290504,2634,all,public
+6038,Connecticut,0.22894473098829107,2634,all,public
+6039,Delaware,0.22579683703790676,2634,all,public
+6040,District of Columbia,0.15775954608188927,2634,all,public
+6041,Florida,0.1371845543800414,2634,all,public
+6042,Georgia,0.1382870931744361,2634,all,public
+6043,Hawaii,0.22925067039069516,2634,all,public
+6044,Idaho,0.21507334930658853,2634,all,public
+6045,Illinois,0.18142114067351137,2634,all,public
+6046,Indiana,0.20561133821876432,2634,all,public
+6047,Iowa,0.20768632007625967,2634,all,public
+6048,Kansas,0.1276797108263065,2634,all,public
+6049,Kentucky,0.2934344472119109,2634,all,public
+6050,Louisiana,0.31619320936185064,2634,all,public
+6051,Maine,0.2427571834627027,2634,all,public
+6052,Maryland,0.1916671552134616,2634,all,public
+6053,Massachusetts,0.2244818420532253,2634,all,public
+6054,Michigan,0.25609813389458,2634,all,public
+6055,Minnesota,0.19419021572150086,2634,all,public
+6056,Mississippi,0.16252881066894043,2634,all,public
+6057,Missouri,0.1528887484373995,2634,all,public
+6058,Montana,0.2489078564500485,2634,all,public
+6059,Nebraska,0.14286676485379696,2634,all,public
+6060,Nevada,0.22435867210319815,2634,all,public
+6061,New Hampshire,0.1406313754292135,2634,all,public
+6062,New Jersey,0.18039869606470826,2634,all,public
+6063,New Mexico,0.33912431716603214,2634,all,public
+6064,New York,0.2699621043427477,2634,all,public
+6065,North Carolina,0.1622913507738175,2634,all,public
+6066,North Dakota,0.1168115391155612,2634,all,public
+6067,Ohio,0.2305638234050224,2634,all,public
+6068,Oklahoma,0.2001600887959188,2634,all,public
+6069,Oregon,0.2583270342332585,2634,all,public
+6070,Pennsylvania,0.21145573348496868,2634,all,public
+6071,Rhode Island,0.23555669762490364,2634,all,public
+6072,South Carolina,0.16757422938880256,2634,all,public
+6073,South Dakota,0.12904481485178163,2634,all,public
+6074,Tennessee,0.16228644308530682,2634,all,public
+6075,Texas,0.10039064256530182,2634,all,public
+6076,Utah,0.09845737361985837,2634,all,public
+6077,Vermont,0.2579559813111575,2634,all,public
+6078,Virginia,0.18569440445340243,2634,all,public
+6079,Washington,0.1930345017134576,2634,all,public
+6080,West Virginia,0.29131102000582476,2634,all,public
+6081,Wisconsin,0.17991921593179175,2634,all,public
+6082,Wyoming,0.13017914694695276,2634,all,public
+6083,Puerto Rico,0.49468486671921663,2634,all,public
+6084,Alabama,0.6264363824797398,2634,all,employer
+6085,Alaska,0.552730031932047,2634,all,employer
+6086,Arizona,0.6068842680164885,2634,all,employer
+6087,Arkansas,0.5592731392713962,2634,all,employer
+6088,California,0.5903829255724224,2634,all,employer
+6089,Colorado,0.6617746462316136,2634,all,employer
+6090,Connecticut,0.6315822924050942,2634,all,employer
+6091,Delaware,0.6328724067233267,2634,all,employer
+6092,District of Columbia,0.7713694218678117,2634,all,employer
+6093,Florida,0.5427643085404639,2634,all,employer
+6094,Georgia,0.5797455872648668,2634,all,employer
+6095,Hawaii,0.6747834752791382,2634,all,employer
+6096,Idaho,0.5992999082576979,2634,all,employer
+6097,Illinois,0.6737860611775135,2634,all,employer
+6098,Indiana,0.645404366746416,2634,all,employer
+6099,Iowa,0.6873861322473476,2634,all,employer
+6100,Kansas,0.6678623982610501,2634,all,employer
+6101,Kentucky,0.6015520429855608,2634,all,employer
+6102,Louisiana,0.5078241647437514,2634,all,employer
+6103,Maine,0.591619238556251,2634,all,employer
+6104,Maryland,0.6475070529475101,2634,all,employer
+6105,Massachusetts,0.6813368865915853,2634,all,employer
+6106,Michigan,0.6347688231329763,2634,all,employer
+6107,Minnesota,0.7051609397726396,2634,all,employer
+6108,Mississippi,0.5823252374798492,2634,all,employer
+6109,Missouri,0.6664816249367269,2634,all,employer
+6110,Montana,0.5411755577109603,2634,all,employer
+6111,Nebraska,0.6958788346863999,2634,all,employer
+6112,Nevada,0.5821324075016193,2634,all,employer
+6113,New Hampshire,0.7074505815960779,2634,all,employer
+6114,New Jersey,0.6348511465799882,2634,all,employer
+6115,New Mexico,0.4950546267174309,2634,all,employer
+6116,New York,0.5992986937988479,2634,all,employer
+6117,North Carolina,0.6006250679769423,2634,all,employer
+6118,North Dakota,0.7379592489972292,2634,all,employer
+6119,Ohio,0.6329166724096281,2634,all,employer
+6120,Oklahoma,0.5685713675852206,2634,all,employer
+6121,Oregon,0.618372312540662,2634,all,employer
+6122,Pennsylvania,0.6566896049195232,2634,all,employer
+6123,Rhode Island,0.63938915605154,2634,all,employer
+6124,South Carolina,0.5885655549939054,2634,all,employer
+6125,South Dakota,0.6488172472302625,2634,all,employer
+6126,Tennessee,0.6064604771152787,2634,all,employer
+6127,Texas,0.5825003359541657,2634,all,employer
+6128,Utah,0.7098117302249617,2634,all,employer
+6129,Vermont,0.6030677911316152,2634,all,employer
+6130,Virginia,0.6462232459928976,2634,all,employer
+6131,Washington,0.673656958675208,2634,all,employer
+6132,West Virginia,0.5987689584873536,2634,all,employer
+6133,Wisconsin,0.7013545168456408,2634,all,employer
+6134,Wyoming,0.5867570628030545,2634,all,employer
+6135,Puerto Rico,0.297622483985212,2634,all,employer
+6136,Alabama,0.014219140369715456,2634,all,medicare
+6137,Alaska,0.012298580446627112,2634,all,medicare
+6138,Arizona,0.009780245384004656,2634,all,medicare
+6139,Arkansas,0.019699610714078206,2634,all,medicare
+6140,California,0.010387750988664244,2634,all,medicare
+6141,Colorado,0.006415342943490123,2634,all,medicare
+6142,Connecticut,0.009117798039551199,2634,all,medicare
+6143,Delaware,0.008733821656626234,2634,all,medicare
+6144,District of Columbia,0.001249808311608649,2634,all,medicare
+6145,Florida,0.011728843059803897,2634,all,medicare
+6146,Georgia,0.011092050961069477,2634,all,medicare
+6147,Hawaii,0.011086852474708732,2634,all,medicare
+6148,Idaho,0.013854869022276456,2634,all,medicare
+6149,Illinois,0.011146890927151395,2634,all,medicare
+6150,Indiana,0.015330708513083284,2634,all,medicare
+6151,Iowa,0.013836165808369386,2634,all,medicare
+6152,Kansas,0.011747681298350807,2634,all,medicare
+6153,Kentucky,0.012710928633291917,2634,all,medicare
+6154,Louisiana,0.019272459327916852,2634,all,medicare
+6155,Maine,0.022857821186681,2634,all,medicare
+6156,Maryland,0.016183529633818687,2634,all,medicare
+6157,Massachusetts,0.011400164633277076,2634,all,medicare
+6158,Michigan,0.011315191329831805,2634,all,medicare
+6159,Minnesota,0.010815588614118384,2634,all,medicare
+6160,Mississippi,0.013352829107768555,2634,all,medicare
+6161,Missouri,0.010620090218330597,2634,all,medicare
+6162,Montana,0.013136760426770125,2634,all,medicare
+6163,Nebraska,0.011863280408075293,2634,all,medicare
+6164,Nevada,0.009589207674344154,2634,all,medicare
+6165,New Hampshire,0.016377594897773424,2634,all,medicare
+6166,New Jersey,0.009612295320676017,2634,all,medicare
+6167,New Mexico,0.024176460850852507,2634,all,medicare
+6168,New York,0.01326021739024044,2634,all,medicare
+6169,North Carolina,0.015619501864967402,2634,all,medicare
+6170,North Dakota,0.010442819561281546,2634,all,medicare
+6171,Ohio,0.014406249115886192,2634,all,medicare
+6172,Oklahoma,0.014661999188883433,2634,all,medicare
+6173,Oregon,0.013109649469183297,2634,all,medicare
+6174,Pennsylvania,0.014770827445545769,2634,all,medicare
+6175,Rhode Island,0.011071546565838258,2634,all,medicare
+6176,South Carolina,0.012758849793156847,2634,all,medicare
+6177,South Dakota,0.010160694680107794,2634,all,medicare
+6178,Tennessee,0.010730745818719384,2634,all,medicare
+6179,Texas,0.008108646927377497,2634,all,medicare
+6180,Utah,0.006302506907699708,2634,all,medicare
+6181,Vermont,0.021730187182274985,2634,all,medicare
+6182,Virginia,0.010652613814505552,2634,all,medicare
+6183,Washington,0.010267291699100315,2634,all,medicare
+6184,West Virginia,0.019568967448529248,2634,all,medicare
+6185,Wisconsin,0.01215844081606729,2634,all,medicare
+6186,Wyoming,0.0054005400540054005,2634,all,medicare
+6187,Puerto Rico,0.01950084931111432,2634,all,medicare
+6188,Alabama,0.14092352292780735,2634,all,medicaid
+6189,Alaska,0.19835808154791387,2634,all,medicaid
+6190,Arizona,0.1891749236142628,2634,all,medicaid
+6191,Arkansas,0.22307826390099356,2634,all,medicaid
+6192,California,0.24021756074216094,2634,all,medicaid
+6193,Colorado,0.1550874563452995,2634,all,medicaid
+6194,Connecticut,0.21945782101738004,2634,all,medicaid
+6195,Delaware,0.21773137401891274,2634,all,medicaid
+6196,District of Columbia,0.14841282011961357,2634,all,medicaid
+6197,Florida,0.11722684390752658,2634,all,medicaid
+6198,Georgia,0.11818987634224311,2634,all,medicaid
+6199,Hawaii,0.20286776420605418,2634,all,medicaid
+6200,Idaho,0.1919017377595283,2634,all,medicaid
+6201,Illinois,0.16768377042142402,2634,all,medicaid
+6202,Indiana,0.19292177658886397,2634,all,medicaid
+6203,Iowa,0.19391502010841055,2634,all,medicaid
+6204,Kansas,0.110216941328758,2634,all,medicaid
+6205,Kentucky,0.27691542498746957,2634,all,medicaid
+6206,Louisiana,0.29707975412538057,2634,all,medicaid
+6207,Maine,0.22341442825770116,2634,all,medicaid
+6208,Maryland,0.17558085830760717,2634,all,medicaid
+6209,Massachusetts,0.2131805493600916,2634,all,medicaid
+6210,Michigan,0.24476927584312996,2634,all,medicaid
+6211,Minnesota,0.17952726826927878,2634,all,medicaid
+6212,Mississippi,0.14736407359543827,2634,all,medicaid
+6213,Missouri,0.13579033327087592,2634,all,medicaid
+6214,Montana,0.2298894277400582,2634,all,medicaid
+6215,Nebraska,0.12156045692937711,2634,all,medicaid
+6216,Nevada,0.20465910416351288,2634,all,medicaid
+6217,New Hampshire,0.1214854710834071,2634,all,medicaid
+6218,New Jersey,0.16888028784277623,2634,all,medicaid
+6219,New Mexico,0.3196738950504883,2634,all,medicaid
+6220,New York,0.2599551549023734,2634,all,medicaid
+6221,North Carolina,0.13993093542670326,2634,all,medicaid
+6222,North Dakota,0.09965690736498854,2634,all,medicaid
+6223,Ohio,0.21345173264543535,2634,all,medicaid
+6224,Oklahoma,0.17992699950906102,2634,all,medicaid
+6225,Oregon,0.24357209743109537,2634,all,medicaid
+6226,Pennsylvania,0.1974653287343328,2634,all,medicaid
+6227,Rhode Island,0.2199111633199956,2634,all,medicaid
+6228,South Carolina,0.14706066328436834,2634,all,medicaid
+6229,South Dakota,0.10603852679908174,2634,all,medicaid
+6230,Tennessee,0.14371662946752078,2634,all,medicaid
+6231,Texas,0.08125880011467929,2634,all,medicaid
+6232,Utah,0.08777644782029913,2634,all,medicaid
+6233,Vermont,0.24836178778172843,2634,all,medicaid
+6234,Virginia,0.16102093131138626,2634,all,medicaid
+6235,Washington,0.1772078425041275,2634,all,medicaid
+6236,West Virginia,0.28112328337477877,2634,all,medicaid
+6237,Wisconsin,0.1669880184917182,2634,all,medicaid
+6238,Wyoming,0.10564443541128306,2634,all,medicaid
+6239,Puerto Rico,0.4771574167619597,2634,all,medicaid
+6240,Alabama,0.7503854487380794,3544,all,private
+6241,Alaska,0.7105225054779578,3544,all,private
+6242,Arizona,0.7168475737235316,3544,all,private
+6243,Arkansas,0.6982016337578227,3544,all,private
+6244,California,0.7120108424488268,3544,all,private
+6245,Colorado,0.7737429840562166,3544,all,private
+6246,Connecticut,0.731486333733223,3544,all,private
+6247,Delaware,0.7277008705580135,3544,all,private
+6248,District of Columbia,0.840128573845373,3544,all,private
+6249,Florida,0.7250915292451737,3544,all,private
+6250,Georgia,0.7437291283855335,3544,all,private
+6251,Hawaii,0.8199524496153042,3544,all,private
+6252,Idaho,0.753021460139552,3544,all,private
+6253,Illinois,0.7682921666088046,3544,all,private
+6254,Indiana,0.7431641100418904,3544,all,private
+6255,Iowa,0.7838363663263797,3544,all,private
+6256,Kansas,0.806380781535284,3544,all,private
+6257,Kentucky,0.6926440826941614,3544,all,private
+6258,Louisiana,0.6572438339098733,3544,all,private
+6259,Maine,0.7324153929190735,3544,all,private
+6260,Maryland,0.7692585977707213,3544,all,private
+6261,Massachusetts,0.7675718684658228,3544,all,private
+6262,Michigan,0.7335159542146891,3544,all,private
+6263,Minnesota,0.7916687553905143,3544,all,private
+6264,Mississippi,0.7082081483783733,3544,all,private
+6265,Missouri,0.7758202140997938,3544,all,private
+6266,Montana,0.7058930667422189,3544,all,private
+6267,Nebraska,0.8080999756024831,3544,all,private
+6268,Nevada,0.7039102189247469,3544,all,private
+6269,New Hampshire,0.808141594911222,3544,all,private
+6270,New Jersey,0.7549836997988486,3544,all,private
+6271,New Mexico,0.6030294989329855,3544,all,private
+6272,New York,0.7025753889347947,3544,all,private
+6273,North Carolina,0.7528538396717975,3544,all,private
+6274,North Dakota,0.8788764566959619,3544,all,private
+6275,Ohio,0.7347567733377436,3544,all,private
+6276,Oklahoma,0.6869761896076018,3544,all,private
+6277,Oregon,0.7506981698427706,3544,all,private
+6278,Pennsylvania,0.7731107710026014,3544,all,private
+6279,Rhode Island,0.7816667847778329,3544,all,private
+6280,South Carolina,0.7372201318005114,3544,all,private
+6281,South Dakota,0.8041153260418109,3544,all,private
+6282,Tennessee,0.7280273501295647,3544,all,private
+6283,Texas,0.7159619756527272,3544,all,private
+6284,Utah,0.8226061412690003,3544,all,private
+6285,Vermont,0.7616058214109521,3544,all,private
+6286,Virginia,0.7838150329007392,3544,all,private
+6287,Washington,0.7766426798985288,3544,all,private
+6288,West Virginia,0.6709572673669679,3544,all,private
+6289,Wisconsin,0.8021745789907654,3544,all,private
+6290,Wyoming,0.7875098537268985,3544,all,private
+6291,Puerto Rico,0.4740383268606354,3544,all,private
+6292,Alabama,0.14639792828207432,3544,all,public
+6293,Alaska,0.23406083187737098,3544,all,public
+6294,Arizona,0.1868175109601554,3544,all,public
+6295,Arkansas,0.21919113323009998,3544,all,public
+6296,California,0.22546060044449132,3544,all,public
+6297,Colorado,0.16742377588318352,3544,all,public
+6298,Connecticut,0.20238461305257321,3544,all,public
+6299,Delaware,0.1941788370359799,3544,all,public
+6300,District of Columbia,0.16264947599925206,3544,all,public
+6301,Florida,0.1430472100435545,3544,all,public
+6302,Georgia,0.1261649693785383,3544,all,public
+6303,Hawaii,0.20906759419268914,3544,all,public
+6304,Idaho,0.1613741100909488,3544,all,public
+6305,Illinois,0.17156417424417458,3544,all,public
+6306,Indiana,0.194542647375876,3544,all,public
+6307,Iowa,0.18549834788183656,3544,all,public
+6308,Kansas,0.10399976578427668,3544,all,public
+6309,Kentucky,0.2735251723096455,3544,all,public
+6310,Louisiana,0.2795338604079471,3544,all,public
+6311,Maine,0.22635767521446043,3544,all,public
+6312,Maryland,0.16737618657288664,3544,all,public
+6313,Massachusetts,0.2361463198534494,3544,all,public
+6314,Michigan,0.23626597109353514,3544,all,public
+6315,Minnesota,0.18680260724150918,3544,all,public
+6316,Mississippi,0.16454018271026424,3544,all,public
+6317,Missouri,0.15736855677633343,3544,all,public
+6318,Montana,0.23394179787104868,3544,all,public
+6319,Nebraska,0.14838724668213132,3544,all,public
+6320,Nevada,0.18522486385731515,3544,all,public
+6321,New Hampshire,0.1420954652058739,3544,all,public
+6322,New Jersey,0.14835263924533537,3544,all,public
+6323,New Mexico,0.32402109362444825,3544,all,public
+6324,New York,0.2597013673780904,3544,all,public
+6325,North Carolina,0.148802043392942,3544,all,public
+6326,North Dakota,0.10821170002710132,3544,all,public
+6327,Ohio,0.2176498966182892,3544,all,public
+6328,Oklahoma,0.19434241575352856,3544,all,public
+6329,Oregon,0.2203958290145398,3544,all,public
+6330,Pennsylvania,0.19796905855693497,3544,all,public
+6331,Rhode Island,0.19593225143505066,3544,all,public
+6332,South Carolina,0.1652659026315555,3544,all,public
+6333,South Dakota,0.12050913747750243,3544,all,public
+6334,Tennessee,0.16081593101495983,3544,all,public
+6335,Texas,0.09686245247486053,3544,all,public
+6336,Utah,0.09930567221009015,3544,all,public
+6337,Vermont,0.21969659595461272,3544,all,public
+6338,Virginia,0.17507136636869064,3544,all,public
+6339,Washington,0.17392713606203283,3544,all,public
+6340,West Virginia,0.2759757146815347,3544,all,public
+6341,Wisconsin,0.17113912366382958,3544,all,public
+6342,Wyoming,0.08757617087300892,3544,all,public
+6343,Puerto Rico,0.4607754504361113,3544,all,public
+6344,Alabama,0.6468105990907039,3544,all,employer
+6345,Alaska,0.6032221010260915,3544,all,employer
+6346,Arizona,0.6480356741885342,3544,all,employer
+6347,Arkansas,0.6078724425989127,3544,all,employer
+6348,California,0.6276333673833536,3544,all,employer
+6349,Colorado,0.6795507922718662,3544,all,employer
+6350,Connecticut,0.6752902809477819,3544,all,employer
+6351,Delaware,0.6804861804861805,3544,all,employer
+6352,District of Columbia,0.793640758977464,3544,all,employer
+6353,Florida,0.5700211488095301,3544,all,employer
+6354,Georgia,0.6315400021909382,3544,all,employer
+6355,Hawaii,0.7088254394558122,3544,all,employer
+6356,Idaho,0.6509077170709054,3544,all,employer
+6357,Illinois,0.7090872031344694,3544,all,employer
+6358,Indiana,0.6809693923679129,3544,all,employer
+6359,Iowa,0.7188440104551955,3544,all,employer
+6360,Kansas,0.7225608295495074,3544,all,employer
+6361,Kentucky,0.6394401451180893,3544,all,employer
+6362,Louisiana,0.5902591681503478,3544,all,employer
+6363,Maine,0.6435937482056523,3544,all,employer
+6364,Maryland,0.6876894490263432,3544,all,employer
+6365,Massachusetts,0.702113903259619,3544,all,employer
+6366,Michigan,0.6708460336358352,3544,all,employer
+6367,Minnesota,0.7323155785379447,3544,all,employer
+6368,Mississippi,0.6033981240187758,3544,all,employer
+6369,Missouri,0.6985478967940925,3544,all,employer
+6370,Montana,0.6096113112343331,3544,all,employer
+6371,Nebraska,0.7120899377669688,3544,all,employer
+6372,Nevada,0.6215850115127372,3544,all,employer
+6373,New Hampshire,0.7419953544090933,3544,all,employer
+6374,New Jersey,0.6940246196279719,3544,all,employer
+6375,New Mexico,0.5379173222608,3544,all,employer
+6376,New York,0.6315092264102656,3544,all,employer
+6377,North Carolina,0.6371840365758006,3544,all,employer
+6378,North Dakota,0.7766754423322622,3544,all,employer
+6379,Ohio,0.6809001517271573,3544,all,employer
+6380,Oklahoma,0.6007760793974153,3544,all,employer
+6381,Oregon,0.6818148876608066,3544,all,employer
+6382,Pennsylvania,0.7028533417700914,3544,all,employer
+6383,Rhode Island,0.6899440153072072,3544,all,employer
+6384,South Carolina,0.62447694085014,3544,all,employer
+6385,South Dakota,0.692077391665513,3544,all,employer
+6386,Tennessee,0.6336095202839536,3544,all,employer
+6387,Texas,0.6212091369691168,3544,all,employer
+6388,Utah,0.719182743456219,3544,all,employer
+6389,Vermont,0.6800567340897878,3544,all,employer
+6390,Virginia,0.6875765875071452,3544,all,employer
+6391,Washington,0.7149920128437401,3544,all,employer
+6392,West Virginia,0.6246469733279538,3544,all,employer
+6393,Wisconsin,0.7383919667160133,3544,all,employer
+6394,Wyoming,0.6723557602072098,3544,all,employer
+6395,Puerto Rico,0.35218946966320747,3544,all,employer
+6396,Alabama,0.027321490286060564,3544,all,medicare
+6397,Alaska,0.01903530025000724,3544,all,medicare
+6398,Arizona,0.013701556767173818,3544,all,medicare
+6399,Arkansas,0.029108212701812235,3544,all,medicare
+6400,California,0.013540415477194019,3544,all,medicare
+6401,Colorado,0.009721048182586645,3544,all,medicare
+6402,Connecticut,0.020816641186329834,3544,all,medicare
+6403,Delaware,0.019004804719090433,3544,all,medicare
+6404,District of Columbia,0.005760891825232172,3544,all,medicare
+6405,Florida,0.015391770518341232,3544,all,medicare
+6406,Georgia,0.017218845099980503,3544,all,medicare
+6407,Hawaii,0.015046614786848796,3544,all,medicare
+6408,Idaho,0.027190189650490557,3544,all,medicare
+6409,Illinois,0.015518720083611656,3544,all,medicare
+6410,Indiana,0.01943838484060988,3544,all,medicare
+6411,Iowa,0.015608817872466341,3544,all,medicare
+6412,Kansas,0.014502744050122165,3544,all,medicare
+6413,Kentucky,0.02441543127598661,3544,all,medicare
+6414,Louisiana,0.025325563229800424,3544,all,medicare
+6415,Maine,0.024454805406584824,3544,all,medicare
+6416,Maryland,0.014730450543137288,3544,all,medicare
+6417,Massachusetts,0.015488823121558417,3544,all,medicare
+6418,Michigan,0.023764591968303998,3544,all,medicare
+6419,Minnesota,0.015346014779167262,3544,all,medicare
+6420,Mississippi,0.03087054348201454,3544,all,medicare
+6421,Missouri,0.022659974618999164,3544,all,medicare
+6422,Montana,0.015171139083390671,3544,all,medicare
+6423,Nebraska,0.026647510097861152,3544,all,medicare
+6424,Nevada,0.01696529732100435,3544,all,medicare
+6425,New Hampshire,0.027395488265102387,3544,all,medicare
+6426,New Jersey,0.01285573811962185,3544,all,medicare
+6427,New Mexico,0.022412910314722558,3544,all,medicare
+6428,New York,0.020334058113469954,3544,all,medicare
+6429,North Carolina,0.019864619385990746,3544,all,medicare
+6430,North Dakota,0.011498703008246545,3544,all,medicare
+6431,Ohio,0.023469329634969574,3544,all,medicare
+6432,Oklahoma,0.023159499484469773,3544,all,medicare
+6433,Oregon,0.021451552827482526,3544,all,medicare
+6434,Pennsylvania,0.01988166100510428,3544,all,medicare
+6435,Rhode Island,0.0156615406420523,3544,all,medicare
+6436,South Carolina,0.021756884779981053,3544,all,medicare
+6437,South Dakota,0.015843486086113804,3544,all,medicare
+6438,Tennessee,0.02009559479999129,3544,all,medicare
+6439,Texas,0.015011555224229709,3544,all,medicare
+6440,Utah,0.013087561970478147,3544,all,medicare
+6441,Vermont,0.027035027133695117,3544,all,medicare
+6442,Virginia,0.014846626085196872,3544,all,medicare
+6443,Washington,0.015043891410391608,3544,all,medicare
+6444,West Virginia,0.02941362330535045,3544,all,medicare
+6445,Wisconsin,0.017575845088574217,3544,all,medicare
+6446,Wyoming,0.015190380260013264,3544,all,medicare
+6447,Puerto Rico,0.02671675049341058,3544,all,medicare
+6448,Alabama,0.11124279404175945,3544,all,medicaid
+6449,Alaska,0.1741073583211869,3544,all,medicaid
+6450,Arizona,0.1589936495409924,3544,all,medicaid
+6451,Arkansas,0.18851130816185552,3544,all,medicaid
+6452,California,0.20904053142578835,3544,all,medicaid
+6453,Colorado,0.14446814638589622,3544,all,medicaid
+6454,Connecticut,0.18647275625062257,3544,all,medicaid
+6455,Delaware,0.17493617493617494,3544,all,medicaid
+6456,District of Columbia,0.15216055703460987,3544,all,medicaid
+6457,Florida,0.11358815413176339,3544,all,medicaid
+6458,Georgia,0.09350483281005736,3544,all,medicaid
+6459,Hawaii,0.17562822643669304,3544,all,medicaid
+6460,Idaho,0.1345892742592454,3544,all,medicaid
+6461,Illinois,0.1527533661796175,3544,all,medicaid
+6462,Indiana,0.17330415450560202,3544,all,medicaid
+6463,Iowa,0.16183607042461903,3544,all,medicaid
+6464,Kansas,0.08371082875104466,3544,all,medicaid
+6465,Kentucky,0.24514539841462465,3544,all,medicaid
+6466,Louisiana,0.2540650643465169,3544,all,medicaid
+6467,Maine,0.20021474752810667,3544,all,medicaid
+6468,Maryland,0.1445076909393787,3544,all,medicaid
+6469,Massachusetts,0.22352341881755952,3544,all,medicaid
+6470,Michigan,0.21990995753117645,3544,all,medicaid
+6471,Minnesota,0.16803879756345544,3544,all,medicaid
+6472,Mississippi,0.1268239813198811,3544,all,medicaid
+6473,Missouri,0.12721750298207704,3544,all,medicaid
+6474,Montana,0.19238137639805183,3544,all,medicaid
+6475,Nebraska,0.12605770980896358,3544,all,medicaid
+6476,Nevada,0.1531331091699865,3544,all,medicaid
+6477,New Hampshire,0.11521740353087406,3544,all,medicaid
+6478,New Jersey,0.1340500797669418,3544,all,medicaid
+6479,New Mexico,0.29065399952909343,3544,all,medicaid
+6480,New York,0.24637052864912032,3544,all,medicaid
+6481,North Carolina,0.1184653267591753,3544,all,medicaid
+6482,North Dakota,0.07995857369623291,3544,all,medicaid
+6483,Ohio,0.19262212114703262,3544,all,medicaid
+6484,Oklahoma,0.15213229830479838,3544,all,medicaid
+6485,Oregon,0.19689316526695622,3544,all,medicaid
+6486,Pennsylvania,0.1762527698411193,3544,all,medicaid
+6487,Rhode Island,0.18119197788958968,3544,all,medicaid
+6488,South Carolina,0.13152877307919614,3544,all,medicaid
+6489,South Dakota,0.07500346116572061,3544,all,medicaid
+6490,Tennessee,0.13364000609716264,3544,all,medicaid
+6491,Texas,0.06657155167565458,3544,all,medicaid
+6492,Utah,0.08158782255876158,3544,all,medicaid
+6493,Vermont,0.2037000493339911,3544,all,medicaid
+6494,Virginia,0.14011070975485945,3544,all,medicaid
+6495,Washington,0.1497585101832894,3544,all,medicaid
+6496,West Virginia,0.24836550473699817,3544,all,medicaid
+6497,Wisconsin,0.15336220356618,3544,all,medicaid
+6498,Wyoming,0.0632515421864638,3544,all,medicaid
+6499,Puerto Rico,0.4426306742216846,3544,all,medicaid
+6500,Alabama,0.7760288133368338,4554,all,private
+6501,Alaska,0.7352405883819496,4554,all,private
+6502,Arizona,0.7353710566839178,4554,all,private
+6503,Arkansas,0.7232320367560515,4554,all,private
+6504,California,0.7235043633742093,4554,all,private
+6505,Colorado,0.8060137150432101,4554,all,private
+6506,Connecticut,0.7617637081038499,4554,all,private
+6507,Delaware,0.8077956166061507,4554,all,private
+6508,District of Columbia,0.7971352994146781,4554,all,private
+6509,Florida,0.7758150271046328,4554,all,private
+6510,Georgia,0.792720102485327,4554,all,private
+6511,Hawaii,0.8303041022700935,4554,all,private
+6512,Idaho,0.7956983928555369,4554,all,private
+6513,Illinois,0.7868289962535326,4554,all,private
+6514,Indiana,0.7842623388139572,4554,all,private
+6515,Iowa,0.8270513296707561,4554,all,private
+6516,Kansas,0.8291372505073898,4554,all,private
+6517,Kentucky,0.7207470730619319,4554,all,private
+6518,Louisiana,0.6916486650461988,4554,all,private
+6519,Maine,0.776885437079962,4554,all,private
+6520,Maryland,0.8175841910511261,4554,all,private
+6521,Massachusetts,0.8039158258177813,4554,all,private
+6522,Michigan,0.7754801652319622,4554,all,private
+6523,Minnesota,0.8297268942497529,4554,all,private
+6524,Mississippi,0.7671846862248969,4554,all,private
+6525,Missouri,0.8006183794068681,4554,all,private
+6526,Montana,0.7591784936909151,4554,all,private
+6527,Nebraska,0.8396396396396396,4554,all,private
+6528,Nevada,0.7555215334137442,4554,all,private
+6529,New Hampshire,0.8613704000286845,4554,all,private
+6530,New Jersey,0.7849481843457747,4554,all,private
+6531,New Mexico,0.6314285472730193,4554,all,private
+6532,New York,0.724688852032233,4554,all,private
+6533,North Carolina,0.787381026173119,4554,all,private
+6534,North Dakota,0.8520195854500584,4554,all,private
+6535,Ohio,0.7759018408796122,4554,all,private
+6536,Oklahoma,0.7255366074331993,4554,all,private
+6537,Oregon,0.7627560894356067,4554,all,private
+6538,Pennsylvania,0.800380182726567,4554,all,private
+6539,Rhode Island,0.7772959591119629,4554,all,private
+6540,South Carolina,0.7894466977275794,4554,all,private
+6541,South Dakota,0.8401648165800559,4554,all,private
+6542,Tennessee,0.7757076375135497,4554,all,private
+6543,Texas,0.7439675792674592,4554,all,private
+6544,Utah,0.8327493349756923,4554,all,private
+6545,Vermont,0.7915629829478482,4554,all,private
+6546,Virginia,0.8070555404353843,4554,all,private
+6547,Washington,0.7952187465572772,4554,all,private
+6548,West Virginia,0.7247705580029369,4554,all,private
+6549,Wisconsin,0.8359778205870073,4554,all,private
+6550,Wyoming,0.8396550294385936,4554,all,private
+6551,Puerto Rico,0.5010356128690802,4554,all,private
+6552,Alabama,0.16305460750853243,4554,all,public
+6553,Alaska,0.20552231363749687,4554,all,public
+6554,Arizona,0.17678346903505013,4554,all,public
+6555,Arkansas,0.20945277159347125,4554,all,public
+6556,California,0.21807721414328907,4554,all,public
+6557,Colorado,0.1509561158272505,4554,all,public
+6558,Connecticut,0.18243623224372796,4554,all,public
+6559,Delaware,0.15553611269084386,4554,all,public
+6560,District of Columbia,0.18672613687528142,4554,all,public
+6561,Florida,0.13163473235229203,4554,all,public
+6562,Georgia,0.11987979794841486,4554,all,public
+6563,Hawaii,0.1898900938045109,4554,all,public
+6564,Idaho,0.14536248437373528,4554,all,public
+6565,Illinois,0.15808090393600066,4554,all,public
+6566,Indiana,0.17271807741376138,4554,all,public
+6567,Iowa,0.161503578496865,4554,all,public
+6568,Kansas,0.10409896280801365,4554,all,public
+6569,Kentucky,0.26179002098766335,4554,all,public
+6570,Louisiana,0.2727351771629961,4554,all,public
+6571,Maine,0.20044002548781514,4554,all,public
+6572,Maryland,0.15032165239952558,4554,all,public
+6573,Massachusetts,0.2086579158853469,4554,all,public
+6574,Michigan,0.20653318927108222,4554,all,public
+6575,Minnesota,0.1601778981771786,4554,all,public
+6576,Mississippi,0.17007169071553946,4554,all,public
+6577,Missouri,0.1475835494752782,4554,all,public
+6578,Montana,0.18141731524541577,4554,all,public
+6579,Nebraska,0.12627703845977958,4554,all,public
+6580,Nevada,0.16330544133236974,4554,all,public
+6581,New Hampshire,0.11141521949587063,4554,all,public
+6582,New Jersey,0.14377285365237172,4554,all,public
+6583,New Mexico,0.29347063349143143,4554,all,public
+6584,New York,0.25220063691020383,4554,all,public
+6585,North Carolina,0.13319154542827583,4554,all,public
+6586,North Dakota,0.14188949710550153,4554,all,public
+6587,Ohio,0.1890212679534555,4554,all,public
+6588,Oklahoma,0.18869247632467875,4554,all,public
+6589,Oregon,0.205393403825527,4554,all,public
+6590,Pennsylvania,0.18092982211694766,4554,all,public
+6591,Rhode Island,0.22589043283820476,4554,all,public
+6592,South Carolina,0.1471461794283628,4554,all,public
+6593,South Dakota,0.12003525926837018,4554,all,public
+6594,Tennessee,0.14668422443673673,4554,all,public
+6595,Texas,0.0983679410587149,4554,all,public
+6596,Utah,0.09511092474414581,4554,all,public
+6597,Vermont,0.19722607852895724,4554,all,public
+6598,Virginia,0.16807124539526896,4554,all,public
+6599,Washington,0.1592725081167253,4554,all,public
+6600,West Virginia,0.238215859030837,4554,all,public
+6601,Wisconsin,0.14686463086805887,4554,all,public
+6602,Wyoming,0.09105232606352102,4554,all,public
+6603,Puerto Rico,0.4410718465969812,4554,all,public
+6604,Alabama,0.6674881858755579,4554,all,employer
+6605,Alaska,0.637883320867614,4554,all,employer
+6606,Arizona,0.6504158170593305,4554,all,employer
+6607,Arkansas,0.6251223074632368,4554,all,employer
+6608,California,0.626218344408418,4554,all,employer
+6609,Colorado,0.7011865410162501,4554,all,employer
+6610,Connecticut,0.6937758844837675,4554,all,employer
+6611,Delaware,0.7442057832801084,4554,all,employer
+6612,District of Columbia,0.7376744709590275,4554,all,employer
+6613,Florida,0.5898870719737438,4554,all,employer
+6614,Georgia,0.671189296554993,4554,all,employer
+6615,Hawaii,0.732870613205821,4554,all,employer
+6616,Idaho,0.6800955113273557,4554,all,employer
+6617,Illinois,0.7138398300700155,4554,all,employer
+6618,Indiana,0.7165126386159829,4554,all,employer
+6619,Iowa,0.752033173857847,4554,all,employer
+6620,Kansas,0.723534795114116,4554,all,employer
+6621,Kentucky,0.6597420784368213,4554,all,employer
+6622,Louisiana,0.603617842665193,4554,all,employer
+6623,Maine,0.676713514553302,4554,all,employer
+6624,Maryland,0.7250612436173027,4554,all,employer
+6625,Massachusetts,0.733855999047534,4554,all,employer
+6626,Michigan,0.7052802534954541,4554,all,employer
+6627,Minnesota,0.7570407950391684,4554,all,employer
+6628,Mississippi,0.6416575486106362,4554,all,employer
+6629,Missouri,0.7160492958440231,4554,all,employer
+6630,Montana,0.6441290571311534,4554,all,employer
+6631,Nebraska,0.7333150409292541,4554,all,employer
+6632,Nevada,0.665137349009259,4554,all,employer
+6633,New Hampshire,0.7711996079790604,4554,all,employer
+6634,New Jersey,0.7064200859381582,4554,all,employer
+6635,New Mexico,0.5399091992796814,4554,all,employer
+6636,New York,0.6429921184911278,4554,all,employer
+6637,North Carolina,0.6574437152922822,4554,all,employer
+6638,North Dakota,0.7443521180377795,4554,all,employer
+6639,Ohio,0.7127612762068417,4554,all,employer
+6640,Oklahoma,0.6278201892255997,4554,all,employer
+6641,Oregon,0.6696829006683985,4554,all,employer
+6642,Pennsylvania,0.7233822329266107,4554,all,employer
+6643,Rhode Island,0.6860964702124261,4554,all,employer
+6644,South Carolina,0.6642341791743723,4554,all,employer
+6645,South Dakota,0.7108022508532948,4554,all,employer
+6646,Tennessee,0.6730202973876414,4554,all,employer
+6647,Texas,0.6317112521078825,4554,all,employer
+6648,Utah,0.7136084284460052,4554,all,employer
+6649,Vermont,0.6922754538072662,4554,all,employer
+6650,Virginia,0.6924298413404224,4554,all,employer
+6651,Washington,0.7098997047088887,4554,all,employer
+6652,West Virginia,0.6785242290748899,4554,all,employer
+6653,Wisconsin,0.7568102078038133,4554,all,employer
+6654,Wyoming,0.7209884733394145,4554,all,employer
+6655,Puerto Rico,0.3847696206654385,4554,all,employer
+6656,Alabama,0.061064255710160144,4554,all,medicare
+6657,Alaska,0.021278982797307406,4554,all,medicare
+6658,Arizona,0.025768413914566784,4554,all,medicare
+6659,Arkansas,0.05747670840482707,4554,all,medicare
+6660,California,0.022133356620780253,4554,all,medicare
+6661,Colorado,0.02149313256458845,4554,all,medicare
+6662,Connecticut,0.028813030639032264,4554,all,medicare
+6663,Delaware,0.03405223325604795,4554,all,medicare
+6664,District of Columbia,0.009328568212516885,4554,all,medicare
+6665,Florida,0.03248633036342132,4554,all,medicare
+6666,Georgia,0.03569645441519997,4554,all,medicare
+6667,Hawaii,0.019163444296710134,4554,all,medicare
+6668,Idaho,0.02999793148726066,4554,all,medicare
+6669,Illinois,0.02906762100621638,4554,all,medicare
+6670,Indiana,0.04588607399521552,4554,all,medicare
+6671,Iowa,0.036203522504892366,4554,all,medicare
+6672,Kansas,0.03181925715637568,4554,all,medicare
+6673,Kentucky,0.05552589819155082,4554,all,medicare
+6674,Louisiana,0.05144083810907629,4554,all,medicare
+6675,Maine,0.04977938612837683,4554,all,medicare
+6676,Maryland,0.024975285353791312,4554,all,medicare
+6677,Massachusetts,0.02608923415781171,4554,all,medicare
+6678,Michigan,0.040090563077115574,4554,all,medicare
+6679,Minnesota,0.029012761866177274,4554,all,medicare
+6680,Mississippi,0.05748079509448586,4554,all,medicare
+6681,Missouri,0.046049141038072415,4554,all,medicare
+6682,Montana,0.028931029774382947,4554,all,medicare
+6683,Nebraska,0.028810536424749622,4554,all,medicare
+6684,Nevada,0.03077353088558572,4554,all,medicare
+6685,New Hampshire,0.033650455963379504,4554,all,medicare
+6686,New Jersey,0.022624483949785154,4554,all,medicare
+6687,New Mexico,0.04917526906265588,4554,all,medicare
+6688,New York,0.0368848837485938,4554,all,medicare
+6689,North Carolina,0.040000808505477624,4554,all,medicare
+6690,North Dakota,0.028419905748303338,4554,all,medicare
+6691,Ohio,0.038013108912288686,4554,all,medicare
+6692,Oklahoma,0.05558197821936808,4554,all,medicare
+6693,Oregon,0.030741323432845306,4554,all,medicare
+6694,Pennsylvania,0.03994838007656734,4554,all,medicare
+6695,Rhode Island,0.06111643507426929,4554,all,medicare
+6696,South Carolina,0.048326441197247376,4554,all,medicare
+6697,South Dakota,0.03630474667650646,4554,all,medicare
+6698,Tennessee,0.040733327977514874,4554,all,medicare
+6699,Texas,0.026593494349172866,4554,all,medicare
+6700,Utah,0.022688139635448745,4554,all,medicare
+6701,Vermont,0.0557534641276161,4554,all,medicare
+6702,Virginia,0.03030210102233654,4554,all,medicare
+6703,Washington,0.0235757658235641,4554,all,medicare
+6704,West Virginia,0.056713472834067545,4554,all,medicare
+6705,Wisconsin,0.030575067937270644,4554,all,medicare
+6706,Wyoming,0.023302098018077783,4554,all,medicare
+6707,Puerto Rico,0.07742414835472412,4554,all,medicare
+6708,Alabama,0.10353603307954844,4554,all,medicaid
+6709,Alaska,0.15902518075292946,4554,all,medicaid
+6710,Arizona,0.14244795223048415,4554,all,medicaid
+6711,Arkansas,0.16167557679490635,4554,all,medicaid
+6712,California,0.1974555268468762,4554,all,medicaid
+6713,Colorado,0.11915828950014587,4554,all,medicaid
+6714,Connecticut,0.1644858621482613,4554,all,medicaid
+6715,Delaware,0.13064438514370708,4554,all,medicaid
+6716,District of Columbia,0.1739925709140027,4554,all,medicaid
+6717,Florida,0.09084543136804887,4554,all,medicaid
+6718,Georgia,0.07665156795180357,4554,all,medicaid
+6719,Hawaii,0.14909915954085803,4554,all,medicaid
+6720,Idaho,0.10392927485138186,4554,all,medicaid
+6721,Illinois,0.13374966526184973,4554,all,medicaid
+6722,Indiana,0.1351239531629577,4554,all,medicaid
+6723,Iowa,0.13110714424308278,4554,all,medicaid
+6724,Kansas,0.07008827960604136,4554,all,medicaid
+6725,Kentucky,0.21625520121099548,4554,all,medicaid
+6726,Louisiana,0.2379711175431749,4554,all,medicaid
+6727,Maine,0.16610361037305987,4554,all,medicaid
+6728,Maryland,0.11776413736999307,4554,all,medicaid
+6729,Massachusetts,0.19399113016043099,4554,all,medicaid
+6730,Michigan,0.18169005987375952,4554,all,medicaid
+6731,Minnesota,0.13446671363049545,4554,all,medicaid
+6732,Mississippi,0.11480772299345779,4554,all,medicaid
+6733,Missouri,0.1022451084837883,4554,all,medicaid
+6734,Montana,0.14299253833240966,4554,all,medicaid
+6735,Nebraska,0.09094068687977318,4554,all,medicaid
+6736,Nevada,0.11626003772093059,4554,all,medicaid
+6737,New Hampshire,0.07324696124012478,4554,all,medicaid
+6738,New Jersey,0.12911197236498442,4554,all,medicaid
+6739,New Mexico,0.2489326265418791,4554,all,medicaid
+6740,New York,0.23372378353209872,4554,all,medicaid
+6741,North Carolina,0.08848793006128172,4554,all,medicaid
+6742,North Dakota,0.1011696136730595,4554,all,medicaid
+6743,Ohio,0.1561164721311381,4554,all,medicaid
+6744,Oklahoma,0.12720853528236734,4554,all,medicaid
+6745,Oregon,0.17590761427380266,4554,all,medicaid
+6746,Pennsylvania,0.15243668597437582,4554,all,medicaid
+6747,Rhode Island,0.1959032103497844,4554,all,medicaid
+6748,South Carolina,0.09530038336680187,4554,all,medicaid
+6749,South Dakota,0.06883757162038888,4554,all,medicaid
+6750,Tennessee,0.10701158137525775,4554,all,medicaid
+6751,Texas,0.059773091613261574,4554,all,medicaid
+6752,Utah,0.07446437697377904,4554,all,medicaid
+6753,Vermont,0.16487675825758966,4554,all,medicaid
+6754,Virginia,0.11289113860000843,4554,all,medicaid
+6755,Washington,0.12694493587624991,4554,all,medicaid
+6756,West Virginia,0.19609948604992658,4554,all,medicaid
+6757,Wisconsin,0.12368025900397735,4554,all,medicaid
+6758,Wyoming,0.0468695580064682,4554,all,medicaid
+6759,Puerto Rico,0.40012315396280956,4554,all,medicaid
+6760,Alabama,0.7466710304843838,5564,all,private
+6761,Alaska,0.71399222589268,5564,all,private
+6762,Arizona,0.7372528801228179,5564,all,private
+6763,Arkansas,0.6688757964186763,5564,all,private
+6764,California,0.7161869680198749,5564,all,private
+6765,Colorado,0.7806709002614868,5564,all,private
+6766,Connecticut,0.7875376075173386,5564,all,private
+6767,Delaware,0.763682737610259,5564,all,private
+6768,District of Columbia,0.6405249628789935,5564,all,private
+6769,Florida,0.7721805314104767,5564,all,private
+6770,Georgia,0.7647651727329369,5564,all,private
+6771,Hawaii,0.7988260466606405,5564,all,private
+6772,Idaho,0.7743480598619948,5564,all,private
+6773,Illinois,0.7713108203380512,5564,all,private
+6774,Indiana,0.7534246575342466,5564,all,private
+6775,Iowa,0.7943643157663048,5564,all,private
+6776,Kansas,0.8107595620911404,5564,all,private
+6777,Kentucky,0.6783348031567284,5564,all,private
+6778,Louisiana,0.680674753723493,5564,all,private
+6779,Maine,0.7618255692176409,5564,all,private
+6780,Maryland,0.8016561572426422,5564,all,private
+6781,Massachusetts,0.7889916082872163,5564,all,private
+6782,Michigan,0.7553874628918977,5564,all,private
+6783,Minnesota,0.8115584597019715,5564,all,private
+6784,Mississippi,0.7198022920958654,5564,all,private
+6785,Missouri,0.762623929315978,5564,all,private
+6786,Montana,0.7335304771067972,5564,all,private
+6787,Nebraska,0.8295690669606338,5564,all,private
+6788,Nevada,0.7432131981120758,5564,all,private
+6789,New Hampshire,0.8327538425115705,5564,all,private
+6790,New Jersey,0.8027941020935582,5564,all,private
+6791,New Mexico,0.6471774986432173,5564,all,private
+6792,New York,0.7175863157122524,5564,all,private
+6793,North Carolina,0.7770374929325292,5564,all,private
+6794,North Dakota,0.8436647798886266,5564,all,private
+6795,Ohio,0.7580445676086425,5564,all,private
+6796,Oklahoma,0.7035627690310648,5564,all,private
+6797,Oregon,0.7406227391618899,5564,all,private
+6798,Pennsylvania,0.7840963131679723,5564,all,private
+6799,Rhode Island,0.772218073188947,5564,all,private
+6800,South Carolina,0.7774604318192214,5564,all,private
+6801,South Dakota,0.8149698103504837,5564,all,private
+6802,Tennessee,0.757722108102245,5564,all,private
+6803,Texas,0.7471732698087454,5564,all,private
+6804,Utah,0.8345169072726565,5564,all,private
+6805,Vermont,0.7751875148606878,5564,all,private
+6806,Virginia,0.8006113650825086,5564,all,private
+6807,Washington,0.7772125632859843,5564,all,private
+6808,West Virginia,0.6629272132943129,5564,all,private
+6809,Wisconsin,0.8138296738502125,5564,all,private
+6810,Wyoming,0.7841684293098377,5564,all,private
+6811,Puerto Rico,0.4348853573065332,5564,all,private
+6812,Alabama,0.26009912100243127,5564,all,public
+6813,Alaska,0.24766251502877354,5564,all,public
+6814,Arizona,0.22480172422702016,5564,all,public
+6815,Arkansas,0.3180392199139706,5564,all,public
+6816,California,0.2616553538624069,5564,all,public
+6817,Colorado,0.1986313036981696,5564,all,public
+6818,Connecticut,0.20901747448043617,5564,all,public
+6819,Delaware,0.27104041942683055,5564,all,public
+6820,District of Columbia,0.35024667507543944,5564,all,public
+6821,Florida,0.1820252725288879,5564,all,public
+6822,Georgia,0.1970217103313109,5564,all,public
+6823,Hawaii,0.226638214126343,5564,all,public
+6824,Idaho,0.18632045882247514,5564,all,public
+6825,Illinois,0.20478227228880705,5564,all,public
+6826,Indiana,0.23348069357179407,5564,all,public
+6827,Iowa,0.20907133659020358,5564,all,public
+6828,Kansas,0.1618024735364325,5564,all,public
+6829,Kentucky,0.3271531173301745,5564,all,public
+6830,Louisiana,0.32716200935107015,5564,all,public
+6831,Maine,0.23365559908459718,5564,all,public
+6832,Maryland,0.2004358826685569,5564,all,public
+6833,Massachusetts,0.23447319876736722,5564,all,public
+6834,Michigan,0.2602220753988367,5564,all,public
+6835,Minnesota,0.18691446584899946,5564,all,public
+6836,Mississippi,0.27624187716574067,5564,all,public
+6837,Missouri,0.22621907286090354,5564,all,public
+6838,Montana,0.2249349142566076,5564,all,public
+6839,Nebraska,0.16727691089559354,5564,all,public
+6840,Nevada,0.22457517874783345,5564,all,public
+6841,New Hampshire,0.1678171377640784,5564,all,public
+6842,New Jersey,0.1778729203485523,5564,all,public
+6843,New Mexico,0.3386569030745877,5564,all,public
+6844,New York,0.2945429675658408,5564,all,public
+6845,North Carolina,0.19382391396532228,5564,all,public
+6846,North Dakota,0.16512363361367646,5564,all,public
+6847,Ohio,0.23307791227827787,5564,all,public
+6848,Oklahoma,0.25262600367716487,5564,all,public
+6849,Oregon,0.2537206935754434,5564,all,public
+6850,Pennsylvania,0.23042540100897624,5564,all,public
+6851,Rhode Island,0.2396644617518404,5564,all,public
+6852,South Carolina,0.21848840400713598,5564,all,public
+6853,South Dakota,0.16020463351272754,5564,all,public
+6854,Tennessee,0.21992926176612995,5564,all,public
+6855,Texas,0.1583894786241436,5564,all,public
+6856,Utah,0.13811821471652594,5564,all,public
+6857,Vermont,0.243250545792534,5564,all,public
+6858,Virginia,0.21265749435670053,5564,all,public
+6859,Washington,0.2095885304095236,5564,all,public
+6860,West Virginia,0.36204240899522516,5564,all,public
+6861,Wisconsin,0.18247009154663787,5564,all,public
+6862,Wyoming,0.18338959783720182,5564,all,public
+6863,Puerto Rico,0.5347307412773876,5564,all,public
+6864,Alabama,0.5959556760800448,5564,all,employer
+6865,Alaska,0.5946024816444688,5564,all,employer
+6866,Arizona,0.601881079318347,5564,all,employer
+6867,Arkansas,0.5203026121454521,5564,all,employer
+6868,California,0.5849136482141015,5564,all,employer
+6869,Colorado,0.615255883451625,5564,all,employer
+6870,Connecticut,0.6638180480384593,5564,all,employer
+6871,Delaware,0.6434375996315845,5564,all,employer
+6872,District of Columbia,0.5547874123864417,5564,all,employer
+6873,Florida,0.5382775039790719,5564,all,employer
+6874,Georgia,0.6053380556883003,5564,all,employer
+6875,Hawaii,0.6800862729841985,5564,all,employer
+6876,Idaho,0.610448964961018,5564,all,employer
+6877,Illinois,0.6675156974184205,5564,all,employer
+6878,Indiana,0.6494116575570157,5564,all,employer
+6879,Iowa,0.6633870269969413,5564,all,employer
+6880,Kansas,0.6553060073686026,5564,all,employer
+6881,Kentucky,0.5795626710082988,5564,all,employer
+6882,Louisiana,0.5577847031689339,5564,all,employer
+6883,Maine,0.5923887746790272,5564,all,employer
+6884,Maryland,0.679465028476355,5564,all,employer
+6885,Massachusetts,0.685955876864677,5564,all,employer
+6886,Michigan,0.6375375606400695,5564,all,employer
+6887,Minnesota,0.6817944784639622,5564,all,employer
+6888,Mississippi,0.5632333549849322,5564,all,employer
+6889,Missouri,0.6291917127488984,5564,all,employer
+6890,Montana,0.5514248118173072,5564,all,employer
+6891,Nebraska,0.6763780802022774,5564,all,employer
+6892,Nevada,0.6161560983578939,5564,all,employer
+6893,New Hampshire,0.6818015124014131,5564,all,employer
+6894,New Jersey,0.6897479349819031,5564,all,employer
+6895,New Mexico,0.5220899959886424,5564,all,employer
+6896,New York,0.6194291330254272,5564,all,employer
+6897,North Carolina,0.611628492508481,5564,all,employer
+6898,North Dakota,0.6653184224396728,5564,all,employer
+6899,Ohio,0.6481672387956596,5564,all,employer
+6900,Oklahoma,0.564266813695377,5564,all,employer
+6901,Oregon,0.5923415723905456,5564,all,employer
+6902,Pennsylvania,0.6571186260134728,5564,all,employer
+6903,Rhode Island,0.6465512642697109,5564,all,employer
+6904,South Carolina,0.5828658913132977,5564,all,employer
+6905,South Dakota,0.6333885997499712,5564,all,employer
+6906,Tennessee,0.6077472120123049,5564,all,employer
+6907,Texas,0.5918848811500992,5564,all,employer
+6908,Utah,0.6767416371583849,5564,all,employer
+6909,Vermont,0.63321660938547,5564,all,employer
+6910,Virginia,0.6467276198020674,5564,all,employer
+6911,Washington,0.6469792729176984,5564,all,employer
+6912,West Virginia,0.5612175044069073,5564,all,employer
+6913,Wisconsin,0.6717700061566085,5564,all,employer
+6914,Wyoming,0.5826247741248651,5564,all,employer
+6915,Puerto Rico,0.29001847059749375,5564,all,employer
+6916,Alabama,0.1478897824325167,5564,all,medicare
+6917,Alaska,0.0518157092997467,5564,all,medicare
+6918,Arizona,0.07409835764390854,5564,all,medicare
+6919,Arkansas,0.14070063282269105,5564,all,medicare
+6920,California,0.06176896641646495,5564,all,medicare
+6921,Colorado,0.05509749719835637,5564,all,medicare
+6922,Connecticut,0.07134768286128503,5564,all,medicare
+6923,Delaware,0.10540933082999752,5564,all,medicare
+6924,District of Columbia,0.042549454760270146,5564,all,medicare
+6925,Florida,0.07950335843680033,5564,all,medicare
+6926,Georgia,0.09415699309794148,5564,all,medicare
+6927,Hawaii,0.05658088950421639,5564,all,medicare
+6928,Idaho,0.07328165606237118,5564,all,medicare
+6929,Illinois,0.07526361736731323,5564,all,medicare
+6930,Indiana,0.10096672950148779,5564,all,medicare
+6931,Iowa,0.08798103560378175,5564,all,medicare
+6932,Kansas,0.08505155392198398,5564,all,medicare
+6933,Kentucky,0.13980368725637024,5564,all,medicare
+6934,Louisiana,0.1321353880120643,5564,all,medicare
+6935,Maine,0.10290039176137465,5564,all,medicare
+6936,Maryland,0.05907797648054895,5564,all,medicare
+6937,Massachusetts,0.06812322062633953,5564,all,medicare
+6938,Michigan,0.10580409938937561,5564,all,medicare
+6939,Minnesota,0.061004134443413176,5564,all,medicare
+6940,Mississippi,0.1480244542263828,5564,all,medicare
+6941,Missouri,0.11387099705269947,5564,all,medicare
+6942,Montana,0.06802167638236459,5564,all,medicare
+6943,Nebraska,0.07662830220869041,5564,all,medicare
+6944,Nevada,0.0703708714419545,5564,all,medicare
+6945,New Hampshire,0.08099099893695542,5564,all,medicare
+6946,New Jersey,0.06571403889362987,5564,all,medicare
+6947,New Mexico,0.10278514067280693,5564,all,medicare
+6948,New York,0.08549768721128956,5564,all,medicare
+6949,North Carolina,0.09501919996230682,5564,all,medicare
+6950,North Dakota,0.05907830510805051,5564,all,medicare
+6951,Ohio,0.10153252633033276,5564,all,medicare
+6952,Oklahoma,0.1174391824277537,5564,all,medicare
+6953,Oregon,0.08496776193921277,5564,all,medicare
+6954,Pennsylvania,0.09140507538217871,5564,all,medicare
+6955,Rhode Island,0.10244852235143498,5564,all,medicare
+6956,South Carolina,0.10695273546498331,5564,all,medicare
+6957,South Dakota,0.07014106235647725,5564,all,medicare
+6958,Tennessee,0.11240736992652214,5564,all,medicare
+6959,Texas,0.07321253132028248,5564,all,medicare
+6960,Utah,0.05841991257766191,5564,all,medicare
+6961,Vermont,0.07863735598642543,5564,all,medicare
+6962,Virginia,0.08071247687209927,5564,all,medicare
+6963,Washington,0.06663408757216871,5564,all,medicare
+6964,West Virginia,0.16138693501737092,5564,all,medicare
+6965,Wisconsin,0.07551563164170795,5564,all,medicare
+6966,Wyoming,0.09281541974253736,5564,all,medicare
+6967,Puerto Rico,0.17974113388174187,5564,all,medicare
+6968,Alabama,0.1396421669471978,5564,all,medicaid
+6969,Alaska,0.17187080507534813,5564,all,medicaid
+6970,Arizona,0.16113301097851263,5564,all,medicaid
+6971,Arkansas,0.21292543041645554,5564,all,medicaid
+6972,California,0.2193917421589357,5564,all,medicaid
+6973,Colorado,0.14479193126634293,5564,all,medicaid
+6974,Connecticut,0.16273221464397555,5564,all,medicaid
+6975,Delaware,0.1913989160083602,5564,all,medicaid
+6976,District of Columbia,0.3229607395462456,5564,all,medicaid
+6977,Florida,0.10511723663882706,5564,all,medicaid
+6978,Georgia,0.11348774748507377,5564,all,medicaid
+6979,Hawaii,0.16541757726237744,5564,all,medicaid
+6980,Idaho,0.11537324132986827,5564,all,medicaid
+6981,Illinois,0.14950343472495475,5564,all,medicaid
+6982,Indiana,0.15977101441286193,5564,all,medicaid
+6983,Iowa,0.15159373284387515,5564,all,medicaid
+6984,Kansas,0.08156300856358999,5564,all,medicaid
+6985,Kentucky,0.22231209308069766,5564,all,medicaid
+6986,Louisiana,0.24971371532102413,5564,all,medicaid
+6987,Maine,0.16215914820992203,5564,all,medicaid
+6988,Maryland,0.14492668015417104,5564,all,medicaid
+6989,Massachusetts,0.2057035923354979,5564,all,medicaid
+6990,Michigan,0.1931099606593778,5564,all,medicaid
+6991,Minnesota,0.13410314115341151,5564,all,medicaid
+6992,Mississippi,0.16547304097170146,5564,all,medicaid
+6993,Missouri,0.12780124725970157,5564,all,medicaid
+6994,Montana,0.15465646046748543,5564,all,medicaid
+6995,Nebraska,0.10699178029457955,5564,all,medicaid
+6996,Nevada,0.149903127736099,5564,all,medicaid
+6997,New Hampshire,0.09474558882921191,5564,all,medicaid
+6998,New Jersey,0.13171872641002932,5564,all,medicaid
+6999,New Mexico,0.25784377728313107,5564,all,medicaid
+7000,New York,0.2470866469978384,5564,all,medicaid
+7001,North Carolina,0.1076729174519412,5564,all,medicaid
+7002,North Dakota,0.10056832504525975,5564,all,medicaid
+7003,Ohio,0.15762397309045306,5564,all,medicaid
+7004,Oklahoma,0.14817845754437453,5564,all,medicaid
+7005,Oregon,0.1916753456349427,5564,all,medicaid
+7006,Pennsylvania,0.1664048279984796,5564,all,medicaid
+7007,Rhode Island,0.18925370745759096,5564,all,medicaid
+7008,South Carolina,0.12578907643749143,5564,all,medicaid
+7009,South Dakota,0.08115296975715286,5564,all,medicaid
+7010,Tennessee,0.12566268172379436,5564,all,medicaid
+7011,Texas,0.08928530905149734,5564,all,medicaid
+7012,Utah,0.08887181083570048,5564,all,medicaid
+7013,Vermont,0.18963318418606662,5564,all,medicaid
+7014,Virginia,0.11843410588315115,5564,all,medicaid
+7015,Washington,0.15504150554773877,5564,all,medicaid
+7016,West Virginia,0.23571391898136262,5564,all,medicaid
+7017,Wisconsin,0.13201223296807466,5564,all,medicaid
+7018,Wyoming,0.09078429449915253,5564,all,medicaid
+7019,Puerto Rico,0.4349223910859693,5564,all,medicaid
+7020,Alabama,0.556818805652236,6574,all,private
+7021,Alaska,0.594675943431899,6574,all,private
+7022,Arizona,0.47202670379404776,6574,all,private
+7023,Arkansas,0.48359903549797795,6574,all,private
+7024,California,0.4645542089704417,6574,all,private
+7025,Colorado,0.4650882719981848,6574,all,private
+7026,Connecticut,0.5090448458694863,6574,all,private
+7027,Delaware,0.6041633404040173,6574,all,private
+7028,District of Columbia,0.5689685991777393,6574,all,private
+7029,Florida,0.44364357758827583,6574,all,private
+7030,Georgia,0.49864952765353343,6574,all,private
+7031,Hawaii,0.6741987647116039,6574,all,private
+7032,Idaho,0.5085614358924538,6574,all,private
+7033,Illinois,0.5223394452929644,6574,all,private
+7034,Indiana,0.5175468351031968,6574,all,private
+7035,Iowa,0.5617157272053721,6574,all,private
+7036,Kansas,0.5534300507849332,6574,all,private
+7037,Kentucky,0.5297277854572147,6574,all,private
+7038,Louisiana,0.4864555697350304,6574,all,private
+7039,Maine,0.49194085875308585,6574,all,private
+7040,Maryland,0.680163455660954,6574,all,private
+7041,Massachusetts,0.5945109554093969,6574,all,private
+7042,Michigan,0.5940628329401262,6574,all,private
+7043,Minnesota,0.6165903789189396,6574,all,private
+7044,Mississippi,0.4810338689078265,6574,all,private
+7045,Missouri,0.48283090557904884,6574,all,private
+7046,Montana,0.5332181807799921,6574,all,private
+7047,Nebraska,0.5525002638204212,6574,all,private
+7048,Nevada,0.4609901169918121,6574,all,private
+7049,New Hampshire,0.5713181469453209,6574,all,private
+7050,New Jersey,0.5604040519501412,6574,all,private
+7051,New Mexico,0.5133868102812,6574,all,private
+7052,New York,0.5340793415138532,6574,all,private
+7053,North Carolina,0.509638497723193,6574,all,private
+7054,North Dakota,0.6429190409915706,6574,all,private
+7055,Ohio,0.5105814716209438,6574,all,private
+7056,Oklahoma,0.5355123011158833,6574,all,private
+7057,Oregon,0.5046474277004286,6574,all,private
+7058,Pennsylvania,0.5616713490979293,6574,all,private
+7059,Rhode Island,0.51913499344692,6574,all,private
+7060,South Carolina,0.5402463561380024,6574,all,private
+7061,South Dakota,0.5755583476998899,6574,all,private
+7062,Tennessee,0.4972851998822236,6574,all,private
+7063,Texas,0.46400475201041247,6574,all,private
+7064,Utah,0.500830403469065,6574,all,private
+7065,Vermont,0.5855427625787825,6574,all,private
+7066,Virginia,0.5933578809780278,6574,all,private
+7067,Washington,0.5543772974045529,6574,all,private
+7068,West Virginia,0.5515166007209662,6574,all,private
+7069,Wisconsin,0.5197383861240142,6574,all,private
+7070,Wyoming,0.5559453630481668,6574,all,private
+7071,Puerto Rico,0.22132607568145266,6574,all,private
+7072,Alabama,0.9507863137130037,6574,all,public
+7073,Alaska,0.9423277622324737,6574,all,public
+7074,Arizona,0.9320937873543376,6574,all,public
+7075,Arkansas,0.9567967647412489,6574,all,public
+7076,California,0.9062348619520372,6574,all,public
+7077,Colorado,0.931000357800487,6574,all,public
+7078,Connecticut,0.9168912113139824,6574,all,public
+7079,Delaware,0.9435941883538992,6574,all,public
+7080,District of Columbia,0.9074658881010547,6574,all,public
+7081,Florida,0.9326258946446233,6574,all,public
+7082,Georgia,0.9302767757018974,6574,all,public
+7083,Hawaii,0.907633012352884,6574,all,public
+7084,Idaho,0.9582833410244578,6574,all,public
+7085,Illinois,0.9173833738582262,6574,all,public
+7086,Indiana,0.9430068865175237,6574,all,public
+7087,Iowa,0.9516646869965072,6574,all,public
+7088,Kansas,0.9351276240260707,6574,all,public
+7089,Kentucky,0.9589952926562509,6574,all,public
+7090,Louisiana,0.9486978204654599,6574,all,public
+7091,Maine,0.9531380797756344,6574,all,public
+7092,Maryland,0.8930067238686016,6574,all,public
+7093,Massachusetts,0.9015791303040835,6574,all,public
+7094,Michigan,0.9518194769210918,6574,all,public
+7095,Minnesota,0.9368973503813832,6574,all,public
+7096,Mississippi,0.9607023984896342,6574,all,public
+7097,Missouri,0.947389421056927,6574,all,public
+7098,Montana,0.9607934106092617,6574,all,public
+7099,Nebraska,0.9308388484364243,6574,all,public
+7100,Nevada,0.9237842991842357,6574,all,public
+7101,New Hampshire,0.9287828008098894,6574,all,public
+7102,New Jersey,0.898237670520274,6574,all,public
+7103,New Mexico,0.9461080515519941,6574,all,public
+7104,New York,0.9270053405746587,6574,all,public
+7105,North Carolina,0.9471207481834646,6574,all,public
+7106,North Dakota,0.9686720411753893,6574,all,public
+7107,Ohio,0.9354948489408497,6574,all,public
+7108,Oklahoma,0.9510823763542396,6574,all,public
+7109,Oregon,0.9484701236790687,6574,all,public
+7110,Pennsylvania,0.938772479533822,6574,all,public
+7111,Rhode Island,0.9174967234600262,6574,all,public
+7112,South Carolina,0.9602391668198328,6574,all,public
+7113,South Dakota,0.9597833815465233,6574,all,public
+7114,Tennessee,0.9521087648875046,6574,all,public
+7115,Texas,0.9149708578037914,6574,all,public
+7116,Utah,0.915758639961631,6574,all,public
+7117,Vermont,0.9495557668157224,6574,all,public
+7118,Virginia,0.9254143995732711,6574,all,public
+7119,Washington,0.9231739126612657,6574,all,public
+7120,West Virginia,0.9675610317306348,6574,all,public
+7121,Wisconsin,0.9543017061581993,6574,all,public
+7122,Wyoming,0.9538030194104961,6574,all,public
+7123,Puerto Rico,0.9565248141492778,6574,all,public
+7124,Alabama,0.33274593118794304,6574,all,employer
+7125,Alaska,0.47669968993420553,6574,all,employer
+7126,Arizona,0.25618890092398816,6574,all,employer
+7127,Arkansas,0.23050902163800796,6574,all,employer
+7128,California,0.31488601842993547,6574,all,employer
+7129,Colorado,0.25672272207629004,6574,all,employer
+7130,Connecticut,0.35048394271427186,6574,all,employer
+7131,Delaware,0.3993948102699785,6574,all,employer
+7132,District of Columbia,0.4518461141234185,6574,all,employer
+7133,Florida,0.23267884483176315,6574,all,employer
+7134,Georgia,0.306334024348727,6574,all,employer
+7135,Hawaii,0.5258182569788931,6574,all,employer
+7136,Idaho,0.20336142617734923,6574,all,employer
+7137,Illinois,0.31896517894003207,6574,all,employer
+7138,Indiana,0.2708287926004939,6574,all,employer
+7139,Iowa,0.21992273406169516,6574,all,employer
+7140,Kansas,0.24822087310383617,6574,all,employer
+7141,Kentucky,0.3051994086020381,6574,all,employer
+7142,Louisiana,0.30423649125163715,6574,all,employer
+7143,Maine,0.26633289078703926,6574,all,employer
+7144,Maryland,0.5034896845700314,6574,all,employer
+7145,Massachusetts,0.39468595208794927,6574,all,employer
+7146,Michigan,0.39889605554770885,6574,all,employer
+7147,Minnesota,0.26409269752254916,6574,all,employer
+7148,Mississippi,0.21087633226741054,6574,all,employer
+7149,Missouri,0.2582603596441645,6574,all,employer
+7150,Montana,0.2141480614400731,6574,all,employer
+7151,Nebraska,0.2423379011954834,6574,all,employer
+7152,Nevada,0.2826843037246682,6574,all,employer
+7153,New Hampshire,0.3413418552466875,6574,all,employer
+7154,New Jersey,0.40578136361182815,6574,all,employer
+7155,New Mexico,0.31525309628283843,6574,all,employer
+7156,New York,0.40063011586314984,6574,all,employer
+7157,North Carolina,0.2831433118849591,6574,all,employer
+7158,North Dakota,0.27235366718310966,6574,all,employer
+7159,Ohio,0.30058340085658064,6574,all,employer
+7160,Oklahoma,0.28161584777686394,6574,all,employer
+7161,Oregon,0.253897067097685,6574,all,employer
+7162,Pennsylvania,0.30825427180858317,6574,all,employer
+7163,Rhode Island,0.30617627785058976,6574,all,employer
+7164,South Carolina,0.30126008253077013,6574,all,employer
+7165,South Dakota,0.21160233371319484,6574,all,employer
+7166,Tennessee,0.26018320173531106,6574,all,employer
+7167,Texas,0.28066958558482724,6574,all,employer
+7168,Utah,0.28393853032459065,6574,all,employer
+7169,Vermont,0.32895555320822034,6574,all,employer
+7170,Virginia,0.34771857501037506,6574,all,employer
+7171,Washington,0.3164142216484423,6574,all,employer
+7172,West Virginia,0.37300301831290295,6574,all,employer
+7173,Wisconsin,0.23144355537449426,6574,all,employer
+7174,Wyoming,0.25889288281811645,6574,all,employer
+7175,Puerto Rico,0.10879143331639415,6574,all,employer
+7176,Alabama,0.9497597323934899,6574,all,medicare
+7177,Alaska,0.9384103456099221,6574,all,medicare
+7178,Arizona,0.9294949537756627,6574,all,medicare
+7179,Arkansas,0.9540057844806309,6574,all,medicare
+7180,California,0.9045857457657605,6574,all,medicare
+7181,Colorado,0.9304889649093717,6574,all,medicare
+7182,Connecticut,0.9148664747598182,6574,all,medicare
+7183,Delaware,0.9381809334823499,6574,all,medicare
+7184,District of Columbia,0.9033347236290691,6574,all,medicare
+7185,Florida,0.9309451702890869,6574,all,medicare
+7186,Georgia,0.9277347678198088,6574,all,medicare
+7187,Hawaii,0.9062226437117012,6574,all,medicare
+7188,Idaho,0.9567192091904889,6574,all,medicare
+7189,Illinois,0.9162233520705368,6574,all,medicare
+7190,Indiana,0.9408359952251939,6574,all,medicare
+7191,Iowa,0.9506562312568357,6574,all,medicare
+7192,Kansas,0.934343517890523,6574,all,medicare
+7193,Kentucky,0.9586272373475759,6574,all,medicare
+7194,Louisiana,0.9474258656009672,6574,all,medicare
+7195,Maine,0.9527968392597214,6574,all,medicare
+7196,Maryland,0.8912990746999486,6574,all,medicare
+7197,Massachusetts,0.9004921110584749,6574,all,medicare
+7198,Michigan,0.9510304469658529,6574,all,medicare
+7199,Minnesota,0.93614474080759,6574,all,medicare
+7200,Mississippi,0.9600752569810322,6574,all,medicare
+7201,Missouri,0.9451752728767604,6574,all,medicare
+7202,Montana,0.9595443384914064,6574,all,medicare
+7203,Nebraska,0.9300901009552812,6574,all,medicare
+7204,Nevada,0.9222344982065291,6574,all,medicare
+7205,New Hampshire,0.9266773190583594,6574,all,medicare
+7206,New Jersey,0.897262890956988,6574,all,medicare
+7207,New Mexico,0.9451550371878371,6574,all,medicare
+7208,New York,0.9262114976456942,6574,all,medicare
+7209,North Carolina,0.9457919103680315,6574,all,medicare
+7210,North Dakota,0.9656784223103385,6574,all,medicare
+7211,Ohio,0.9335926226029247,6574,all,medicare
+7212,Oklahoma,0.947663143359022,6574,all,medicare
+7213,Oregon,0.9467965177539308,6574,all,medicare
+7214,Pennsylvania,0.9380299653202185,6574,all,medicare
+7215,Rhode Island,0.9171690694626474,6574,all,medicare
+7216,South Carolina,0.9594356547891106,6574,all,medicare
+7217,South Dakota,0.9597833815465233,6574,all,medicare
+7218,Tennessee,0.9504218070033739,6574,all,medicare
+7219,Texas,0.9133151188816575,6574,all,medicare
+7220,Utah,0.9138124437644429,6574,all,medicare
+7221,Vermont,0.9493210332969496,6574,all,medicare
+7222,Virginia,0.9234543433351765,6574,all,medicare
+7223,Washington,0.9216154136929393,6574,all,medicare
+7224,West Virginia,0.9652961691338029,6574,all,medicare
+7225,Wisconsin,0.9530662580979413,6574,all,medicare
+7226,Wyoming,0.9527246585190511,6574,all,medicare
+7227,Puerto Rico,0.9560847447859638,6574,all,medicare
+7228,Alabama,0.1455933859616377,6574,all,medicaid
+7229,Alaska,0.17449897905165243,6574,all,medicaid
+7230,Arizona,0.12730545206616617,6574,all,medicaid
+7231,Arkansas,0.13862185065407667,6574,all,medicaid
+7232,California,0.19694138327137423,6574,all,medicaid
+7233,Colorado,0.11113108588084371,6574,all,medicaid
+7234,Connecticut,0.16240330093413982,6574,all,medicaid
+7235,Delaware,0.09892875335477347,6574,all,medicaid
+7236,District of Columbia,0.33442570855429105,6574,all,medicaid
+7237,Florida,0.13611297249349272,6574,all,medicaid
+7238,Georgia,0.14955070918193653,6574,all,medicaid
+7239,Hawaii,0.12374161073825503,6574,all,medicaid
+7240,Idaho,0.08588152429990528,6574,all,medicaid
+7241,Illinois,0.12165159475525737,6574,all,medicaid
+7242,Indiana,0.11555377214013218,6574,all,medicaid
+7243,Iowa,0.10447660265079795,6574,all,medicaid
+7244,Kansas,0.08696961175166663,6574,all,medicaid
+7245,Kentucky,0.15045097231429413,6574,all,medicaid
+7246,Louisiana,0.1882325284615643,6574,all,medicaid
+7247,Maine,0.14166813293450847,6574,all,medicaid
+7248,Maryland,0.11932360275164378,6574,all,medicaid
+7249,Massachusetts,0.17681911328753538,6574,all,medicaid
+7250,Michigan,0.13778555473601062,6574,all,medicaid
+7251,Minnesota,0.08592070625415225,6574,all,medicaid
+7252,Mississippi,0.19185957256386554,6574,all,medicaid
+7253,Missouri,0.09002892750591698,6574,all,medicaid
+7254,Montana,0.09879803574487524,6574,all,medicaid
+7255,Nebraska,0.09727184558716376,6574,all,medicaid
+7256,Nevada,0.1249587577376538,6574,all,medicaid
+7257,New Hampshire,0.07359956621307476,6574,all,medicaid
+7258,New Jersey,0.12083562210728079,6574,all,medicaid
+7259,New Mexico,0.17292141484106965,6574,all,medicaid
+7260,New York,0.2169441957102342,6574,all,medicaid
+7261,North Carolina,0.12734105923060113,6574,all,medicaid
+7262,North Dakota,0.07763714188177831,6574,all,medicaid
+7263,Ohio,0.11866651232781572,6574,all,medicaid
+7264,Oklahoma,0.10451887051082884,6574,all,medicaid
+7265,Oregon,0.15459781285484844,6574,all,medicaid
+7266,Pennsylvania,0.13128390450931235,6574,all,medicaid
+7267,Rhode Island,0.14179226736566186,6574,all,medicaid
+7268,South Carolina,0.12290318330646827,6574,all,medicaid
+7269,South Dakota,0.12002649290438204,6574,all,medicaid
+7270,Tennessee,0.12897866788404966,6574,all,medicaid
+7271,Texas,0.12174445794006225,6574,all,medicaid
+7272,Utah,0.09298536983673356,6574,all,medicaid
+7273,Vermont,0.1317207140593641,6574,all,medicaid
+7274,Virginia,0.08847958265172043,6574,all,medicaid
+7275,Washington,0.11316636505546422,6574,all,medicaid
+7276,West Virginia,0.14765821328508846,6574,all,medicaid
+7277,Wisconsin,0.11502803743835675,6574,all,medicaid
+7278,Wyoming,0.07630481667864845,6574,all,medicaid
+7279,Puerto Rico,0.40717417840621545,6574,all,medicaid
+7280,Alabama,0.5997407065745842,o75,all,private
+7281,Alaska,0.6862834636680176,o75,all,private
+7282,Arizona,0.5319699530333507,o75,all,private
+7283,Arkansas,0.5230984579540379,o75,all,private
+7284,California,0.4861107611119145,o75,all,private
+7285,Colorado,0.5548581079932213,o75,all,private
+7286,Connecticut,0.5489854803676453,o75,all,private
+7287,Delaware,0.6820632168895011,o75,all,private
+7288,District of Columbia,0.6692326725868089,o75,all,private
+7289,Florida,0.4922405143277747,o75,all,private
+7290,Georgia,0.5453570151388724,o75,all,private
+7291,Hawaii,0.7110612855007474,o75,all,private
+7292,Idaho,0.5999843695049041,o75,all,private
+7293,Illinois,0.581743361678521,o75,all,private
+7294,Indiana,0.5779952365235542,o75,all,private
+7295,Iowa,0.63795640255384,o75,all,private
+7296,Kansas,0.6466456060315506,o75,all,private
+7297,Kentucky,0.5860072050336356,o75,all,private
+7298,Louisiana,0.5418604416216817,o75,all,private
+7299,Maine,0.580994106381055,o75,all,private
+7300,Maryland,0.6846805176661601,o75,all,private
+7301,Massachusetts,0.6326423710165812,o75,all,private
+7302,Michigan,0.7026453546614745,o75,all,private
+7303,Minnesota,0.7060579514305458,o75,all,private
+7304,Mississippi,0.5375617068568918,o75,all,private
+7305,Missouri,0.5417770002427906,o75,all,private
+7306,Montana,0.63318888311088,o75,all,private
+7307,Nebraska,0.5940930076130492,o75,all,private
+7308,Nevada,0.47267870226680075,o75,all,private
+7309,New Hampshire,0.648945061476171,o75,all,private
+7310,New Jersey,0.5782429176281368,o75,all,private
+7311,New Mexico,0.5575610842751958,o75,all,private
+7312,New York,0.5473330116774578,o75,all,private
+7313,North Carolina,0.5893039272524263,o75,all,private
+7314,North Dakota,0.7362107004964148,o75,all,private
+7315,Ohio,0.5740744246359458,o75,all,private
+7316,Oklahoma,0.6015656531042728,o75,all,private
+7317,Oregon,0.5740916931122747,o75,all,private
+7318,Pennsylvania,0.6209730933065051,o75,all,private
+7319,Rhode Island,0.5828437416890307,o75,all,private
+7320,South Carolina,0.6120812066808333,o75,all,private
+7321,South Dakota,0.6173889609405265,o75,all,private
+7322,Tennessee,0.554859729334689,o75,all,private
+7323,Texas,0.5126411774721429,o75,all,private
+7324,Utah,0.5690288481599262,o75,all,private
+7325,Vermont,0.6225670366279806,o75,all,private
+7326,Virginia,0.6494881662013632,o75,all,private
+7327,Washington,0.5994623137108074,o75,all,private
+7328,West Virginia,0.6148470622851716,o75,all,private
+7329,Wisconsin,0.5980823281959645,o75,all,private
+7330,Wyoming,0.6466723082283837,o75,all,private
+7331,Puerto Rico,0.24032087101037727,o75,all,private
+7332,Alabama,0.9895313049717298,o75,all,public
+7333,Alaska,0.986214966607683,o75,all,public
+7334,Arizona,0.9862801537090341,o75,all,public
+7335,Arkansas,0.9920618476003665,o75,all,public
+7336,California,0.9760030643129662,o75,all,public
+7337,Colorado,0.9875111229504016,o75,all,public
+7338,Connecticut,0.9830158464078979,o75,all,public
+7339,Delaware,0.9892778265928899,o75,all,public
+7340,District of Columbia,0.9678057900090726,o75,all,public
+7341,Florida,0.9779039825005404,o75,all,public
+7342,Georgia,0.9822169724422675,o75,all,public
+7343,Hawaii,0.9866143497757848,o75,all,public
+7344,Idaho,0.9910984330428666,o75,all,public
+7345,Illinois,0.9789458265911154,o75,all,public
+7346,Indiana,0.9902121263480906,o75,all,public
+7347,Iowa,0.9926651544477627,o75,all,public
+7348,Kansas,0.9858496755114605,o75,all,public
+7349,Kentucky,0.9869511765035481,o75,all,public
+7350,Louisiana,0.9844486127340875,o75,all,public
+7351,Maine,0.9867989511495434,o75,all,public
+7352,Maryland,0.9722948544889888,o75,all,public
+7353,Massachusetts,0.9753415054475352,o75,all,public
+7354,Michigan,0.9898088024300742,o75,all,public
+7355,Minnesota,0.9930251735999609,o75,all,public
+7356,Mississippi,0.990648988136776,o75,all,public
+7357,Missouri,0.9885253080831116,o75,all,public
+7358,Montana,0.9911134223146704,o75,all,public
+7359,Nebraska,0.9883128993793378,o75,all,public
+7360,Nevada,0.9777870818296418,o75,all,public
+7361,New Hampshire,0.9841573492812302,o75,all,public
+7362,New Jersey,0.9781264909664313,o75,all,public
+7363,New Mexico,0.9882931576232238,o75,all,public
+7364,New York,0.9866557798524207,o75,all,public
+7365,North Carolina,0.9889203813450141,o75,all,public
+7366,North Dakota,0.9873335434559924,o75,all,public
+7367,Ohio,0.9876313883985405,o75,all,public
+7368,Oklahoma,0.9886611990648726,o75,all,public
+7369,Oregon,0.9879782460577118,o75,all,public
+7370,Pennsylvania,0.986774329765104,o75,all,public
+7371,Rhode Island,0.9895432895723024,o75,all,public
+7372,South Carolina,0.9919766448870971,o75,all,public
+7373,South Dakota,0.9908204342187263,o75,all,public
+7374,Tennessee,0.9911011865777617,o75,all,public
+7375,Texas,0.9728195135486231,o75,all,public
+7376,Utah,0.9922110600418529,o75,all,public
+7377,Vermont,0.9906936321993084,o75,all,public
+7378,Virginia,0.9792130922139222,o75,all,public
+7379,Washington,0.9847649118202205,o75,all,public
+7380,West Virginia,0.9926707592718907,o75,all,public
+7381,Wisconsin,0.9896810550219641,o75,all,public
+7382,Wyoming,0.9953954900691921,o75,all,public
+7383,Puerto Rico,0.9755708808249474,o75,all,public
+7384,Alabama,0.31154825323216456,o75,all,employer
+7385,Alaska,0.49828757349163766,o75,all,employer
+7386,Arizona,0.2367229519667386,o75,all,employer
+7387,Arkansas,0.1917220357401038,o75,all,employer
+7388,California,0.2789156736274076,o75,all,employer
+7389,Colorado,0.26680344825631813,o75,all,employer
+7390,Connecticut,0.30948822843365587,o75,all,employer
+7391,Delaware,0.4272483317105607,o75,all,employer
+7392,District of Columbia,0.49751189068814783,o75,all,employer
+7393,Florida,0.21682451731072094,o75,all,employer
+7394,Georgia,0.2867669938834559,o75,all,employer
+7395,Hawaii,0.5030194319880419,o75,all,employer
+7396,Idaho,0.19959360712750576,o75,all,employer
+7397,Illinois,0.28065080520247415,o75,all,employer
+7398,Indiana,0.24923507845463547,o75,all,employer
+7399,Iowa,0.19078480657902802,o75,all,employer
+7400,Kansas,0.19555607141775755,o75,all,employer
+7401,Kentucky,0.28923628621056763,o75,all,employer
+7402,Louisiana,0.289775080737226,o75,all,employer
+7403,Maine,0.25214332097618714,o75,all,employer
+7404,Maryland,0.45290125263128084,o75,all,employer
+7405,Massachusetts,0.34607572998919256,o75,all,employer
+7406,Michigan,0.44248273117102627,o75,all,employer
+7407,Minnesota,0.2224622807040079,o75,all,employer
+7408,Mississippi,0.17933369517458841,o75,all,employer
+7409,Missouri,0.23226664306832853,o75,all,employer
+7410,Montana,0.21509215924192523,o75,all,employer
+7411,Nebraska,0.17858562387256552,o75,all,employer
+7412,Nevada,0.2162266709748472,o75,all,employer
+7413,New Hampshire,0.3159057984473088,o75,all,employer
+7414,New Jersey,0.3351302448260652,o75,all,employer
+7415,New Mexico,0.3162723350372837,o75,all,employer
+7416,New York,0.35732076401143115,o75,all,employer
+7417,North Carolina,0.2872286459675341,o75,all,employer
+7418,North Dakota,0.19797494287290204,o75,all,employer
+7419,Ohio,0.29663962782949443,o75,all,employer
+7420,Oklahoma,0.26397551001759073,o75,all,employer
+7421,Oregon,0.23490451959021072,o75,all,employer
+7422,Pennsylvania,0.28109195212176996,o75,all,employer
+7423,Rhode Island,0.27941780904717006,o75,all,employer
+7424,South Carolina,0.2935053522133736,o75,all,employer
+7425,South Dakota,0.13051826649374274,o75,all,employer
+7426,Tennessee,0.23282664155038954,o75,all,employer
+7427,Texas,0.25840254261336765,o75,all,employer
+7428,Utah,0.26340778767551987,o75,all,employer
+7429,Vermont,0.3094457822599627,o75,all,employer
+7430,Virginia,0.3178047737619155,o75,all,employer
+7431,Washington,0.27060133630289535,o75,all,employer
+7432,West Virginia,0.39333146089957066,o75,all,employer
+7433,Wisconsin,0.1986681929863748,o75,all,employer
+7434,Wyoming,0.22188760017920256,o75,all,employer
+7435,Puerto Rico,0.106724943402646,o75,all,employer
+7436,Alabama,0.9888387477457262,o75,all,medicare
+7437,Alaska,0.9830469775672127,o75,all,medicare
+7438,Arizona,0.985671356837763,o75,all,medicare
+7439,Arkansas,0.9889353943060794,o75,all,medicare
+7440,California,0.9749500944222448,o75,all,medicare
+7441,Colorado,0.9861763689022144,o75,all,medicare
+7442,Connecticut,0.9819280331265894,o75,all,medicare
+7443,Delaware,0.9891590871310171,o75,all,medicare
+7444,District of Columbia,0.9678057900090726,o75,all,medicare
+7445,Florida,0.9773038904126762,o75,all,medicare
+7446,Georgia,0.9812943046939948,o75,all,medicare
+7447,Hawaii,0.9858071748878924,o75,all,medicare
+7448,Idaho,0.9908092688835919,o75,all,medicare
+7449,Illinois,0.9780923569486846,o75,all,medicare
+7450,Indiana,0.9897571875864161,o75,all,medicare
+7451,Iowa,0.9922316322330336,o75,all,medicare
+7452,Kansas,0.9858143501650198,o75,all,medicare
+7453,Kentucky,0.9867534171173933,o75,all,medicare
+7454,Louisiana,0.9844486127340875,o75,all,medicare
+7455,Maine,0.986240002630346,o75,all,medicare
+7456,Maryland,0.9712329025741714,o75,all,medicare
+7457,Massachusetts,0.9743328108113372,o75,all,medicare
+7458,Michigan,0.9892991753184497,o75,all,medicare
+7459,Minnesota,0.992303285490049,o75,all,medicare
+7460,Mississippi,0.9899821663952857,o75,all,medicare
+7461,Missouri,0.9882008309337907,o75,all,medicare
+7462,Montana,0.987681285029179,o75,all,medicare
+7463,Nebraska,0.9881294524107989,o75,all,medicare
+7464,Nevada,0.9770316332706827,o75,all,medicare
+7465,New Hampshire,0.9840366256825527,o75,all,medicare
+7466,New Jersey,0.9771992786348074,o75,all,medicare
+7467,New Mexico,0.9868451906392158,o75,all,medicare
+7468,New York,0.9862029873508265,o75,all,medicare
+7469,North Carolina,0.9878024886197715,o75,all,medicare
+7470,North Dakota,0.9873335434559924,o75,all,medicare
+7471,Ohio,0.9873474332823792,o75,all,medicare
+7472,Oklahoma,0.986845011003739,o75,all,medicare
+7473,Oregon,0.9863577492281156,o75,all,medicare
+7474,Pennsylvania,0.9860796245088901,o75,all,medicare
+7475,Rhode Island,0.9895432895723024,o75,all,medicare
+7476,South Carolina,0.9914081584016841,o75,all,medicare
+7477,South Dakota,0.9887487157029526,o75,all,medicare
+7478,Tennessee,0.9908496079740021,o75,all,medicare
+7479,Texas,0.9721289972694653,o75,all,medicare
+7480,Utah,0.9911805428233643,o75,all,medicare
+7481,Vermont,0.9897521319548804,o75,all,medicare
+7482,Virginia,0.9788810919121037,o75,all,medicare
+7483,Washington,0.9837478239723939,o75,all,medicare
+7484,West Virginia,0.9902633444341906,o75,all,medicare
+7485,Wisconsin,0.9884502270865907,o75,all,medicare
+7486,Wyoming,0.9953954900691921,o75,all,medicare
+7487,Puerto Rico,0.9726160409333002,o75,all,medicare
+7488,Alabama,0.1407276283239284,o75,all,medicaid
+7489,Alaska,0.16447856612820366,o75,all,medicaid
+7490,Arizona,0.1364305671226961,o75,all,medicaid
+7491,Arkansas,0.11944064573462443,o75,all,medicaid
+7492,California,0.22517970466443177,o75,all,medicaid
+7493,Colorado,0.13060185788695114,o75,all,medicaid
+7494,Connecticut,0.18457873093205981,o75,all,medicaid
+7495,Delaware,0.11968937756774087,o75,all,medicaid
+7496,District of Columbia,0.23055563192477938,o75,all,medicaid
+7497,Florida,0.15894190214443046,o75,all,medicaid
+7498,Georgia,0.15868801600116417,o75,all,medicaid
+7499,Hawaii,0.12198804185351271,o75,all,medicaid
+7500,Idaho,0.0956898909772967,o75,all,medicaid
+7501,Illinois,0.1244531739267331,o75,all,medicaid
+7502,Indiana,0.11179674049757812,o75,all,medicaid
+7503,Iowa,0.10088368467608447,o75,all,medicaid
+7504,Kansas,0.09909768972234277,o75,all,medicaid
+7505,Kentucky,0.13114413692859897,o75,all,medicaid
+7506,Louisiana,0.16852612047105414,o75,all,medicaid
+7507,Maine,0.1725260363152141,o75,all,medicaid
+7508,Maryland,0.14069918914071572,o75,all,medicaid
+7509,Massachusetts,0.19402767094745246,o75,all,medicaid
+7510,Michigan,0.1297585927299474,o75,all,medicaid
+7511,Minnesota,0.092979702356027,o75,all,medicaid
+7512,Mississippi,0.1866635651701946,o75,all,medicaid
+7513,Missouri,0.09167273643152284,o75,all,medicaid
+7514,Montana,0.08558386779915642,o75,all,medicaid
+7515,Nebraska,0.10128565750450974,o75,all,medicaid
+7516,Nevada,0.12555464032001892,o75,all,medicaid
+7517,New Hampshire,0.0652650347312507,o75,all,medicaid
+7518,New Jersey,0.1424801279493004,o75,all,medicaid
+7519,New Mexico,0.19150096140317965,o75,all,medicaid
+7520,New York,0.23829909272799046,o75,all,medicaid
+7521,North Carolina,0.1247262303530018,o75,all,medicaid
+7522,North Dakota,0.10255299030809235,o75,all,medicaid
+7523,Ohio,0.09299056795755818,o75,all,medicaid
+7524,Oklahoma,0.10733024162535505,o75,all,medicaid
+7525,Oregon,0.13872434980633835,o75,all,medicaid
+7526,Pennsylvania,0.13789412847571547,o75,all,medicaid
+7527,Rhode Island,0.19106162810376925,o75,all,medicaid
+7528,South Carolina,0.12372400849999007,o75,all,medicaid
+7529,South Dakota,0.15371140792642873,o75,all,medicaid
+7530,Tennessee,0.12928021490218583,o75,all,medicaid
+7531,Texas,0.15247797599904148,o75,all,medicaid
+7532,Utah,0.11257294228471357,o75,all,medicaid
+7533,Vermont,0.13731418949502996,o75,all,medicaid
+7534,Virginia,0.09409693402751579,o75,all,medicaid
+7535,Washington,0.13482300355498258,o75,all,medicaid
+7536,West Virginia,0.11942115047680188,o75,all,medicaid
+7537,Wisconsin,0.12667988236170055,o75,all,medicaid
+7538,Wyoming,0.08634078351336552,o75,all,medicaid
+7539,Puerto Rico,0.4061190572778309,o75,all,medicaid
+7540,Alabama,0.39450585046229736,u6,male,all
+7541,Alaska,0.3695992918917922,u6,male,all
+7542,Arizona,0.37855766141985225,u6,male,all
+7543,Arkansas,0.3853451643506892,u6,male,all
+7544,California,0.39590574904958736,u6,male,all
+7545,Colorado,0.387245485560312,u6,male,all
+7546,Connecticut,0.3979064175049563,u6,male,all
+7547,Delaware,0.4042548596112311,u6,male,all
+7548,District of Columbia,0.409749333795524,u6,male,all
+7549,Florida,0.36804054870768316,u6,male,all
+7550,Georgia,0.3843977912896379,u6,male,all
+7551,Hawaii,0.375780960477841,u6,male,all
+7552,Idaho,0.38852937276223315,u6,male,all
+7553,Illinois,0.39796577975127917,u6,male,all
+7554,Indiana,0.39235169347408,u6,male,all
+7555,Iowa,0.4067399472777504,u6,male,all
+7556,Kansas,0.38894563724603753,u6,male,all
+7557,Kentucky,0.39607383902488164,u6,male,all
+7558,Louisiana,0.39393315979511295,u6,male,all
+7559,Maine,0.39523283433685025,u6,male,all
+7560,Maryland,0.38369548143881876,u6,male,all
+7561,Massachusetts,0.40313557240248765,u6,male,all
+7562,Michigan,0.41101345685108115,u6,male,all
+7563,Minnesota,0.4020113304262521,u6,male,all
+7564,Mississippi,0.37913487027070447,u6,male,all
+7565,Missouri,0.3852443369662753,u6,male,all
+7566,Montana,0.369140157856972,u6,male,all
+7567,Nebraska,0.39795019316823704,u6,male,all
+7568,Nevada,0.3867657195374129,u6,male,all
+7569,New Hampshire,0.38755716488969355,u6,male,all
+7570,New Jersey,0.39328981981953187,u6,male,all
+7571,New Mexico,0.393998376649213,u6,male,all
+7572,New York,0.4041433303997078,u6,male,all
+7573,North Carolina,0.38088706129971656,u6,male,all
+7574,North Dakota,0.39377381120361227,u6,male,all
+7575,Ohio,0.39340858302260656,u6,male,all
+7576,Oklahoma,0.3847260349181948,u6,male,all
+7577,Oregon,0.4081365306038219,u6,male,all
+7578,Pennsylvania,0.3959529787918017,u6,male,all
+7579,Rhode Island,0.39998796956299437,u6,male,all
+7580,South Carolina,0.38435562101186044,u6,male,all
+7581,South Dakota,0.3639855224193114,u6,male,all
+7582,Tennessee,0.38763234967339233,u6,male,all
+7583,Texas,0.3637898998087727,u6,male,all
+7584,Utah,0.3732824019088584,u6,male,all
+7585,Vermont,0.39873717442778217,u6,male,all
+7586,Virginia,0.37765248266763973,u6,male,all
+7587,Washington,0.39994529648906524,u6,male,all
+7588,West Virginia,0.40206125707649876,u6,male,all
+7589,Wisconsin,0.4023711326392518,u6,male,all
+7590,Wyoming,0.3669167331737164,u6,male,all
+7591,Puerto Rico,0.3800771176251088,u6,male,all
+7592,Alabama,0.3970162542233586,u6,female,all
+7593,Alaska,0.36107360715738107,u6,female,all
+7594,Arizona,0.383879306618251,u6,female,all
+7595,Arkansas,0.3822494979637032,u6,female,all
+7596,California,0.3974057573063364,u6,female,all
+7597,Colorado,0.3916587634918484,u6,female,all
+7598,Connecticut,0.4003207561494078,u6,female,all
+7599,Delaware,0.41492939626918246,u6,female,all
+7600,District of Columbia,0.39616875712656785,u6,female,all
+7601,Florida,0.36810599610800293,u6,female,all
+7602,Georgia,0.38497566959499985,u6,female,all
+7603,Hawaii,0.36638728261104975,u6,female,all
+7604,Idaho,0.3951940048927012,u6,female,all
+7605,Illinois,0.397579391460631,u6,female,all
+7606,Indiana,0.3928865128078524,u6,female,all
+7607,Iowa,0.4047054058780755,u6,female,all
+7608,Kansas,0.3920135257957644,u6,female,all
+7609,Kentucky,0.3953952981636323,u6,female,all
+7610,Louisiana,0.39645556620138145,u6,female,all
+7611,Maine,0.39190442419944355,u6,female,all
+7612,Maryland,0.3854652119616252,u6,female,all
+7613,Massachusetts,0.4035354121368358,u6,female,all
+7614,Michigan,0.4130575846693862,u6,female,all
+7615,Minnesota,0.40148261758691206,u6,female,all
+7616,Mississippi,0.3811604540730022,u6,female,all
+7617,Missouri,0.3819312854797555,u6,female,all
+7618,Montana,0.3701042873696408,u6,female,all
+7619,Nebraska,0.3983765665986593,u6,female,all
+7620,Nevada,0.38321555790892464,u6,female,all
+7621,New Hampshire,0.3782371907768174,u6,female,all
+7622,New Jersey,0.39402203992074797,u6,female,all
+7623,New Mexico,0.39463689314122524,u6,female,all
+7624,New York,0.4054811231879888,u6,female,all
+7625,North Carolina,0.37819855411170894,u6,female,all
+7626,North Dakota,0.39974833094480755,u6,female,all
+7627,Ohio,0.3939599915293194,u6,female,all
+7628,Oklahoma,0.38480919629485827,u6,female,all
+7629,Oregon,0.39855034287025315,u6,female,all
+7630,Pennsylvania,0.392494436319705,u6,female,all
+7631,Rhode Island,0.4125739405889388,u6,female,all
+7632,South Carolina,0.3859085177117964,u6,female,all
+7633,South Dakota,0.3572483781874237,u6,female,all
+7634,Tennessee,0.3868393118972389,u6,female,all
+7635,Texas,0.3633304368574186,u6,female,all
+7636,Utah,0.37293532193312884,u6,female,all
+7637,Vermont,0.39526500879176085,u6,female,all
+7638,Virginia,0.37562931947737477,u6,female,all
+7639,Washington,0.4002754214845055,u6,female,all
+7640,West Virginia,0.3993929106340489,u6,female,all
+7641,Wisconsin,0.3989641049010509,u6,female,all
+7642,Wyoming,0.36949304620906237,u6,female,all
+7643,Puerto Rico,0.383442945524809,u6,female,all
+7644,Alabama,0.38498578821129764,618,male,all
+7645,Alaska,0.37183327780059355,618,male,all
+7646,Arizona,0.3672531804809435,618,male,all
+7647,Arkansas,0.3759469442388191,618,male,all
+7648,California,0.39160909448286724,618,male,all
+7649,Colorado,0.3833035620468635,618,male,all
+7650,Connecticut,0.3910895680117325,618,male,all
+7651,Delaware,0.392099925797675,618,male,all
+7652,District of Columbia,0.40058156044480286,618,male,all
+7653,Florida,0.35732797390133264,618,male,all
+7654,Georgia,0.37329534247936913,618,male,all
+7655,Hawaii,0.3887597379075707,618,male,all
+7656,Idaho,0.37822608753381687,618,male,all
+7657,Illinois,0.3930199341074951,618,male,all
+7658,Indiana,0.3847903151640381,618,male,all
+7659,Iowa,0.4031688832003047,618,male,all
+7660,Kansas,0.379374054495568,618,male,all
+7661,Kentucky,0.39797295666792687,618,male,all
+7662,Louisiana,0.3939758580526101,618,male,all
+7663,Maine,0.39162993260712925,618,male,all
+7664,Maryland,0.3817439021632363,618,male,all
+7665,Massachusetts,0.4093337143782352,618,male,all
+7666,Michigan,0.4063326420386169,618,male,all
+7667,Minnesota,0.3997607160160135,618,male,all
+7668,Mississippi,0.37316632788197973,618,male,all
+7669,Missouri,0.3821584070131692,618,male,all
+7670,Montana,0.3727993892724376,618,male,all
+7671,Nebraska,0.38458609524603604,618,male,all
+7672,Nevada,0.3780660064978068,618,male,all
+7673,New Hampshire,0.38943596440267547,618,male,all
+7674,New Jersey,0.38376363243566186,618,male,all
+7675,New Mexico,0.39242432840394503,618,male,all
+7676,New York,0.399311783494898,618,male,all
+7677,North Carolina,0.3759365099389585,618,male,all
+7678,North Dakota,0.37898978722131677,618,male,all
+7679,Ohio,0.3921539304503302,618,male,all
+7680,Oklahoma,0.3761676767182432,618,male,all
+7681,Oregon,0.4020433949660327,618,male,all
+7682,Pennsylvania,0.39685749895721195,618,male,all
+7683,Rhode Island,0.40512032770097284,618,male,all
+7684,South Carolina,0.376348986340762,618,male,all
+7685,South Dakota,0.3762645141484732,618,male,all
+7686,Tennessee,0.38017464816766083,618,male,all
+7687,Texas,0.3452085217171915,618,male,all
+7688,Utah,0.36304920566863746,618,male,all
+7689,Vermont,0.3999648556335321,618,male,all
+7690,Virginia,0.3768760852473628,618,male,all
+7691,Washington,0.39242466614830274,618,male,all
+7692,West Virginia,0.4033748340095229,618,male,all
+7693,Wisconsin,0.4009682661229755,618,male,all
+7694,Wyoming,0.37958593931555706,618,male,all
+7695,Puerto Rico,0.3811667765639009,618,male,all
+7696,Alabama,0.38636933638115983,618,female,all
+7697,Alaska,0.3736268377873447,618,female,all
+7698,Arizona,0.3668849306750329,618,female,all
+7699,Arkansas,0.3730201326506227,618,female,all
+7700,California,0.3916941597775153,618,female,all
+7701,Colorado,0.3849598915478227,618,female,all
+7702,Connecticut,0.39420012420998796,618,female,all
+7703,Delaware,0.39359196968352744,618,female,all
+7704,District of Columbia,0.38007030346177806,618,female,all
+7705,Florida,0.3605330055347215,618,female,all
+7706,Georgia,0.3724623132641605,618,female,all
+7707,Hawaii,0.3844853554879745,618,female,all
+7708,Idaho,0.37712073653201045,618,female,all
+7709,Illinois,0.3947866448882237,618,female,all
+7710,Indiana,0.3844414513979259,618,female,all
+7711,Iowa,0.40138475499770326,618,female,all
+7712,Kansas,0.3763123922543399,618,female,all
+7713,Kentucky,0.3988358869837991,618,female,all
+7714,Louisiana,0.39658944807569424,618,female,all
+7715,Maine,0.3959901481126503,618,female,all
+7716,Maryland,0.38028244954689056,618,female,all
+7717,Massachusetts,0.40972562980386235,618,female,all
+7718,Michigan,0.4061410835084524,618,female,all
+7719,Minnesota,0.4000905248581674,618,female,all
+7720,Mississippi,0.37448223204912034,618,female,all
+7721,Missouri,0.3831640536973248,618,female,all
+7722,Montana,0.372542211328976,618,female,all
+7723,Nebraska,0.3857686169309654,618,female,all
+7724,Nevada,0.37571436078402837,618,female,all
+7725,New Hampshire,0.38694535809018565,618,female,all
+7726,New Jersey,0.38267142788865294,618,female,all
+7727,New Mexico,0.38846057770914705,618,female,all
+7728,New York,0.3975219279276162,618,female,all
+7729,North Carolina,0.37654642100597263,618,female,all
+7730,North Dakota,0.37804388790954957,618,female,all
+7731,Ohio,0.3918345026388859,618,female,all
+7732,Oklahoma,0.37641334711008495,618,female,all
+7733,Oregon,0.40291633617817824,618,female,all
+7734,Pennsylvania,0.39529626956064257,618,female,all
+7735,Rhode Island,0.4015386970833652,618,female,all
+7736,South Carolina,0.37087074482179666,618,female,all
+7737,South Dakota,0.37365718457293456,618,female,all
+7738,Tennessee,0.3794547933247477,618,female,all
+7739,Texas,0.3451597613096418,618,female,all
+7740,Utah,0.36312212730396026,618,female,all
+7741,Vermont,0.39539492990812436,618,female,all
+7742,Virginia,0.3754041082299758,618,female,all
+7743,Washington,0.39357652669818494,618,female,all
+7744,West Virginia,0.402470654415901,618,female,all
+7745,Wisconsin,0.4037838732774432,618,female,all
+7746,Wyoming,0.36913662754270915,618,female,all
+7747,Puerto Rico,0.37870951715269624,618,female,all
+7748,Alabama,0.324339014239893,1925,male,all
+7749,Alaska,0.3154135127558172,1925,male,all
+7750,Arizona,0.3208579082119953,1925,male,all
+7751,Arkansas,0.3246607071896782,1925,male,all
+7752,California,0.3498684147332936,1925,male,all
+7753,Colorado,0.35020534332600717,1925,male,all
+7754,Connecticut,0.35495893590430283,1925,male,all
+7755,Delaware,0.34361110777616366,1925,male,all
+7756,District of Columbia,0.3541092280808809,1925,male,all
+7757,Florida,0.2969263657714868,1925,male,all
+7758,Georgia,0.3016440090417502,1925,male,all
+7759,Hawaii,0.36264064625149406,1925,male,all
+7760,Idaho,0.33935301713760424,1925,male,all
+7761,Illinois,0.3483372524505083,1925,male,all
+7762,Indiana,0.35225748257990924,1925,male,all
+7763,Iowa,0.35707334689758136,1925,male,all
+7764,Kansas,0.32814310375869776,1925,male,all
+7765,Kentucky,0.35698136890367665,1925,male,all
+7766,Louisiana,0.35621150030307586,1925,male,all
+7767,Maine,0.36404326199059917,1925,male,all
+7768,Maryland,0.3551751420271463,1925,male,all
+7769,Massachusetts,0.3718640968655463,1925,male,all
+7770,Michigan,0.36724620520082446,1925,male,all
+7771,Minnesota,0.3611539991559256,1925,male,all
+7772,Mississippi,0.3060477500797318,1925,male,all
+7773,Missouri,0.3335708444006977,1925,male,all
+7774,Montana,0.3278451497286455,1925,male,all
+7775,Nebraska,0.3357541752417245,1925,male,all
+7776,Nevada,0.3347452380952381,1925,male,all
+7777,New Hampshire,0.35037832434202587,1925,male,all
+7778,New Jersey,0.34563737146444096,1925,male,all
+7779,New Mexico,0.3433668089241251,1925,male,all
+7780,New York,0.36279791269968165,1925,male,all
+7781,North Carolina,0.3290183307123015,1925,male,all
+7782,North Dakota,0.34931503399647446,1925,male,all
+7783,Ohio,0.3557631163316987,1925,male,all
+7784,Oklahoma,0.3123159244218513,1925,male,all
+7785,Oregon,0.3570848783576015,1925,male,all
+7786,Pennsylvania,0.3587102984491211,1925,male,all
+7787,Rhode Island,0.36675750391059253,1925,male,all
+7788,South Carolina,0.32831060277657365,1925,male,all
+7789,South Dakota,0.3211506136016076,1925,male,all
+7790,Tennessee,0.3291268795180342,1925,male,all
+7791,Texas,0.2768072272325969,1925,male,all
+7792,Utah,0.33473971732245533,1925,male,all
+7793,Vermont,0.3685806787110194,1925,male,all
+7794,Virginia,0.34551709502860734,1925,male,all
+7795,Washington,0.3561176503849742,1925,male,all
+7796,West Virginia,0.3546482387443583,1925,male,all
+7797,Wisconsin,0.36050551450026475,1925,male,all
+7798,Wyoming,0.29890998892957504,1925,male,all
+7799,Puerto Rico,0.35687719806991336,1925,male,all
+7800,Alabama,0.3384106547717106,1925,female,all
+7801,Alaska,0.32505722569815354,1925,female,all
+7802,Arizona,0.33069193628335913,1925,female,all
+7803,Arkansas,0.3353457278649626,1925,female,all
+7804,California,0.35668172404573933,1925,female,all
+7805,Colorado,0.3538999466237594,1925,female,all
+7806,Connecticut,0.35482241263552544,1925,female,all
+7807,Delaware,0.35393617521267096,1925,female,all
+7808,District of Columbia,0.36025340449942633,1925,female,all
+7809,Florida,0.3047564956171264,1925,female,all
+7810,Georgia,0.30817962237532226,1925,female,all
+7811,Hawaii,0.35906562847608453,1925,female,all
+7812,Idaho,0.3539805346009808,1925,female,all
+7813,Illinois,0.3576594918991891,1925,female,all
+7814,Indiana,0.3632643923173704,1925,female,all
+7815,Iowa,0.36586776302487023,1925,female,all
+7816,Kansas,0.3402641882249625,1925,female,all
+7817,Kentucky,0.3702579039134072,1925,female,all
+7818,Louisiana,0.37555350084841344,1925,female,all
+7819,Maine,0.37165595576147065,1925,female,all
+7820,Maryland,0.3574964440376714,1925,female,all
+7821,Massachusetts,0.37443285718458796,1925,female,all
+7822,Michigan,0.37135859860983095,1925,female,all
+7823,Minnesota,0.36560731063561364,1925,female,all
+7824,Mississippi,0.3113601294362631,1925,female,all
+7825,Missouri,0.34193032445848537,1925,female,all
+7826,Montana,0.335618885580604,1925,female,all
+7827,Nebraska,0.35011065036632794,1925,female,all
+7828,Nevada,0.3348459874731654,1925,female,all
+7829,New Hampshire,0.3632848051608404,1925,female,all
+7830,New Jersey,0.35230097631957596,1925,female,all
+7831,New Mexico,0.3533650546203334,1925,female,all
+7832,New York,0.36759187570822954,1925,female,all
+7833,North Carolina,0.33630918871900967,1925,female,all
+7834,North Dakota,0.3540099934386514,1925,female,all
+7835,Ohio,0.3647290204516661,1925,female,all
+7836,Oklahoma,0.3245612349474763,1925,female,all
+7837,Oregon,0.3649828465995906,1925,female,all
+7838,Pennsylvania,0.3652732276711867,1925,female,all
+7839,Rhode Island,0.3656478573797031,1925,female,all
+7840,South Carolina,0.3351042711971359,1925,female,all
+7841,South Dakota,0.32341136222826816,1925,female,all
+7842,Tennessee,0.33433094033931265,1925,female,all
+7843,Texas,0.285179309188725,1925,female,all
+7844,Utah,0.34361348184579776,1925,female,all
+7845,Vermont,0.38438133153236415,1925,female,all
+7846,Virginia,0.3493671906489319,1925,female,all
+7847,Washington,0.36262638269982683,1925,female,all
+7848,West Virginia,0.3616615519508987,1925,female,all
+7849,Wisconsin,0.36743936450830267,1925,female,all
+7850,Wyoming,0.31400071890726095,1925,female,all
+7851,Puerto Rico,0.3617342330375644,1925,female,all
+7852,Alabama,0.33456381874291047,2634,male,all
+7853,Alaska,0.3335223260862692,2634,male,all
+7854,Arizona,0.33608222605761257,2634,male,all
+7855,Arkansas,0.33568415548195923,2634,male,all
+7856,California,0.35389134076076756,2634,male,all
+7857,Colorado,0.3499730602128733,2634,male,all
+7858,Connecticut,0.3563729252731673,2634,male,all
+7859,Delaware,0.3544667130302839,2634,male,all
+7860,District of Columbia,0.3804401165465419,2634,male,all
+7861,Florida,0.3003483874551534,2634,male,all
+7862,Georgia,0.3073256914883175,2634,male,all
+7863,Hawaii,0.3784294827665336,2634,male,all
+7864,Idaho,0.3404913112023586,2634,male,all
+7865,Illinois,0.35468625274292875,2634,male,all
+7866,Indiana,0.35312498037664286,2634,male,all
+7867,Iowa,0.37071843148757117,2634,male,all
+7868,Kansas,0.3358383655824688,2634,male,all
+7869,Kentucky,0.36836920264319717,2634,male,all
+7870,Louisiana,0.34366097225184694,2634,male,all
+7871,Maine,0.35025093482289477,2634,male,all
+7872,Maryland,0.35332257100491454,2634,male,all
+7873,Massachusetts,0.37787521901284415,2634,male,all
+7874,Michigan,0.368719095058028,2634,male,all
+7875,Minnesota,0.37134973884273503,2634,male,all
+7876,Mississippi,0.3172764092247432,2634,male,all
+7877,Missouri,0.34059601148843466,2634,male,all
+7878,Montana,0.3366517943743938,2634,male,all
+7879,Nebraska,0.3517512033910482,2634,male,all
+7880,Nevada,0.3359394271788521,2634,male,all
+7881,New Hampshire,0.35592047858483516,2634,male,all
+7882,New Jersey,0.34131502062059055,2634,male,all
+7883,New Mexico,0.34800695249130936,2634,male,all
+7884,New York,0.36454154085080076,2634,male,all
+7885,North Carolina,0.3268072269886055,2634,male,all
+7886,North Dakota,0.36202174587138525,2634,male,all
+7887,Ohio,0.35574142600030906,2634,male,all
+7888,Oklahoma,0.3212713184913232,2634,male,all
+7889,Oregon,0.3632392040946031,2634,male,all
+7890,Pennsylvania,0.36108006142593985,2634,male,all
+7891,Rhode Island,0.36396314379060973,2634,male,all
+7892,South Carolina,0.32251843160989396,2634,male,all
+7893,South Dakota,0.3317357021658848,2634,male,all
+7894,Tennessee,0.3262728774747094,2634,male,all
+7895,Texas,0.2891825877750113,2634,male,all
+7896,Utah,0.34384616245119864,2634,male,all
+7897,Vermont,0.362607622461873,2634,male,all
+7898,Virginia,0.34806383370125094,2634,male,all
+7899,Washington,0.3594259388459964,2634,male,all
+7900,West Virginia,0.3675347805632099,2634,male,all
+7901,Wisconsin,0.36457538460142547,2634,male,all
+7902,Wyoming,0.3072007200720072,2634,male,all
+7903,Puerto Rico,0.34040500482941616,2634,male,all
+7904,Alabama,0.34915747569903616,2634,female,all
+7905,Alaska,0.3348505519037579,2634,female,all
+7906,Arizona,0.347874324155529,2634,female,all
+7907,Arkansas,0.3504367709629801,2634,female,all
+7908,California,0.36326625923941036,2634,female,all
+7909,Colorado,0.3612750350906319,2634,female,all
+7910,Connecticut,0.36910494305415664,2634,female,all
+7911,Delaware,0.3709603209986625,2634,female,all
+7912,District of Columbia,0.38347939481470056,2634,female,all
+7913,Florida,0.3116280734120042,2634,female,all
+7914,Georgia,0.3207747878334463,2634,female,all
+7915,Hawaii,0.38074642126789365,2634,female,all
+7916,Idaho,0.3472411172857025,2634,female,all
+7917,Illinois,0.3660189754222223,2634,female,all
+7918,Indiana,0.3650513182428076,2634,female,all
+7919,Iowa,0.38366951991068104,2634,female,all
+7920,Kansas,0.34534344096994435,2634,female,all
+7921,Kentucky,0.3786683276904382,2634,female,all
+7922,Louisiana,0.3625630732450277,2634,female,all
+7923,Maine,0.3573035744339293,2634,female,all
+7924,Maryland,0.3586850985568559,2634,female,all
+7925,Massachusetts,0.38356148025673703,2634,female,all
+7926,Michigan,0.3820206935569524,2634,female,all
+7927,Minnesota,0.37516068571428574,2634,female,all
+7928,Mississippi,0.328554172316036,2634,female,all
+7929,Missouri,0.35441839820234694,2634,female,all
+7930,Montana,0.3480000627185349,2634,female,all
+7931,Nebraska,0.36267408960635833,2634,female,all
+7932,Nevada,0.34436280114941387,2634,female,all
+7933,New Hampshire,0.3629467092684554,2634,female,all
+7934,New Jersey,0.35233014688738634,2634,female,all
+7935,New Mexico,0.3600532645195441,2634,female,all
+7936,New York,0.3737728994295099,2634,female,all
+7937,North Carolina,0.34144722873566247,2634,female,all
+7938,North Dakota,0.3695079402000381,2634,female,all
+7939,Ohio,0.3661540103896928,2634,female,all
+7940,Oklahoma,0.3375875447170857,2634,female,all
+7941,Oregon,0.37583160260766885,2634,female,all
+7942,Pennsylvania,0.3703513466968818,2634,female,all
+7943,Rhode Island,0.3720891873582516,2634,female,all
+7944,South Carolina,0.3364296221740477,2634,female,all
+7945,South Dakota,0.3451727387564414,2634,female,all
+7946,Tennessee,0.3439109096913039,2634,female,all
+7947,Texas,0.2996732531412021,2634,female,all
+7948,Utah,0.3534337073876105,2634,female,all
+7949,Vermont,0.3703982235381199,2634,female,all
+7950,Virginia,0.3549605842800835,2634,female,all
+7951,Washington,0.3654330506296582,2634,female,all
+7952,West Virginia,0.3791828641206323,2634,female,all
+7953,Wisconsin,0.3763931688990927,2634,female,all
+7954,Wyoming,0.325658135540727,2634,female,all
+7955,Puerto Rico,0.35751259606935903,2634,female,all
+7956,Alabama,0.33643165208773557,3544,male,all
+7957,Alaska,0.3481896193905229,3544,male,all
+7958,Arizona,0.3448791930360775,3544,male,all
+7959,Arkansas,0.34857694609010065,3544,male,all
+7960,California,0.35753715143593084,3544,male,all
+7961,Colorado,0.3549813493559498,3544,male,all
+7962,Connecticut,0.3632901250341061,3544,male,all
+7963,Delaware,0.3592613735470878,3544,male,all
+7964,District of Columbia,0.3908680515363862,3544,male,all
+7965,Florida,0.3134279625496726,3544,male,all
+7966,Georgia,0.32243155557300957,3544,male,all
+7967,Hawaii,0.3857040648974695,3544,male,all
+7968,Idaho,0.34541655024222845,3544,male,all
+7969,Illinois,0.36344312605013557,3544,male,all
+7970,Indiana,0.36228373782637824,3544,male,all
+7971,Iowa,0.37312472259209944,3544,male,all
+7972,Kansas,0.346230989934047,3544,male,all
+7973,Kentucky,0.3750340459625015,3544,male,all
+7974,Louisiana,0.3612854980088971,3544,male,all
+7975,Maine,0.36540727385477556,3544,male,all
+7976,Maryland,0.3567124749704934,3544,male,all
+7977,Massachusetts,0.3889688667036018,3544,male,all
+7978,Michigan,0.376860501688708,3544,male,all
+7979,Minnesota,0.37883435070251814,3544,male,all
+7980,Mississippi,0.3267681959818618,3544,male,all
+7981,Missouri,0.3563228290542592,3544,male,all
+7982,Montana,0.3513997382658086,3544,male,all
+7983,Nebraska,0.3642564759916816,3544,male,all
+7984,Nevada,0.336163700157158,3544,male,all
+7985,New Hampshire,0.3669690612644331,3544,male,all
+7986,New Jersey,0.3488533553117439,3544,male,all
+7987,New Mexico,0.35560696493240995,3544,male,all
+7988,New York,0.3720981138971482,3544,male,all
+7989,North Carolina,0.33543397315714124,3544,male,all
+7990,North Dakota,0.371044175151961,3544,male,all
+7991,Ohio,0.36987965449303845,3544,male,all
+7992,Oklahoma,0.33147729650956276,3544,male,all
+7993,Oregon,0.37425072092251116,3544,male,all
+7994,Pennsylvania,0.3740135204351703,3544,male,all
+7995,Rhode Island,0.3728793140103465,3544,male,all
+7996,South Carolina,0.3360497266282768,3544,male,all
+7997,South Dakota,0.3415097604873321,3544,male,all
+7998,Tennessee,0.3352376804651264,3544,male,all
+7999,Texas,0.30312333439931777,3544,male,all
+8000,Utah,0.34715398829290983,3544,male,all
+8001,Vermont,0.3784188455846078,3544,male,all
+8002,Virginia,0.3602840645233263,3544,male,all
+8003,Washington,0.36607284607959656,3544,male,all
+8004,West Virginia,0.369871816683761,3544,male,all
+8005,Wisconsin,0.3765287436050725,3544,male,all
+8006,Wyoming,0.32517674145071884,3544,male,all
+8007,Puerto Rico,0.35127013433500986,3544,male,all
+8008,Alabama,0.3419061428144971,3544,female,all
+8009,Alaska,0.34541304262269273,3544,female,all
+8010,Arizona,0.3480212302548591,3544,female,all
+8011,Arkansas,0.3499294098664838,3544,female,all
+8012,California,0.3635543949305065,3544,female,all
+8013,Colorado,0.3623039607474785,3544,female,all
+8014,Connecticut,0.3723679676698926,3544,female,all
+8015,Delaware,0.36991229010087406,3544,female,all
+8016,District of Columbia,0.38920312040544514,3544,female,all
+8017,Florida,0.3205493218150255,3544,female,all
+8018,Georgia,0.33230659670458235,3544,female,all
+8019,Hawaii,0.3800431464726149,3544,female,all
+8020,Idaho,0.34340254310548074,3544,female,all
+8021,Illinois,0.3709259502273611,3544,female,all
+8022,Indiana,0.3691122744819436,3544,female,all
+8023,Iowa,0.3816752635783535,3544,female,all
+8024,Kansas,0.3561061834836245,3544,female,all
+8025,Kentucky,0.3790099419458827,3544,female,all
+8026,Louisiana,0.3738305978241746,3544,female,all
+8027,Maine,0.36606083882117724,3544,female,all
+8028,Maryland,0.3590974547037279,3544,female,all
+8029,Massachusetts,0.390356305409572,3544,female,all
+8030,Michigan,0.3849230638858197,3544,female,all
+8031,Minnesota,0.38539314782482553,3544,female,all
+8032,Mississippi,0.3314498880375953,3544,female,all
+8033,Missouri,0.36125866398794576,3544,female,all
+8034,Montana,0.35438789394834863,3544,female,all
+8035,Nebraska,0.37214134972349305,3544,female,all
+8036,Nevada,0.3397326841772823,3544,female,all
+8037,New Hampshire,0.36819893280358507,3544,female,all
+8038,New Jersey,0.35920651367420514,3544,female,all
+8039,New Mexico,0.36679896256100936,3544,female,all
+8040,New York,0.37872640089535325,3544,female,all
+8041,North Carolina,0.34666024446259414,3544,female,all
+8042,North Dakota,0.37543177035772424,3544,female,all
+8043,Ohio,0.37852985703181913,3544,female,all
+8044,Oklahoma,0.336088148064722,3544,female,all
+8045,Oregon,0.3808602881217722,3544,female,all
+8046,Pennsylvania,0.3788166034723608,3544,female,all
+8047,Rhode Island,0.3837107429761854,3544,female,all
+8048,South Carolina,0.3476127538635637,3544,female,all
+8049,South Dakota,0.34559225011008365,3544,female,all
+8050,Tennessee,0.34383799756648703,3544,female,all
+8051,Texas,0.3063471238749683,3544,female,all
+8052,Utah,0.353153050789683,3544,female,all
+8053,Vermont,0.38989884109212336,3544,female,all
+8054,Virginia,0.36625863548034254,3544,female,all
+8055,Washington,0.36915543121107053,3544,female,all
+8056,West Virginia,0.37563289916128784,3544,female,all
+8057,Wisconsin,0.38277311603692743,3544,female,all
+8058,Wyoming,0.33117517776341304,3544,female,all
+8059,Puerto Rico,0.3642810325825731,3544,female,all
+8060,Alabama,0.3542343791021265,4554,male,all
+8061,Alaska,0.3517900772874595,4554,male,all
+8062,Arizona,0.3461573417846699,4554,male,all
+8063,Arkansas,0.3553918802024986,4554,male,all
+8064,California,0.35747776107871454,4554,male,all
+8065,Colorado,0.359761558790289,4554,male,all
+8066,Connecticut,0.3662549435237278,4554,male,all
+8067,Delaware,0.3744468261953716,4554,male,all
+8068,District of Columbia,0.3809714092751013,4554,male,all
+8069,Florida,0.32413371863242774,4554,male,all
+8070,Georgia,0.33922744387114767,4554,male,all
+8071,Hawaii,0.3842654826235987,4554,male,all
+8072,Idaho,0.35101671897905407,4554,male,all
+8073,Illinois,0.364313403305523,4554,male,all
+8074,Indiana,0.37090061640037497,4554,male,all
+8075,Iowa,0.3815797497546886,4554,male,all
+8076,Kansas,0.3517357090383873,4554,male,all
+8077,Kentucky,0.3828120543777926,4554,male,all
+8078,Louisiana,0.37148272810532784,4554,male,all
+8079,Maine,0.3739843947245032,4554,male,all
+8080,Maryland,0.36714130195834777,4554,male,all
+8081,Massachusetts,0.393302021013781,4554,male,all
+8082,Michigan,0.3818148461898747,4554,male,all
+8083,Minnesota,0.3820850125925545,4554,male,all
+8084,Mississippi,0.3502404887278032,4554,male,all
+8085,Missouri,0.36250909484960603,4554,male,all
+8086,Montana,0.3513296868348554,4554,male,all
+8087,Nebraska,0.3637965884666392,4554,male,all
+8088,Nevada,0.34619957847237787,4554,male,all
+8089,New Hampshire,0.37017652894142394,4554,male,all
+8090,New Jersey,0.35737551605021484,4554,male,all
+8091,New Mexico,0.35258325512973343,4554,male,all
+8092,New York,0.3780980549428514,4554,male,all
+8093,North Carolina,0.3413010050920873,4554,male,all
+8094,North Dakota,0.3735701440029404,4554,male,all
+8095,Ohio,0.3743627932166672,4554,male,all
+8096,Oklahoma,0.3449679572970426,4554,male,all
+8097,Oregon,0.36889626632723604,4554,male,all
+8098,Pennsylvania,0.37941546076421373,4554,male,all
+8099,Rhode Island,0.3892605015173295,4554,male,all
+8100,South Carolina,0.34889077617887276,4554,male,all
+8101,South Dakota,0.35522892899972325,4554,male,all
+8102,Tennessee,0.34863141373814005,4554,male,all
+8103,Texas,0.3120826716792982,4554,male,all
+8104,Utah,0.3477242409550142,4554,male,all
+8105,Vermont,0.38033894753385544,4554,male,all
+8106,Virginia,0.3621499733586841,4554,male,all
+8107,Washington,0.3629823322165411,4554,male,all
+8108,West Virginia,0.3788647209985316,4554,male,all
+8109,Wisconsin,0.37878159724002547,4554,male,all
+8110,Wyoming,0.344373496973215,4554,male,all
+8111,Puerto Rico,0.3608848764898067,4554,male,all
+8112,Alabama,0.3565840088465186,4554,female,all
+8113,Alaska,0.35199578725645075,4554,female,all
+8114,Arizona,0.34978330029582705,4554,female,all
+8115,Arkansas,0.35709468998621424,4554,female,all
+8116,California,0.36147688677187567,4554,female,all
+8117,Colorado,0.36108441151226334,4554,female,all
+8118,Connecticut,0.3725480971929435,4554,female,all
+8119,Delaware,0.37701900434479785,4554,female,all
+8120,District of Columbia,0.37725498940796076,4554,female,all
+8121,Florida,0.3272809819182056,4554,female,all
+8122,Georgia,0.3410238574247088,4554,female,all
+8123,Hawaii,0.386647450909746,4554,female,all
+8124,Idaho,0.3546903239419822,4554,female,all
+8125,Illinois,0.3675595811320706,4554,female,all
+8126,Indiana,0.3744545625141977,4554,female,all
+8127,Iowa,0.3844688150272763,4554,female,all
+8128,Kansas,0.3544572055319524,4554,female,all
+8129,Kentucky,0.38557290950785994,4554,female,all
+8130,Louisiana,0.38294045337189275,4554,female,all
+8131,Maine,0.3746645880574452,4554,female,all
+8132,Maryland,0.3712567956507835,4554,female,all
+8133,Massachusetts,0.3933405120786654,4554,female,all
+8134,Michigan,0.38412755129301135,4554,female,all
+8135,Minnesota,0.3829376909659941,4554,female,all
+8136,Mississippi,0.3579526249721499,4554,female,all
+8137,Missouri,0.36563469378711333,4554,female,all
+8138,Montana,0.35073045720908214,4554,female,all
+8139,Nebraska,0.36407398822493164,4554,female,all
+8140,Nevada,0.349035584310554,4554,female,all
+8141,New Hampshire,0.3748905595736582,4554,female,all
+8142,New Jersey,0.36234131130682856,4554,female,all
+8143,New Mexico,0.35451250847429255,4554,female,all
+8144,New York,0.38214334940275235,4554,female,all
+8145,North Carolina,0.34247414839200385,4554,female,all
+8146,North Dakota,0.3741542550246387,4554,female,all
+8147,Ohio,0.3785487760279765,4554,female,all
+8148,Oklahoma,0.35120275519461647,4554,female,all
+8149,Oregon,0.3728483765729377,4554,female,all
+8150,Pennsylvania,0.38227254340553424,4554,female,all
+8151,Rhode Island,0.3926626928040312,4554,female,all
+8152,South Carolina,0.35167021772726026,4554,female,all
+8153,South Dakota,0.3628653680472378,4554,female,all
+8154,Tennessee,0.3527645559391591,4554,female,all
+8155,Texas,0.3135234300171296,4554,female,all
+8156,Utah,0.3473342885952343,4554,female,all
+8157,Vermont,0.3924424943491557,4554,female,all
+8158,Virginia,0.3638727711818521,4554,female,all
+8159,Washington,0.3657656787695765,4554,female,all
+8160,West Virginia,0.3841008901537538,4554,female,all
+8161,Wisconsin,0.37982687375320606,4554,female,all
+8162,Wyoming,0.3479702565197282,4554,female,all
+8163,Puerto Rico,0.3677715514370796,4554,female,all
+8164,Alabama,0.3780515553893149,5564,male,all
+8165,Alaska,0.3559887473882034,5564,male,all
+8166,Arizona,0.35983341045812123,5564,male,all
+8167,Arkansas,0.37216873834344916,5564,male,all
+8168,California,0.3687833357343568,5564,male,all
+8169,Colorado,0.35888950317519613,5564,male,all
+8170,Connecticut,0.37889060550829895,5564,male,all
+8171,Delaware,0.39499380070140633,5564,male,all
+8172,District of Columbia,0.3822138489294781,5564,male,all
+8173,Florida,0.3354207805988128,5564,male,all
+8174,Georgia,0.3549539358671127,5564,male,all
+8175,Hawaii,0.3855098001075552,5564,male,all
+8176,Idaho,0.3519544762075455,5564,male,all
+8177,Illinois,0.37367516842750936,5564,male,all
+8178,Indiana,0.37941095051548124,5564,male,all
+8179,Iowa,0.38127948956022134,5564,male,all
+8180,Kansas,0.3588965210963499,5564,male,all
+8181,Kentucky,0.3894332743664539,5564,male,all
+8182,Louisiana,0.3894941139153171,5564,male,all
+8183,Maine,0.3705858965905124,5564,male,all
+8184,Maryland,0.37711234500445484,5564,male,all
+8185,Massachusetts,0.39664949937621957,5564,male,all
+8186,Michigan,0.39041223179591145,5564,male,all
+8187,Minnesota,0.3750749359223516,5564,male,all
+8188,Mississippi,0.3745550038889245,5564,male,all
+8189,Missouri,0.3719413918476362,5564,male,all
+8190,Montana,0.3465136680061124,5564,male,all
+8191,Nebraska,0.37136882811235494,5564,male,all
+8192,Nevada,0.36084369487917134,5564,male,all
+8193,New Hampshire,0.37162181608864586,5564,male,all
+8194,New Jersey,0.37356954454553454,5564,male,all
+8195,New Mexico,0.37371066313247703,5564,male,all
+8196,New York,0.3928285501025297,5564,male,all
+8197,North Carolina,0.3570364033641161,5564,male,all
+8198,North Dakota,0.36675069321905723,5564,male,all
+8199,Ohio,0.3796892436206732,5564,male,all
+8200,Oklahoma,0.357214645275147,5564,male,all
+8201,Oregon,0.3726656225404069,5564,male,all
+8202,Pennsylvania,0.38589004871421595,5564,male,all
+8203,Rhode Island,0.3900272058039048,5564,male,all
+8204,South Carolina,0.36231130780842596,5564,male,all
+8205,South Dakota,0.3519714151453625,5564,male,all
+8206,Tennessee,0.36469372670619926,5564,male,all
+8207,Texas,0.3319890939909536,5564,male,all
+8208,Utah,0.35933369651218594,5564,male,all
+8209,Vermont,0.38398504204223677,5564,male,all
+8210,Virginia,0.37182861239930537,5564,male,all
+8211,Washington,0.37109119194662277,5564,male,all
+8212,West Virginia,0.3966575961390358,5564,male,all
+8213,Wisconsin,0.37511952723264835,5564,male,all
+8214,Wyoming,0.3467565031027189,5564,male,all
+8215,Puerto Rico,0.37485961882982516,5564,male,all
+8216,Alabama,0.375183341172851,5564,female,all
+8217,Alaska,0.35298099078341016,5564,female,all
+8218,Arizona,0.35491135942231333,5564,female,all
+8219,Arkansas,0.3707813319349764,5564,female,all
+8220,California,0.3688818652382851,5564,female,all
+8221,Colorado,0.3587567979340751,5564,female,all
+8222,Connecticut,0.3801312277408983,5564,female,all
+8223,Delaware,0.3967865075881516,5564,female,all
+8224,District of Columbia,0.3870590794666998,5564,female,all
+8225,Florida,0.3336468631190908,5564,female,all
+8226,Georgia,0.35388656484093783,5564,female,all
+8227,Hawaii,0.3775355256895497,5564,female,all
+8228,Idaho,0.3485220467201345,5564,female,all
+8229,Illinois,0.3752295952652354,5564,female,all
+8230,Indiana,0.3800252119022757,5564,female,all
+8231,Iowa,0.3805976033977651,5564,female,all
+8232,Kansas,0.3577611473124093,5564,female,all
+8233,Kentucky,0.3882903083744869,5564,female,all
+8234,Louisiana,0.3914506532165271,5564,female,all
+8235,Maine,0.3666744710939622,5564,female,all
+8236,Maryland,0.37933393592919107,5564,female,all
+8237,Massachusetts,0.39793143963527144,5564,female,all
+8238,Michigan,0.39168383398952844,5564,female,all
+8239,Minnesota,0.37563749730050006,5564,female,all
+8240,Mississippi,0.37190188830263393,5564,female,all
+8241,Missouri,0.37230916537058123,5564,female,all
+8242,Montana,0.34271735353394955,5564,female,all
+8243,Nebraska,0.36823458293544065,5564,female,all
+8244,Nevada,0.3609287348357085,5564,female,all
+8245,New Hampshire,0.3711518191400429,5564,female,all
+8246,New Jersey,0.37414707694149785,5564,female,all
+8247,New Mexico,0.3711128353082086,5564,female,all
+8248,New York,0.3942022673393943,5564,female,all
+8249,North Carolina,0.3567827473689568,5564,female,all
+8250,North Dakota,0.3686162229559676,5564,female,all
+8251,Ohio,0.38146681935239835,5564,female,all
+8252,Oklahoma,0.36012532786816115,5564,female,all
+8253,Oregon,0.3715484827209611,5564,female,all
+8254,Pennsylvania,0.38570632291647705,5564,female,all
+8255,Rhode Island,0.3864115478477595,5564,female,all
+8256,South Carolina,0.3641776265059915,5564,female,all
+8257,South Dakota,0.3550463430627182,5564,female,all
+8258,Tennessee,0.3643152237930149,5564,female,all
+8259,Texas,0.3259882398132553,5564,female,all
+8260,Utah,0.3601977702375182,5564,female,all
+8261,Vermont,0.37778430919740513,5564,female,all
+8262,Virginia,0.36727330807386177,5564,female,all
+8263,Washington,0.36925131255500593,5564,female,all
+8264,West Virginia,0.3929964716064177,5564,female,all
+8265,Wisconsin,0.3746533382746879,5564,female,all
+8266,Wyoming,0.3349380093053277,5564,female,all
+8267,Puerto Rico,0.37588302494171205,5564,female,all
+8268,Alabama,0.587140833781662,6574,male,all
+8269,Alaska,0.6253225440520306,6574,male,all
+8270,Arizona,0.5434219595828405,6574,male,all
+8271,Arkansas,0.5527064914023885,6574,male,all
+8272,California,0.5574404436779098,6574,male,all
+8273,Colorado,0.5388862805330354,6574,male,all
+8274,Connecticut,0.5707379551183397,6574,male,all
+8275,Delaware,0.5968524051730036,6574,male,all
+8276,District of Columbia,0.6332082067171145,6574,male,all
+8277,Florida,0.5352012919694484,6574,male,all
+8278,Georgia,0.5625091609411806,6574,male,all
+8279,Hawaii,0.6275228576986674,6574,male,all
+8280,Idaho,0.542561387316931,6574,male,all
+8281,Illinois,0.5593125889834034,6574,male,all
+8282,Indiana,0.557554456317308,6574,male,all
+8283,Iowa,0.5576871964342416,6574,male,all
+8284,Kansas,0.5516183355114059,6574,male,all
+8285,Kentucky,0.5806001392754747,6574,male,all
+8286,Louisiana,0.5750096551029318,6574,male,all
+8287,Maine,0.5611753603019979,6574,male,all
+8288,Maryland,0.6174565083102359,6574,male,all
+8289,Massachusetts,0.593617452429488,6574,male,all
+8290,Michigan,0.606718873422158,6574,male,all
+8291,Minnesota,0.5679291747769228,6574,male,all
+8292,Mississippi,0.5609094858419538,6574,male,all
+8293,Missouri,0.5447369773325635,6574,male,all
+8294,Montana,0.5533004054131216,6574,male,all
+8295,Nebraska,0.5506077919989548,6574,male,all
+8296,Nevada,0.5429303951689798,6574,male,all
+8297,New Hampshire,0.5683439376546664,6574,male,all
+8298,New Jersey,0.5765043198293024,6574,male,all
+8299,New Mexico,0.5785648820289878,6574,male,all
+8300,New York,0.600974098261518,6574,male,all
+8301,North Carolina,0.5626071054780498,6574,male,all
+8302,North Dakota,0.5854520627084373,6574,male,all
+8303,Ohio,0.5597837712698229,6574,male,all
+8304,Oklahoma,0.5640785078233675,6574,male,all
+8305,Oregon,0.5616817898171923,6574,male,all
+8306,Pennsylvania,0.5756023940539731,6574,male,all
+8307,Rhode Island,0.5603538663171691,6574,male,all
+8308,South Carolina,0.5768168887168368,6574,male,all
+8309,South Dakota,0.5653507874821027,6574,male,all
+8310,Tennessee,0.5577955282784925,6574,male,all
+8311,Texas,0.5389409544441501,6574,male,all
+8312,Utah,0.5414650774712926,6574,male,all
+8313,Vermont,0.5890191659918078,6574,male,all
+8314,Virginia,0.5756849563097142,6574,male,all
+8315,Washington,0.5657494420925329,6574,male,all
+8316,West Virginia,0.601007006636679,6574,male,all
+8317,Wisconsin,0.5547155886386012,6574,male,all
+8318,Wyoming,0.5595341480948958,6574,male,all
+8319,Puerto Rico,0.5299802492678608,6574,male,all
+8320,Alabama,0.5872081516212472,6574,female,all
+8321,Alaska,0.6305677391651076,6574,female,all
+8322,Arizona,0.546032405775037,6574,female,all
+8323,Arkansas,0.5561588459566644,6574,female,all
+8324,California,0.561281526854784,6574,female,all
+8325,Colorado,0.5433514064848615,6574,female,all
+8326,Connecticut,0.57480903546072,6574,female,all
+8327,Delaware,0.6070027732347294,6574,female,all
+8328,District of Columbia,0.6546533813864744,6574,female,all
+8329,Florida,0.537532524949875,6574,female,all
+8330,Georgia,0.5637661888919643,6574,female,all
+8331,Hawaii,0.6363572499063319,6574,female,all
+8332,Idaho,0.5422727272727272,6574,female,all
+8333,Illinois,0.5616608896121107,6574,female,all
+8334,Indiana,0.5588697017268446,6574,female,all
+8335,Iowa,0.5647347325926397,6574,female,all
+8336,Kansas,0.5544541157961385,6574,female,all
+8337,Kentucky,0.5856150610161621,6574,female,all
+8338,Louisiana,0.5798636265947678,6574,female,all
+8339,Maine,0.5659352013831344,6574,female,all
+8340,Maryland,0.6182170034892999,6574,female,all
+8341,Massachusetts,0.5986834652804873,6574,female,all
+8342,Michigan,0.6135250580816461,6574,female,all
+8343,Minnesota,0.5708048553241117,6574,female,all
+8344,Mississippi,0.5673515842777325,6574,female,all
+8345,Missouri,0.546804843795845,6574,female,all
+8346,Montana,0.5609565628213323,6574,female,all
+8347,Nebraska,0.5541919406560291,6574,female,all
+8348,Nevada,0.5439393150977977,6574,female,all
+8349,New Hampshire,0.5759702297971848,6574,female,all
+8350,New Jersey,0.5758488213489414,6574,female,all
+8351,New Mexico,0.5802008102871234,6574,female,all
+8352,New York,0.6047451808891816,6574,female,all
+8353,North Carolina,0.5707140836109625,6574,female,all
+8354,North Dakota,0.5911226325256587,6574,female,all
+8355,Ohio,0.5617214525302611,6574,female,all
+8356,Oklahoma,0.5696349424580093,6574,female,all
+8357,Oregon,0.5638516081984764,6574,female,all
+8358,Pennsylvania,0.5793947658525084,6574,female,all
+8359,Rhode Island,0.5513887391203882,6574,female,all
+8360,South Carolina,0.5767658834399174,6574,female,all
+8361,South Dakota,0.5670197904540163,6574,female,all
+8362,Tennessee,0.558996679597524,6574,female,all
+8363,Texas,0.5397575979756615,6574,female,all
+8364,Utah,0.5434519140558913,6574,female,all
+8365,Vermont,0.597304421573796,6574,female,all
+8366,Virginia,0.5770715101344766,6574,female,all
+8367,Washington,0.5693834442246598,6574,female,all
+8368,West Virginia,0.6055594858079545,6574,female,all
+8369,Wisconsin,0.5569281298522885,6574,female,all
+8370,Wyoming,0.5634726725335804,6574,female,all
+8371,Puerto Rico,0.5317515878616796,6574,female,all
+8372,Alabama,0.6060773281696267,o75,male,all
+8373,Alaska,0.6636623094925509,o75,male,all
+8374,Arizona,0.5754149965339165,o75,male,all
+8375,Arkansas,0.5630516762670424,o75,male,all
+8376,California,0.588231859627793,o75,male,all
+8377,Colorado,0.5851901811978213,o75,male,all
+8378,Connecticut,0.6015992638535697,o75,male,all
+8379,Delaware,0.6414875679783419,o75,male,all
+8380,District of Columbia,0.6665823550435763,o75,male,all
+8381,Florida,0.5646429613392285,o75,male,all
+8382,Georgia,0.590864660431951,o75,male,all
+8383,Hawaii,0.6616980568011959,o75,male,all
+8384,Idaho,0.575435113907233,o75,male,all
+8385,Illinois,0.5887771048695056,o75,male,all
+8386,Indiana,0.5837992738820549,o75,male,all
+8387,Iowa,0.5829043360979498,o75,male,all
+8388,Kansas,0.5825926785696263,o75,male,all
+8389,Kentucky,0.5960184443587487,o75,male,all
+8390,Louisiana,0.5938117736596273,o75,male,all
+8391,Maine,0.5957404834904692,o75,male,all
+8392,Maryland,0.6443617433002634,o75,male,all
+8393,Massachusetts,0.6244840176424197,o75,male,all
+8394,Michigan,0.6507989312621945,o75,male,all
+8395,Minnesota,0.6013656787161181,o75,male,all
+8396,Mississippi,0.5768380243467474,o75,male,all
+8397,Missouri,0.5684885037519088,o75,male,all
+8398,Montana,0.5825319234991622,o75,male,all
+8399,Nebraska,0.5700813281560522,o75,male,all
+8400,Nevada,0.5538557457323983,o75,male,all
+8401,New Hampshire,0.5996619739237027,o75,male,all
+8402,New Jersey,0.6022358120009482,o75,male,all
+8403,New Mexico,0.6080945457956197,o75,male,all
+8404,New York,0.6231623271240253,o75,male,all
+8405,North Carolina,0.5955963347075496,o75,male,all
+8406,North Dakota,0.6022811441178788,o75,male,all
+8407,Ohio,0.5877366884207836,o75,male,all
+8408,Oklahoma,0.589675522963166,o75,male,all
+8409,Oregon,0.5844113115589302,o75,male,all
+8410,Pennsylvania,0.6025626256355969,o75,male,all
+8411,Rhode Island,0.606481951596915,o75,male,all
+8412,South Carolina,0.6025390741365957,o75,male,all
+8413,South Dakota,0.5762375570564754,o75,male,all
+8414,Tennessee,0.5797834760678057,o75,male,all
+8415,Texas,0.573694041380528,o75,male,all
+8416,Utah,0.5856802361970753,o75,male,all
+8417,Vermont,0.6099545545074324,o75,male,all
+8418,Virginia,0.6038968116233641,o75,male,all
+8419,Washington,0.59467987787226,o75,male,all
+8420,West Virginia,0.6221067554735251,o75,male,all
+8421,Wisconsin,0.580312337130519,o75,male,all
+8422,Wyoming,0.5891383344118671,o75,male,all
+8423,Puerto Rico,0.5402703586898203,o75,male,all
+8424,Alabama,0.6007392476335937,o75,female,all
+8425,Alaska,0.6595654026416702,o75,female,all
+8426,Arizona,0.5739030590831145,o75,female,all
+8427,Arkansas,0.5629753515409346,o75,female,all
+8428,California,0.586718288646054,o75,female,all
+8429,Colorado,0.58142102565924,o75,female,all
+8430,Connecticut,0.5984529795390053,o75,female,all
+8431,Delaware,0.6257143460539376,o75,female,all
+8432,District of Columbia,0.6786392476263331,o75,female,all
+8433,Florida,0.5575326998992314,o75,female,all
+8434,Georgia,0.5933884341419625,o75,female,all
+8435,Hawaii,0.6562296786762674,o75,female,all
+8436,Idaho,0.5708953378427521,o75,female,all
+8437,Illinois,0.5880656376080621,o75,female,all
+8438,Indiana,0.5811265857159483,o75,female,all
+8439,Iowa,0.5818393409487643,o75,female,all
+8440,Kansas,0.5890754946945799,o75,female,all
+8441,Kentucky,0.5940254680608783,o75,female,all
+8442,Louisiana,0.5916966844279746,o75,female,all
+8443,Maine,0.595614461379869,o75,female,all
+8444,Maryland,0.6436209424592727,o75,female,all
+8445,Massachusetts,0.6177309950918356,o75,female,all
+8446,Michigan,0.6464410535781654,o75,female,all
+8447,Minnesota,0.6029505556450314,o75,female,all
+8448,Mississippi,0.5775888798844298,o75,female,all
+8449,Missouri,0.5629394265560397,o75,female,all
+8450,Montana,0.5816848537756438,o75,female,all
+8451,Nebraska,0.5714211681917983,o75,female,all
+8452,Nevada,0.5503378292241401,o75,female,all
+8453,New Hampshire,0.59631871320786,o75,female,all
+8454,New Jersey,0.5978966837612063,o75,female,all
+8455,New Mexico,0.6090006382689309,o75,female,all
+8456,New York,0.621061882128078,o75,female,all
+8457,North Carolina,0.5941565061940476,o75,female,all
+8458,North Dakota,0.6095217838278564,o75,female,all
+8459,Ohio,0.5851852910783357,o75,female,all
+8460,Oklahoma,0.5890045941807044,o75,female,all
+8461,Oregon,0.5803859000193226,o75,female,all
+8462,Pennsylvania,0.5994268486726405,o75,female,all
+8463,Rhode Island,0.6044963430851064,o75,female,all
+8464,South Carolina,0.5996489200570834,o75,female,all
+8465,South Dakota,0.5757367240089754,o75,female,all
+8466,Tennessee,0.5756948750584728,o75,female,all
+8467,Texas,0.5704915239421939,o75,female,all
+8468,Utah,0.5809878628701015,o75,female,all
+8469,Vermont,0.608779443254818,o75,female,all
+8470,Virginia,0.6004186732995808,o75,female,all
+8471,Washington,0.5926161199605808,o75,female,all
+8472,West Virginia,0.6209315614779511,o75,female,all
+8473,Wisconsin,0.5792560504911624,o75,female,all
+8474,Wyoming,0.5762254673983815,o75,female,all
+8475,Puerto Rico,0.5402239148962754,o75,female,all
