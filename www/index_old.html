@@ -11,7 +11,7 @@
   </head>
 
   <body>
-    <h1>Health Insurance Enrollment (Percentages of State Population)</h1>
+    <h1>Health Insurance Enrollment as Percentages of State Populations</h1>
 
     <div class="container">
         <div id="map">
@@ -26,6 +26,7 @@
       <select id="ageButton"></select>
       <select id="typeButton"></select>
       <select id="incomeButton"></select>
+      <select id="testButton"></select>
      </div>
 
 
@@ -45,7 +46,27 @@
         const path = d3.geoPath().projection(projection);
 
         const income_path = "http://localhost:8080/data/income_clean.csv";
+        const race_eth_path = "http://localhost:8080/data/race_eth_clean.csv";
+        const insurance_type_path = "http://localhost:8080/data/insurance_type_clean.csv";
         const states_path = "https://cdn.jsdelivr.net/npm/us-atlas@3/states-10m.json";
+
+          // Tooltip
+          const tooltip = d3.
+            select("body")
+            .append("div")
+            .attr("class", "tooltip")
+            .style("opacity", 1);
+
+            var mousemove = function (event, d) {
+                  tooltip
+                  .style("left", event.pageX + 20)
+                  .style("top", event.pageY + 10)
+                  .style("opacity", 1);
+                }
+            var mouseleave = function (d) {
+                  tooltip.html('');
+                  tooltip.style("opacity", 0);
+                }
 
         Promise.all([
             d3.json(states_path),
@@ -72,11 +93,7 @@
               row.age === age && 
               row.type === type ); 
 
-          // Pull the maximum value and set the color scale based on it
-            const max_value = d3.max(filteredData, function(d) { return +d.value;} );
-
-            const color = d3.scaleSequential([0, max_value + 0.05], d3.interpolateBlues);
-
+            const color = d3.scaleSequential([0, 1], d3.interpolateBlues);
 
           // geojson and map
             const geojson = topojson.feature(states_data, states_data.objects.states).features;
@@ -90,42 +107,6 @@
                       d.properties.name !== "United States Virgin Islands",
             );
 
-          // Tooltip
-            const tooltip = d3.
-            select("body")
-            .append("div")
-            .attr("class", "tooltip")
-            .style("opacity", 0);
-
-            var mouseover = function (event, d) {
-                  const score = filteredData.filter(row =>
-                      row.state == d.properties.name
-                    )[0].value;
-                  const mean_value = d3.mean(filteredData, 
-                    function(d) { return +d.value;} );
-                  const relative = score / mean_value;
-                  tooltip.style("opacity", 1)
-                  .style("left", event.pageX + 10 + "px")
-                  .style("top", event.pageY - 28 + "px")
-                  .html(`
-                    <strong>${d.properties.name}</strong><br/>
-                    Percentage: ${d3.format(".1%")(score)}<br/>
-                    ${d3.format(".0%")(relative)} of national average
-                  `)
-                }
-            var mousemove = function (event, d) {
-                  tooltip
-                  .style("left", event.pageX + 20)
-                  .style("top", event.pageY + 10)
-                  .style("opacity", 1);
-                }
-            var mouseleave = function(d) {
-              tooltip
-                .style("opacity", 0)
-              d3.select(this)
-                .style("stroke", "none")
-                .style("opacity", 0.8)
-            }
 
           // Add the map to the svg
             data = svg.append("g")
@@ -140,31 +121,24 @@
                     return score ? color(score) : "#ccc";
                 })
                 .on("mouseover", function (event, d) {
+                  tooltip.style("opacity", 1);
                   const score = filteredData.filter(row =>
                       row.state == d.properties.name
                     )[0].value;
                   const mean_value = d3.mean(filteredData, 
                     function(d) { return +d.value;} );
                   const relative = score / mean_value;
-                  tooltip.style("opacity", 1)
-                  .style("left", event.pageX + "px")
-                  .style("top", event.pageY + "px")
+                  tooltip
                   .html(`
                     <strong>${d.properties.name}</strong><br/>
                     Percentage: ${d3.format(".1%")(score)}<br/>
                     ${d3.format(".0%")(relative)} of national average
                   `)
+                  .style("left", event.pageX + 10 + "px")
+                  .style("top", event.pageY - 28 + "px");
                 })
-                .on("mousemove", function (event, d) {
-                  tooltip
-                  .style("left", event.pageX)
-                  .style("top", event.pageY)
-                  .style("opacity", 1);
-                })
-                .on("mouseout", function (d) {
-                  tooltip.html('');
-                  tooltip.style("opacity", 0);
-                })
+                .on("mousemove", mousemove)
+                .on("mouseleave", mouseleave)
                 ;
 
 
@@ -194,11 +168,11 @@
 
         const legendScale = d3
           .scaleLinear()
-          .domain([0, max_value + 0.05])
+          .domain([0, 1])
           .range([0, legendWidth]);
 
         // Add gradient stops
-        const stops = d3.range(0, max_value + 0.05, (max_value + 0.05) / 10 );
+        const stops = d3.range(0, 1, .1 );
         stops.forEach((stop, i) => {
           gradient
             .append("stop")
@@ -213,8 +187,7 @@
 
         const legend = svg
           .append("g")
-          .attr(
-            "transform",
+          .attr("transform",
             `translate(${width - legendWidth - 225}, ${height - 40})`,
           );
 
@@ -228,10 +201,21 @@
           .append("g")
           .attr("transform", `translate(0, ${legendHeight})`)
           .call(legendAxis);
-        
+
+          // test
+          var tests = [{"label": "test1", "value": "test1"},
+          {"label": "test2", "value": "test2"}];
+
+          var testoptions_init = d3.select("#testButton")
+          .selectAll('myOptions')
+          .data(tests)
+          .enter()
+          .append('option')
+          .text(function (d) { return d.label; }) 
+          .attr("value", function (d) { return d.value; })
 
           // List of ages
-          var ages = [{"label": "Age: all", "value": "all"},
+          var ages = [{"label": "Age: All", "value": "all"},
                 {"label": "Age: Under 19", "value": "u19"},
                 {"label": "Age: 19-64", "value": "1964"},
                 {"label": "Age: Over 65", "value": "o65"}
@@ -251,27 +235,37 @@
 
           // When the button is changed, run the updateChart function
           d3.select("#ageButton").on("change", function(d) {
-              // recover the option that has been chosen
-              var selectedAge = d3.select(this).property("value")
-
-              // run the updateChart function with this selected option
-              update_age(selectedAge)
+              // run the updateChart function with the selected option
+              update_age(d3.select(this).property("value"))
           })
 
           // update Age
           function update_age(selectedAge) {
             const age = selectedAge;
 
+            if (age == "1964") {
+              var tests_new = [{"label": "test3", "value": "test3"},
+              {"label": "test4", "value": "test4"}]; 
+            } else {
+              var tests_new = tests;
+            }
+
+            var testoptions = d3.select("#testButton").selectAll("option")
+                .data(tests_new); // new options for group2 menu from the nested data
+
+              // Remove exit selection
+              testoptions.exit().remove(); 
+
+                 // Update selection
+              testoptions.enter().append("option")
+                .merge(testoptions_init)
+                .text(function (d) { return d.label; });
+
             var type = d3.select("#typeButton").property("value");
             var level = d3.select("#incomeButton").property("value");
 
             const filteredData = income_data.filter(row => 
               row.level === level && row.age === age && row.type === type );
-
-              // Pull the maximum value and set the color scale based on it
-              const max_value = d3.max(filteredData, function(d) { return +d.value;} );
-
-              const color = d3.scaleSequential([0, max_value + 0.05], d3.interpolateBlues);
 
               data
                 .attr("fill", (d) => {
@@ -296,22 +290,8 @@
                   .style("left", event.pageX + 10 + "px")
                   .style("top", event.pageY - 28 + "px");
                 })
-                .on("mouseout", function (d) {
-                  tooltip.html('');
-                  tooltip.style("opacity", 0);
-                })    
-                    ;
-
-            // legend
-            legend.selectAll("g").remove()
-
-            legendScale
-              .domain([0, max_value + 0.05]);
-
-            legend
-              .append("g")
-              .attr("transform", `translate(0, ${legendHeight})`)
-              .call(legendAxis);
+                .on("mousemove", mousemove)
+                .on("mouseleave", mouseleave);
 
           }
 
@@ -336,6 +316,7 @@
               var selectedType = d3.select(this).property("value")
               // run the updateChart function with this selected option
               update_type(selectedType)
+              d3.select("#testButton").insert()
           })
 
           // update type
@@ -347,11 +328,6 @@
 
             const filteredData = income_data.filter(row => 
               row.level === level && row.age === age && row.type === type );
-
-              // Pull the maximum value and set the color scale based on it
-              const max_value = d3.max(filteredData, function(d) { return +d.value;} );
-
-              const color = d3.scaleSequential([0, max_value + 0.05], d3.interpolateBlues);
 
               data
                 .attr("fill", (d) => {
@@ -376,28 +352,15 @@
                   .style("left", event.pageX + 10 + "px")
                   .style("top", event.pageY - 28 + "px");
                 })
-                .on("mouseout", function (d) {
-                  tooltip.html('');
-                  tooltip.style("opacity", 0);
-                });
-
-            // legend
-            legend.selectAll("g").remove()
-
-            legendScale
-              .domain([0, max_value + 0.05]);
-
-            legend
-              .append("g")
-              .attr("transform", `translate(0, ${legendHeight})`)
-              .call(legendAxis);
+                .on("mousemove", mousemove)
+                .on("mouseleave", mouseleave);
 
           }          
 
 
           // List of income levels
-          var types = [
-                {"label": "Income Level: all", "value": "all"},
+          var incomes = [
+                {"label": "Income Level: All", "value": "all"},
                 {"label": "Income Level: < 50% of FPL", "value": "u050"},
                 {"label": "Income Level: 50–99% of FPL", "value": "050099"},
                 {"label": "Income Level: 100–138% of FPL", "value": "100137"},
@@ -412,7 +375,7 @@
           // income levels button
           d3.select("#incomeButton")
             .selectAll('myOptions')
-            .data(types)
+            .data(incomes)
             .enter()
             .append('option')
             .text(function (d) { return d.label; }) // text showed in the menu
@@ -424,6 +387,7 @@
               var selectedOption = d3.select(this).property("value")
               // run the updateChart function with this selected option
               update_income(selectedOption)
+              // d3.select("#testButton").remove()
           })
 
           // update income level
@@ -435,11 +399,6 @@
 
             const filteredData = income_data.filter(row => 
               row.level === level && row.age === age && row.type === type );
-
-              // Pull the maximum value and set the color scale based on it
-              const max_value = d3.max(filteredData, function(d) { return +d.value;} );
-
-              const color = d3.scaleSequential([0, max_value + 0.05], d3.interpolateBlues);
 
               data
                 .attr("fill", (d) => {
@@ -464,21 +423,8 @@
                   .style("left", event.pageX + 10 + "px")
                   .style("top", event.pageY - 28 + "px");
                 })
-                .on("mouseout", function (d) {
-                  tooltip.html('');
-                  tooltip.style("opacity", 0);
-                });
-
-            // legend
-            legend.selectAll("g").remove()
-
-            legendScale
-              .domain([0, max_value + 0.05]);
-
-            legend
-              .append("g")
-              .attr("transform", `translate(0, ${legendHeight})`)
-              .call(legendAxis);
+                .on("mousemove", mousemove)
+                .on("mouseleave", mouseleave);
 
           }        
 
