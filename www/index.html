@@ -72,9 +72,13 @@
                   tooltip.style("opacity", 0); }
 
         ///////////////////// Read in the data
-            const income_path = "http://localhost:8080/www/data/income_clean.csv";
-            const race_eth_path = "http://localhost:8080/www/data/race_ethnicity_clean.csv";
-            const insurance_type_path = "http://localhost:8080/www/data/insurance_type_clean.csv";
+            const income_path = "data/income_clean.csv";
+            const race_eth_path = "data/race_ethnicity_clean.csv";
+            const insurance_type_path = "data/insurance_type_clean.csv";
+            
+            // const income_path = "http://localhost:8080/www/data/income_clean.csv";
+            // const race_eth_path = "http://localhost:8080/www/data/race_ethnicity_clean.csv";
+            // const insurance_type_path = "http://localhost:8080/www/data/insurance_type_clean.csv";
             const states_path = "https://cdn.jsdelivr.net/npm/us-atlas@3/states-10m.json";
 
             Promise.all([
