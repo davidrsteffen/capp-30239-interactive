@@ -19,9 +19,21 @@
     <script src="https://d3js.org/d3.v7.min.js"></script>
     <script src="https://unpkg.com/topojson@3"></script>
 
+    <div class="text">
+      <h3>What topic would you like to explore health insurance coverage rates by?</h3>
+      </div>
+    </div>
+
+    <!-- <div class="text2">   
+    <text class="text2">Age</text>
+    <text class="text3">Income</text>
+    <text class="text4">Insurance Type</text> -->
+  </div> 
     <!-- buttons -->
      <div class="buttons">
         <select id="topicButton"></select>
+     </div>
+     <div class="buttons2">
         <select id="ageButton"></select>
         <select id="incomeButton"></select>
         <select id="typeButton"></select>
@@ -32,7 +44,7 @@
 
         ///////////////////// Set up the map
             const width = 975;
-            const height = 610;
+            const height = 700;
             const svg = d3
                 .select("#map")
                 .append("svg")
@@ -40,7 +52,7 @@
                 .attr("width", width)
                 .attr("height", height);
 
-            const projection = d3.geoAlbersUsa().scale(1200).translate([487.5, 305]);
+            const projection = d3.geoAlbersUsa().scale(1200).translate([487.5, 400]);
             const path = d3.geoPath().projection(projection);
 
         ///////////////////// General tooltips
@@ -54,12 +66,10 @@
                   tooltip
                   .style("left", event.pageX + 20)
                   .style("top", event.pageY + 10)
-                  .style("opacity", 1);
-                }
+                  .style("opacity", 1); }
             var mouseleave = function (d) {
                   tooltip.html('');
-                  tooltip.style("opacity", 0);
-                }
+                  tooltip.style("opacity", 0); }
 
         ///////////////////// Read in the data
             const income_path = "http://localhost:8080/www/data/income_clean.csv";
@@ -79,8 +89,7 @@
             d3.csv(race_eth_path, 
             function(d) {
               return {
-                state: d.state, level: d.level,
-                age: d.age,
+                state: d.state, level: d.level, age: d.age,
                 value: +d.value // numeric
               }; }),
             d3.csv(insurance_type_path, 
@@ -242,25 +251,24 @@
                 .enter()
                 .append('option')
                 .text(function (d) { return d.label; })
-                .attr("value", function (d) { return d.value; }) 
-                // .style("position", "absolute")
-                // .style("top", "1000")
-                // .attr("y", "600")
+                .attr("value", function (d) { return d.value; })
 
             // Update the dropdowns based on the selection
             d3.select("#topicButton").on("change", function(d) {
               update_topic(d3.select(this).property("value"))
             })
 
+            // Default level
+            update_topic("income")
+
+        ///////////////////// Income topic
             // Function that updates all of the dropdowns for the topic
             function update_topic(selectedTopic) {
 
-        ///////////////////// Income topic
               if (selectedTopic == "income") {
                 // Set the color of the legend
                 d3.range(0, 1, .1 ).forEach((stop, i) => {
-                  gradient.selectAll("stop").remove();
-                });
+                  gradient.selectAll("stop").remove(); });
 
                 const color = d3.scaleSequential([0, 1], d3.interpolateBlues);
 
@@ -268,8 +276,30 @@
                 gradient
                     .append("stop")
                     .attr("offset", `${(i / (10 - 1)) * 100}%`)
-                    .attr("stop-color", color(stop));
-                });
+                    .attr("stop-color", color(stop)); });
+
+                // Default level
+                const filteredData = income_data.filter(row => 
+                row.level === "all" && row.age === "all" && row.type === "private" );
+
+                data.attr("fill", (d) => {
+                        const score = filteredData.filter(row =>
+                            row.state == d.properties.name)[0].value;
+                            return score ? color(score) : "#ccc"; })
+                      .on("mouseover", function (event, d) {
+                      tooltip.style("opacity", 1);
+                      const score = filteredData.filter(row =>
+                          row.state == d.properties.name)[0].value;
+                      const mean_value = d3.mean(filteredData, 
+                        function(d) { return +d.value;} );
+                      const relative = score / mean_value;
+                      tooltip.html(`
+                        <strong>${d.properties.name}</strong><br/>
+                        Percentage: ${d3.format(".1%")(score)}<br/>
+                        ${d3.format(".0%")(relative)} of national average`)
+                    })
+                    .on("mousemove", mousemove)
+                    .on("mouseleave", mouseleave);
 
                 // age button
                 d3.select("#ageButton").selectAll("option").remove();
@@ -318,6 +348,10 @@
 
         ///////////////////// Race/ethnicity topic
               } else if (selectedTopic == "race_eth") {
+                // console.log(svg.select("text2.text").text());
+
+                // d3.select("#text2")('this is new text') ;
+
                 // Set the color of the legend
                 d3.range(0, 1, .1 ).forEach((stop, i) => {
                   gradient.selectAll("stop").remove();
@@ -331,6 +365,29 @@
                     .attr("offset", `${(i / (10 - 1)) * 100}%`)
                     .attr("stop-color", color(stop));
                 });
+
+                // Default level
+                const filteredData = race_eth_data.filter(row => 
+                row.level === "white" && row.age === "all" );
+
+                data.attr("fill", (d) => {
+                        const score = filteredData.filter(row =>
+                            row.state == d.properties.name)[0].value;
+                            return score ? color(score) : "#ccc"; })
+                      .on("mouseover", function (event, d) {
+                      tooltip.style("opacity", 1);
+                      const score = filteredData.filter(row =>
+                          row.state == d.properties.name)[0].value;
+                      const mean_value = d3.mean(filteredData, 
+                        function(d) { return +d.value;} );
+                      const relative = score / mean_value;
+                      tooltip.html(`
+                        <strong>${d.properties.name}</strong><br/>
+                        Percentage: ${d3.format(".1%")(score)}<br/>
+                        ${d3.format(".0%")(relative)} of national average`)
+                    })
+                    .on("mousemove", mousemove)
+                    .on("mouseleave", mouseleave);
 
                 // age button
                 d3.select("#ageButton").selectAll("option").remove();
@@ -357,20 +414,19 @@
 
                 // Age button
                     d3.select("#ageButton").on("change", function(d) {
-                        update_age_race(d3.select(this).property("value"), color)
+                      update_age_race(d3.select(this).property("value"), color)
                     })
 
                 // Income button
                 d3.select("#incomeButton").on("change", function(d) {
-                        update_race(d3.select(this).property("value"), color)
+                      update_race(d3.select(this).property("value"), color)
                     })
 
         ///////////////////// Insurance type topic
               } else {
                 // Set the color of the legend
                 d3.range(0, 1, .1 ).forEach((stop, i) => {
-                  gradient.selectAll("stop").remove();
-                });
+                  gradient.selectAll("stop").remove(); });
 
                 const color = d3.scaleSequential([0, 1], d3.interpolateOranges);
 
@@ -378,8 +434,30 @@
                 gradient
                     .append("stop")
                     .attr("offset", `${(i / (10 - 1)) * 100}%`)
-                    .attr("stop-color", color(stop));
-                });
+                    .attr("stop-color", color(stop)); });
+
+                // Default view
+                const filteredData = insurance_data.filter(row => 
+                row.level === "private" && row.age === "all" && row.gender === "all" );
+
+                data.attr("fill", (d) => {
+                        const score = filteredData.filter(row =>
+                            row.state == d.properties.name)[0].value;
+                            return score ? color(score) : "#ccc"; })
+                      .on("mouseover", function (event, d) {
+                      tooltip.style("opacity", 1);
+                      const score = filteredData.filter(row =>
+                          row.state == d.properties.name)[0].value;
+                      const mean_value = d3.mean(filteredData, 
+                        function(d) { return +d.value;} );
+                      const relative = score / mean_value;
+                      tooltip.html(`
+                        <strong>${d.properties.name}</strong><br/>
+                        Percentage: ${d3.format(".1%")(score)}<br/>
+                        ${d3.format(".0%")(relative)} of national average`)
+                    })
+                    .on("mousemove", mousemove)
+                    .on("mouseleave", mouseleave);
 
                 // age button
                 d3.select("#ageButton").selectAll("option").remove();
@@ -447,14 +525,10 @@
                   const mean_value = d3.mean(filteredData, 
                     function(d) { return +d.value;} );
                   const relative = score / mean_value;
-                  tooltip
-                  .html(`
+                  tooltip.html(`
                     <strong>${d.properties.name}</strong><br/>
                     Percentage: ${d3.format(".1%")(score)}<br/>
-                    ${d3.format(".0%")(relative)} of national average
-                  `)
-                  .style("left", event.pageX + 10 + "px")
-                  .style("top", event.pageY - 28 + "px");
+                    ${d3.format(".0%")(relative)} of national average`)
                 })
                 .on("mousemove", mousemove)
                 .on("mouseleave", mouseleave);
@@ -478,14 +552,10 @@
                   const mean_value = d3.mean(filteredData, 
                     function(d) { return +d.value;} );
                   const relative = score / mean_value;
-                  tooltip
-                  .html(`
+                  tooltip.html(`
                     <strong>${d.properties.name}</strong><br/>
                     Percentage: ${d3.format(".1%")(score)}<br/>
-                    ${d3.format(".0%")(relative)} of national average
-                  `)
-                  .style("left", event.pageX + 10 + "px")
-                  .style("top", event.pageY - 28 + "px");
+                    ${d3.format(".0%")(relative)} of national average`)
                 })
                 .on("mousemove", mousemove)
                 .on("mouseleave", mouseleave);
@@ -509,14 +579,10 @@
                   const mean_value = d3.mean(filteredData, 
                     function(d) { return +d.value;} );
                   const relative = score / mean_value;
-                  tooltip
-                  .html(`
+                  tooltip.html(`
                     <strong>${d.properties.name}</strong><br/>
                     Percentage: ${d3.format(".1%")(score)}<br/>
-                    ${d3.format(".0%")(relative)} of national average
-                  `)
-                  .style("left", event.pageX + 10 + "px")
-                  .style("top", event.pageY - 28 + "px");
+                    ${d3.format(".0%")(relative)} of national average`)
                 })
                 .on("mousemove", mousemove)
                 .on("mouseleave", mouseleave);
@@ -543,20 +609,14 @@
                     function(d) { return +d.value !== 0 ? +d.value : NaN;} );
                   const relative = score / mean_value;
                   if (score != 0) {
-                    tooltip
-                    .html(`
-                      <strong>${d.properties.name}</strong><br/>
-                      Percentage: ${d3.format(".1%")(score)}<br/>
-                      ${d3.format(".0%")(relative)} of national average
-                    `)
-                    .style("left", event.pageX + 10 + "px")
-                    .style("top", event.pageY - 28 + "px");
-                  } else {
-                    tooltip
-                    .html(`
+                    tooltip.html(`
                     <strong>${d.properties.name}</strong><br/>
-                    Data not available
-                    `)
+                    Percentage: ${d3.format(".1%")(score)}<br/>
+                    ${d3.format(".0%")(relative)} of national average`)
+                  } else {
+                    tooltip.html(`
+                    <strong>${d.properties.name}</strong><br/>
+                    Data not available`)
                   }
                 })
                 .on("mousemove", mousemove)
@@ -581,20 +641,14 @@
                     function(d) { return +d.value !== 0 ? +d.value : NaN;} );
                   const relative = score / mean_value;
                   if (score != 0) {
-                    tooltip
-                    .html(`
-                      <strong>${d.properties.name}</strong><br/>
-                      Percentage: ${d3.format(".1%")(score)}<br/>
-                      ${d3.format(".0%")(relative)} of national average
-                    `)
-                    .style("left", event.pageX + 10 + "px")
-                    .style("top", event.pageY - 28 + "px");
-                  } else {
-                    tooltip
-                    .html(`
+                    tooltip.html(`
                     <strong>${d.properties.name}</strong><br/>
-                    Data not available
-                    `);
+                    Percentage: ${d3.format(".1%")(score)}<br/>
+                    ${d3.format(".0%")(relative)} of national average`)
+                  } else {
+                    tooltip.html(`
+                    <strong>${d.properties.name}</strong><br/>
+                    Data not available`);
                   }
                 })
                 .on("mousemove", mousemove)
@@ -621,14 +675,10 @@
                   const mean_value = d3.mean(filteredData, 
                     function(d) { return +d.value;} );
                   const relative = score / mean_value;
-                  tooltip
-                  .html(`
+                  tooltip.html(`
                     <strong>${d.properties.name}</strong><br/>
                     Percentage: ${d3.format(".1%")(score)}<br/>
-                    ${d3.format(".0%")(relative)} of national average
-                  `)
-                  .style("left", event.pageX + 10 + "px")
-                  .style("top", event.pageY - 28 + "px");
+                    ${d3.format(".0%")(relative)} of national average`)
                 })
                 .on("mousemove", mousemove)
                 .on("mouseleave", mouseleave);
@@ -652,14 +702,10 @@
                   const mean_value = d3.mean(filteredData, 
                     function(d) { return +d.value;} );
                   const relative = score / mean_value;
-                  tooltip
-                  .html(`
+                  tooltip.html(`
                     <strong>${d.properties.name}</strong><br/>
                     Percentage: ${d3.format(".1%")(score)}<br/>
-                    ${d3.format(".0%")(relative)} of national average
-                  `)
-                  .style("left", event.pageX + 10 + "px")
-                  .style("top", event.pageY - 28 + "px");
+                    ${d3.format(".0%")(relative)} of national average`)
                 })
                 .on("mousemove", mousemove)
                 .on("mouseleave", mouseleave);
@@ -683,14 +729,10 @@
                   const mean_value = d3.mean(filteredData, 
                     function(d) { return +d.value;} );
                   const relative = score / mean_value;
-                  tooltip
-                  .html(`
+                  tooltip.html(`
                     <strong>${d.properties.name}</strong><br/>
                     Percentage: ${d3.format(".1%")(score)}<br/>
-                    ${d3.format(".0%")(relative)} of national average
-                  `)
-                  .style("left", event.pageX + 10 + "px")
-                  .style("top", event.pageY - 28 + "px");
+                    ${d3.format(".0%")(relative)} of national average`)
                 })
                 .on("mousemove", mousemove)
                 .on("mouseleave", mouseleave);
