@@ -69,13 +69,13 @@
                   tooltip.style("opacity", 0); }
 
         ///////////////////// Read in the data
-            const income_path = "data/income_clean.csv";
-            const race_eth_path = "data/race_ethnicity_clean.csv";
-            const insurance_type_path = "data/insurance_type_clean.csv";
+            // const income_path = "data/income_clean.csv";
+            // const race_eth_path = "data/race_ethnicity_clean.csv";
+            // const insurance_type_path = "data/insurance_type_clean.csv";
             
-            // const income_path = "http://localhost:8080/www/data/income_clean.csv";
-            // const race_eth_path = "http://localhost:8080/www/data/race_ethnicity_clean.csv";
-            // const insurance_type_path = "http://localhost:8080/www/data/insurance_type_clean.csv";
+            const income_path = "http://localhost:8080/www/data/income_clean.csv";
+            const race_eth_path = "http://localhost:8080/www/data/race_ethnicity_clean.csv";
+            const insurance_type_path = "http://localhost:8080/www/data/insurance_type_clean.csv";
             const states_path = "https://cdn.jsdelivr.net/npm/us-atlas@3/states-10m.json";
 
             Promise.all([
@@ -176,9 +176,9 @@
         ///////////////////// List of dropdown menu options
             // List of topics
             var topics = [
-                    {"label": "Income Level", "value": "income"},
+                    {"label": "Income Level and Insurance Type", "value": "income"},
                     {"label": "Race/Ethnicity", "value": "race_eth"},
-                    {"label": "Insurance Type", "value": "insurance_type"}
+                    {"label": "Detailed Insurance Type and Gender", "value": "insurance_type"}
             ];
 
             var ages_for_inc = [
@@ -220,13 +220,13 @@
             ];
 
             var race_eths = [
-                {"label": "Race: White", "value": "white"},
-                {"label": "Race: Black/African-American", "value": "black"},
-                {"label": "Race: Asian", "value": "asian"},
-                {"label": "Race: Multiple Races", "value": "multi"},
-                {"label": "Race: American Indian/Alaska Native", "value": "aian"},
-                {"label": "Race: Native Hawaiian/Pacific Islander", "value": "nhpi"},
-                {"label": "Ethnicity: Hispanic or Latino", "value": "hispanic"}
+                {"label": "White", "value": "white"},
+                {"label": "Black/African-American", "value": "black"},
+                {"label": "Asian", "value": "asian"},
+                {"label": "Multiple Races", "value": "multi"},
+                {"label": "American Indian/Alaska Native", "value": "aian"},
+                {"label": "Native Hawaiian/Pacific Islander", "value": "nhpi"},
+                {"label": "Hispanic or Latino", "value": "hispanic"}
             ];
 
             var types = [
@@ -238,9 +238,9 @@
             ];
 
             var genders = [
-                {"label": "Gender: All", "value": "all"},
-                {"label": "Gender: Male", "value": "male"},
-                {"label": "Gender: Female", "value": "female"}
+                {"label": "All", "value": "all"},
+                {"label": "Male", "value": "male"},
+                {"label": "Female", "value": "female"}
             ];
 
         ///////////////////// Set up the topic dropdown
@@ -473,7 +473,7 @@
                 svg.append("text")
                 .text("Gender")
                 .attr("transform",
-                `translate(480, 60)` );
+                `translate(460, 60)` );
                 
                 svg.append("text")
                 .text("Insurance Type")
