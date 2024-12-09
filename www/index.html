@@ -2,14 +2,14 @@
   <head>
     <link href="style.css" rel="stylesheet" />
     <title>
-      Health Insurance Enrollment (Percentages of State Population)
+      State-Level Health Insurance Enrollment Rates by Subgroup
     </title>
     <link rel="stylesheet" href="style.css" />
 
   </head>
 
   <body>
-    <h1>Health Insurance Enrollment as Percentages of State Populations</h1>
+    <h1>State-Level Health Insurance Enrollment Rates by Subgroup</h1>
 
     <div class="container">
         <div id="map">
@@ -24,19 +24,16 @@
       </div>
     </div>
 
-    <!-- <div class="text2">   
-    <text class="text2">Age</text>
-    <text class="text3">Income</text>
-    <text class="text4">Insurance Type</text> -->
+    <div class="text2"><h4>Select a subgroup of interest:</h4></div>
+
   </div> 
     <!-- buttons -->
      <div class="buttons">
         <select id="topicButton"></select>
      </div>
-     <div class="buttons2">
-        <select id="ageButton"></select>
-        <select id="incomeButton"></select>
-        <select id="typeButton"></select>
+        <select id="ageButton" class="button2"></select>
+        <select id="incomeButton" class="button3"></select>
+        <select id="typeButton" class="button4"></select>
      </div>
 
 
@@ -44,7 +41,7 @@
 
         ///////////////////// Set up the map
             const width = 975;
-            const height = 700;
+            const height = 650;
             const svg = d3
                 .select("#map")
                 .append("svg")
@@ -52,7 +49,7 @@
                 .attr("width", width)
                 .attr("height", height);
 
-            const projection = d3.geoAlbersUsa().scale(1200).translate([487.5, 400]);
+            const projection = d3.geoAlbersUsa().scale(1200).translate([487.5, 350]);
             const path = d3.geoPath().projection(projection);
 
         ///////////////////// General tooltips
@@ -60,7 +57,7 @@
             select("body")
             .append("div")
             .attr("class", "tooltip")
-            .style("opacity", 1);
+            .style("opacity", 0);
 
             var mousemove = function (event, d) {
                   tooltip
@@ -185,41 +182,41 @@
             ];
 
             var ages_for_inc = [
-                {"label": "Age: All", "value": "all"},
-                {"label": "Age: Under 19", "value": "u19"},
-                {"label": "Age: 19-64", "value": "1964"},
-                {"label": "Age: Over 65", "value": "o65"}
+                {"label": "All", "value": "all"},
+                {"label": "Under 19", "value": "u19"},
+                {"label": "19-64", "value": "1964"},
+                {"label": "Over 65", "value": "o65"}
             ];
 
             var types_for_inc = [
-                {"label": "Insurance: Private", "value": "private"},
-                {"label": "Insurance: Public", "value": "public"}
+                {"label": "Private", "value": "private"},
+                {"label": "Public", "value": "public"}
             ];
 
             var incomes = [
-                    {"label": "Income Level: All", "value": "all"},
-                    {"label": "Income Level: < 50% of FPL", "value": "u050"},
-                    {"label": "Income Level: 50–99% of FPL", "value": "050099"},
-                    {"label": "Income Level: 100–138% of FPL", "value": "100137"},
-                    {"label": "Income Level: 138–149% of FPL", "value": "138149"},
-                    {"label": "Income Level: 150–199% of FPL", "value": "150199"},
-                    {"label": "Income Level: 200–249% of FPL", "value": "200249"},
-                    {"label": "Income Level: 250–299% of FPL", "value": "250299"},
-                    {"label": "Income Level: 300–399% of FPL", "value": "300399"},
-                    {"label": "Income Level: > 400% of FPL", "value": "o400"}
+                    {"label": "All", "value": "all"},
+                    {"label": "< 50% of poverty threshold", "value": "u050"},
+                    {"label": "50–99% of poverty threshold", "value": "050099"},
+                    {"label": "100–138% of poverty threshold", "value": "100137"},
+                    {"label": "138–149% of poverty threshold", "value": "138149"},
+                    {"label": "150–199% of poverty threshold", "value": "150199"},
+                    {"label": "200–249% of poverty threshold", "value": "200249"},
+                    {"label": "250–299% of poverty threshold", "value": "250299"},
+                    {"label": "300–399% of poverty threshold", "value": "300399"},
+                    {"label": "> 400% of poverty threshold", "value": "o400"}
             ];
 
             var ages_race_insurance = [
-                {"label": "Age: All", "value": "all"},
-                {"label": "Age: Under 6", "value": "u6"},
-                {"label": "Age: 6-18", "value": "618"},
-                {"label": "Age: 19-25", "value": "1925"},
-                {"label": "Age: 26-34", "value": "2634"},
-                {"label": "Age: 35-44", "value": "3544"},
-                {"label": "Age: 45-54", "value": "4554"},
-                {"label": "Age: 55-64", "value": "5564"},
-                {"label": "Age: 65-74", "value": "6574"},
-                {"label": "Age: Over 75", "value": "o75"}
+                {"label": "All", "value": "all"},
+                {"label": "Under 6", "value": "u6"},
+                {"label": "6-18", "value": "618"},
+                {"label": "19-25", "value": "1925"},
+                {"label": "26-34", "value": "2634"},
+                {"label": "35-44", "value": "3544"},
+                {"label": "45-54", "value": "4554"},
+                {"label": "55-64", "value": "5564"},
+                {"label": "65-74", "value": "6574"},
+                {"label": "Over 75", "value": "o75"}
             ];
 
             var race_eths = [
@@ -233,11 +230,11 @@
             ];
 
             var types = [
-                {"label": "Insurance: Private", "value": "private"},
-                {"label": "Insurance: Public", "value": "public"},
-                {"label": "Insurance: Employer-Sponsored", "value": "employer"},
-                {"label": "Insurance: Medicare", "value": "medicare"},
-                {"label": "Insurance: Medicaid", "value": "medicaid"}
+                {"label": "Private", "value": "private"},
+                {"label": "Public", "value": "public"},
+                {"label": "Employer-Sponsored", "value": "employer"},
+                {"label": "Medicare", "value": "medicare"},
+                {"label": "Medicaid", "value": "medicaid"}
             ];
 
             var genders = [
@@ -270,6 +267,24 @@
             function update_topic(selectedTopic) {
 
               if (selectedTopic == "income") {
+                // Set the dropdown titles
+                svg.selectAll("text").remove();
+
+                d3.select("svg").append("text")
+                .text("Age Group")
+                .attr("transform",
+                `translate(320, 60)` );
+
+                svg.append("text")
+                .text("Income Level")
+                .attr("transform",
+                `translate(500, 60)` );
+
+                svg.append("text")
+                .text("Insurance Type")
+                .attr("transform",
+                `translate(680, 60)` );
+
                 // Set the color of the legend
                 d3.range(0, 1, .1 ).forEach((stop, i) => {
                   gradient.selectAll("stop").remove(); });
@@ -281,6 +296,11 @@
                     .append("stop")
                     .attr("offset", `${(i / (10 - 1)) * 100}%`)
                     .attr("stop-color", color(stop)); });
+
+                legend
+                    .append("g")
+                    .attr("transform", `translate(0, ${legendHeight})`)
+                    .call(legendAxis);
 
                 // Default level
                 const filteredData = income_data.filter(row => 
@@ -352,9 +372,18 @@
 
         ///////////////////// Race/ethnicity topic
               } else if (selectedTopic == "race_eth") {
-                // console.log(svg.select("text2.text").text());
+                // Set the dropdown titles
+                svg.selectAll("text").remove();
 
-                // d3.select("#text2")('this is new text') ;
+                d3.select("svg").append("text")
+                .text("Age Group")
+                .attr("transform",
+                `translate(320, 60)` );
+
+                svg.append("text")
+                .text("Race/Ethnicity")
+                .attr("transform",
+                `translate(500, 60)` );
 
                 // Set the color of the legend
                 d3.range(0, 1, .1 ).forEach((stop, i) => {
@@ -369,6 +398,11 @@
                     .attr("offset", `${(i / (10 - 1)) * 100}%`)
                     .attr("stop-color", color(stop));
                 });
+
+                legend
+                    .append("g")
+                    .attr("transform", `translate(0, ${legendHeight})`)
+                    .call(legendAxis);
 
                 // Default level
                 const filteredData = race_eth_data.filter(row => 
@@ -428,6 +462,24 @@
 
         ///////////////////// Insurance type topic
               } else {
+                // Set the dropdown titles
+                svg.selectAll("text").remove();
+
+                d3.select("svg").append("text")
+                .text("Age Group")
+                .attr("transform",
+                `translate(320, 60)` );
+
+                svg.append("text")
+                .text("Gender")
+                .attr("transform",
+                `translate(480, 60)` );
+                
+                svg.append("text")
+                .text("Insurance Type")
+                .attr("transform",
+                `translate(720, 60)` );
+
                 // Set the color of the legend
                 d3.range(0, 1, .1 ).forEach((stop, i) => {
                   gradient.selectAll("stop").remove(); });
@@ -439,6 +491,11 @@
                     .append("stop")
                     .attr("offset", `${(i / (10 - 1)) * 100}%`)
                     .attr("stop-color", color(stop)); });
+
+                legend
+                    .append("g")
+                    .attr("transform", `translate(0, ${legendHeight})`)
+                    .call(legendAxis);
 
                 // Default view
                 const filteredData = insurance_data.filter(row => 
@@ -480,7 +537,7 @@
                     .selectAll('myOptions')
                     .data(genders)
                     .enter().append('option')
-                    .text(function (d) { return d.label; }) // text showed in the menu
+                    .text(function (d) { return d.label; })
                     .attr("value", function (d) { return d.value; })
 
                 // type Button
@@ -490,7 +547,7 @@
                     .selectAll('myOptions')
                     .data(types)
                     .enter().append('option')
-                    .text(function (d) { return d.label; }) // text showed in the menu
+                    .text(function (d) { return d.label; })
                     .attr("value", function (d) { return d.value; })
 
                 // Age button
@@ -747,4 +804,14 @@
      </script>
 
     </body>
+
+<footer>
+  All data is from the 2023 American Community Survey (ACS).<br>
+   &nbsp; Tables B27018-B27019 for income, B27001 for race/ethnicity, and B27002-B27009 for insurance type. <br>
+  Poverty thresholds are determined for each household based on size of family, number of related
+  children, and age of householder <br>
+  Site author: David Steffen
+
+</footer>
+
 </html>
