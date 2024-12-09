@@ -62,9 +62,9 @@
                 }
 
         ///////////////////// Read in the data
-            const income_path = "http://localhost:8080/data/income_clean.csv";
-            const race_eth_path = "http://localhost:8080/data/race_ethnicity_clean.csv";
-            const insurance_type_path = "http://localhost:8080/data/insurance_type_clean.csv";
+            const income_path = "http://localhost:8080/www/data/income_clean.csv";
+            const race_eth_path = "http://localhost:8080/www/data/race_ethnicity_clean.csv";
+            const insurance_type_path = "http://localhost:8080/www/data/insurance_type_clean.csv";
             const states_path = "https://cdn.jsdelivr.net/npm/us-atlas@3/states-10m.json";
 
             Promise.all([
@@ -214,6 +214,8 @@
                 {"label": "Race: Black/African-American", "value": "black"},
                 {"label": "Race: Asian", "value": "asian"},
                 {"label": "Race: Multiple Races", "value": "multi"},
+                {"label": "Race: American Indian/Alaska Native", "value": "aian"},
+                {"label": "Race: Native Hawaiian/Pacific Islander", "value": "nhpi"},
                 {"label": "Ethnicity: Hispanic or Latino", "value": "hispanic"}
             ];
 
@@ -239,23 +241,36 @@
                 .data(topics)
                 .enter()
                 .append('option')
-                .text(function (d) { return d.label; }) // text showed in the menu
+                .text(function (d) { return d.label; })
                 .attr("value", function (d) { return d.value; }) 
-                .style("position", "absolute")
-                .style("top", "1000")
-                .attr("y", "600")
+                // .style("position", "absolute")
+                // .style("top", "1000")
+                // .attr("y", "600")
 
             // Update the dropdowns based on the selection
             d3.select("#topicButton").on("change", function(d) {
-              // option that has been chosen
               update_topic(d3.select(this).property("value"))
-
             })
 
+            // Function that updates all of the dropdowns for the topic
             function update_topic(selectedTopic) {
 
         ///////////////////// Income topic
               if (selectedTopic == "income") {
+                // Set the color of the legend
+                d3.range(0, 1, .1 ).forEach((stop, i) => {
+                  gradient.selectAll("stop").remove();
+                });
+
+                const color = d3.scaleSequential([0, 1], d3.interpolateBlues);
+
+                d3.range(0, 1, .1 ).forEach((stop, i) => {
+                gradient
+                    .append("stop")
+                    .attr("offset", `${(i / (10 - 1)) * 100}%`)
+                    .attr("stop-color", color(stop));
+                });
+
                 // age button
                 d3.select("#ageButton").selectAll("option").remove();
 
@@ -263,7 +278,7 @@
                     .selectAll('myOptions')
                     .data(ages_for_inc)
                     .enter().append('option')
-                    .text(function (d) { return d.label; }) // text showed in the menu
+                    .text(function (d) { return d.label; })
                     .attr("value", function (d) { return d.value; })
 
                 // income Button
@@ -273,7 +288,7 @@
                     .selectAll('myOptions')
                     .data(incomes)
                     .enter().append('option')
-                    .text(function (d) { return d.label; }) // text showed in the menu
+                    .text(function (d) { return d.label; })
                     .attr("value", function (d) { return d.value; })
 
                 // type Button
@@ -283,26 +298,40 @@
                     .selectAll('myOptions')
                     .data(types_for_inc)
                     .enter().append('option')
-                    .text(function (d) { return d.label; }) // text showed in the menu
+                    .text(function (d) { return d.label; })
                     .attr("value", function (d) { return d.value; })
 
                 // Age button
                     d3.select("#ageButton").on("change", function(d) {
-                        update_age_inc(d3.select(this).property("value"))
+                        update_age_inc(d3.select(this).property("value"), color)
                     })
 
                 // Income button
                 d3.select("#incomeButton").on("change", function(d) {
-                        update_inc(d3.select(this).property("value"))
+                        update_inc(d3.select(this).property("value"), color)
                     })
 
                 // Age button
                 d3.select("#typeButton").on("change", function(d) {
-                        update_type_inc(d3.select(this).property("value"))
+                        update_type_inc(d3.select(this).property("value"), color)
                     })
 
         ///////////////////// Race/ethnicity topic
               } else if (selectedTopic == "race_eth") {
+                // Set the color of the legend
+                d3.range(0, 1, .1 ).forEach((stop, i) => {
+                  gradient.selectAll("stop").remove();
+                });
+
+                const color = d3.scaleSequential([0, 1], d3.interpolateGreens);
+
+                d3.range(0, 1, .1 ).forEach((stop, i) => {
+                gradient
+                    .append("stop")
+                    .attr("offset", `${(i / (10 - 1)) * 100}%`)
+                    .attr("stop-color", color(stop));
+                });
+
                 // age button
                 d3.select("#ageButton").selectAll("option").remove();
 
@@ -310,7 +339,7 @@
                     .selectAll('myOptions')
                     .data(ages_race_insurance)
                     .enter().append('option')
-                    .text(function (d) { return d.label; }) // text showed in the menu
+                    .text(function (d) { return d.label; })
                     .attr("value", function (d) { return d.value; })
 
                 // race/ethnicity Button
@@ -320,7 +349,7 @@
                     .selectAll('myOptions')
                     .data(race_eths)
                     .enter().append('option')
-                    .text(function (d) { return d.label; }) // text showed in the menu
+                    .text(function (d) { return d.label; })
                     .attr("value", function (d) { return d.value; })
 
                 // type Button
@@ -328,16 +357,29 @@
 
                 // Age button
                     d3.select("#ageButton").on("change", function(d) {
-                        update_age_race(d3.select(this).property("value"))
+                        update_age_race(d3.select(this).property("value"), color)
                     })
 
                 // Income button
                 d3.select("#incomeButton").on("change", function(d) {
-                        update_race(d3.select(this).property("value"))
+                        update_race(d3.select(this).property("value"), color)
                     })
 
         ///////////////////// Insurance type topic
               } else {
+                // Set the color of the legend
+                d3.range(0, 1, .1 ).forEach((stop, i) => {
+                  gradient.selectAll("stop").remove();
+                });
+
+                const color = d3.scaleSequential([0, 1], d3.interpolateOranges);
+
+                d3.range(0, 1, .1 ).forEach((stop, i) => {
+                gradient
+                    .append("stop")
+                    .attr("offset", `${(i / (10 - 1)) * 100}%`)
+                    .attr("stop-color", color(stop));
+                });
 
                 // age button
                 d3.select("#ageButton").selectAll("option").remove();
@@ -346,7 +388,7 @@
                     .selectAll('myOptions')
                     .data(ages_race_insurance)
                     .enter().append('option')
-                    .text(function (d) { return d.label; }) // text showed in the menu
+                    .text(function (d) { return d.label; })
                     .attr("value", function (d) { return d.value; })
 
                 // income Button
@@ -371,39 +413,28 @@
 
                 // Age button
                     d3.select("#ageButton").on("change", function(d) {
-                        update_age_type(d3.select(this).property("value"))
+                        update_age_type(d3.select(this).property("value"), color)
                     })
 
                 // Income button
                 d3.select("#incomeButton").on("change", function(d) {
-                        update_gender(d3.select(this).property("value"))
+                        update_gender(d3.select(this).property("value"), color)
                     })
 
                 // Age button
                 d3.select("#typeButton").on("change", function(d) {
-                        update_type(d3.select(this).property("value"))
+                        update_type(d3.select(this).property("value"), color)
                     })
               }
             }
 
         ///////////////////// Update functions for income tab
-           function update_age_inc(selectedAge) {
-            const color = d3.scaleSequential([0, 1], d3.interpolateBlues);
-
-            d3.range(0, 1, .1 ).forEach((stop, i) => {
-            gradient
-                .append("stop")
-                .attr("offset", `${(i / (10 - 1)) * 100}%`)
-                .attr("stop-color", color(stop));
-            });
-
-            const age = selectedAge;     
-            
+           function update_age_inc(selectedAge, color) {          
             var type = d3.select("#typeButton").property("value");
             var level = d3.select("#incomeButton").property("value");
 
             const filteredData = income_data.filter(row => 
-            row.level === level && row.age === age && row.type === type );
+            row.level === level && row.age === selectedAge && row.type === type );
 
             data.attr("fill", (d) => {
                     const score = filteredData.filter(row =>
@@ -429,23 +460,12 @@
                 .on("mouseleave", mouseleave);
            }
 
-           function update_type_inc(selectedType) {
-            const color = d3.scaleSequential([0, 1], d3.interpolateBlues);
-
-            d3.range(0, 1, .1 ).forEach((stop, i) => {
-            gradient
-                .append("stop")
-                .attr("offset", `${(i / (10 - 1)) * 100}%`)
-                .attr("stop-color", color(stop));
-            });
-
-            const type = selectedType;
-
+           function update_type_inc(selectedType, color) {
             var age = d3.select("#ageButton").property("value");
             var level = d3.select("#incomeButton").property("value");
 
             const filteredData = income_data.filter(row => 
-            row.level === level && row.age === age && row.type === type );
+            row.level === level && row.age === age && row.type === selectedType );
 
             data.attr("fill", (d) => {
                     const score = filteredData.filter(row =>
@@ -471,23 +491,12 @@
                 .on("mouseleave", mouseleave);
            }
 
-           function update_inc(selectedInc) {
-            const color = d3.scaleSequential([0, 1], d3.interpolateBlues);
-
-            d3.range(0, 1, .1 ).forEach((stop, i) => {
-            gradient
-                .append("stop")
-                .attr("offset", `${(i / (10 - 1)) * 100}%`)
-                .attr("stop-color", color(stop));
-            });
-
-            const level = selectedInc;
-
+           function update_inc(selectedInc, color) {
             var age = d3.select("#ageButton").property("value");
             var type = d3.select("#typeButton").property("value");
 
             const filteredData = income_data.filter(row => 
-            row.level === level && row.age === age && row.type === type );
+            row.level === selectedInc && row.age === age && row.type === type );
 
             data.attr("fill", (d) => {
                     const score = filteredData.filter(row =>
@@ -515,22 +524,11 @@
 
 
         ///////////////////// Update functions for race/ethnicity tab
-        function update_age_race(selectedAge) {
-            const color = d3.scaleSequential([0, 1], d3.interpolateGreens);
-
-            d3.range(0, 1, .1 ).forEach((stop, i) => {
-            gradient
-                .append("stop")
-                .attr("offset", `${(i / (10 - 1)) * 100}%`)
-                .attr("stop-color", color(stop));
-            });
-
-            const age = selectedAge;     
-
+        function update_age_race(selectedAge, color) {
             var level = d3.select("#incomeButton").property("value");
 
             const filteredData = race_eth_data.filter(row => 
-            row.level === level && row.age === age );
+            row.level === level && row.age === selectedAge );
 
             data.attr("fill", (d) => {
                     const score = filteredData.filter(row =>
@@ -540,38 +538,36 @@
                   tooltip.style("opacity", 1);
                   const score = filteredData.filter(row =>
                       row.state == d.properties.name)[0].value;
+                  // Take mean only of non-missing values
                   const mean_value = d3.mean(filteredData, 
-                    function(d) { return +d.value;} );
+                    function(d) { return +d.value !== 0 ? +d.value : NaN;} );
                   const relative = score / mean_value;
-                  tooltip
-                  .html(`
+                  if (score != 0) {
+                    tooltip
+                    .html(`
+                      <strong>${d.properties.name}</strong><br/>
+                      Percentage: ${d3.format(".1%")(score)}<br/>
+                      ${d3.format(".0%")(relative)} of national average
+                    `)
+                    .style("left", event.pageX + 10 + "px")
+                    .style("top", event.pageY - 28 + "px");
+                  } else {
+                    tooltip
+                    .html(`
                     <strong>${d.properties.name}</strong><br/>
-                    Percentage: ${d3.format(".1%")(score)}<br/>
-                    ${d3.format(".0%")(relative)} of national average
-                  `)
-                  .style("left", event.pageX + 10 + "px")
-                  .style("top", event.pageY - 28 + "px");
+                    Data not available
+                    `)
+                  }
                 })
                 .on("mousemove", mousemove)
                 .on("mouseleave", mouseleave);
            }
 
-           function update_race(selectedRace) {
-            const color = d3.scaleSequential([0, 1], d3.interpolateGreens);
-
-            d3.range(0, 1, .1 ).forEach((stop, i) => {
-            gradient
-                .append("stop")
-                .attr("offset", `${(i / (10 - 1)) * 100}%`)
-                .attr("stop-color", color(stop));
-            });
-
-            const level = selectedRace;
-
+           function update_race(selectedRace, color) {
             var age = d3.select("#ageButton").property("value");
 
             const filteredData = race_eth_data.filter(row => 
-            row.level === level && row.age === age );
+            row.level === selectedRace && row.age === age );
 
             data.attr("fill", (d) => {
                     const score = filteredData.filter(row =>
@@ -582,16 +578,24 @@
                   const score = filteredData.filter(row =>
                       row.state == d.properties.name)[0].value;
                   const mean_value = d3.mean(filteredData, 
-                    function(d) { return +d.value;} );
+                    function(d) { return +d.value !== 0 ? +d.value : NaN;} );
                   const relative = score / mean_value;
-                  tooltip
-                  .html(`
+                  if (score != 0) {
+                    tooltip
+                    .html(`
+                      <strong>${d.properties.name}</strong><br/>
+                      Percentage: ${d3.format(".1%")(score)}<br/>
+                      ${d3.format(".0%")(relative)} of national average
+                    `)
+                    .style("left", event.pageX + 10 + "px")
+                    .style("top", event.pageY - 28 + "px");
+                  } else {
+                    tooltip
+                    .html(`
                     <strong>${d.properties.name}</strong><br/>
-                    Percentage: ${d3.format(".1%")(score)}<br/>
-                    ${d3.format(".0%")(relative)} of national average
-                  `)
-                  .style("left", event.pageX + 10 + "px")
-                  .style("top", event.pageY - 28 + "px");
+                    Data not available
+                    `);
+                  }
                 })
                 .on("mousemove", mousemove)
                 .on("mouseleave", mouseleave);
@@ -599,23 +603,12 @@
 
 
         ///////////////////// Update functions for insurance type tab
-        function update_age_type(selectedAge) {
-            const color = d3.scaleSequential([0, 1], d3.interpolateReds);
-
-            d3.range(0, 1, .1 ).forEach((stop, i) => {
-            gradient
-                .append("stop")
-                .attr("offset", `${(i / (10 - 1)) * 100}%`)
-                .attr("stop-color", color(stop));
-            });
-
-            const age = selectedAge;     
-            
+        function update_age_type(selectedAge, color) {          
             var level = d3.select("#typeButton").property("value");
             var gender = d3.select("#incomeButton").property("value");
 
             const filteredData = insurance_data.filter(row => 
-            row.level === level && row.age === age && row.gender === gender );
+            row.level === level && row.age === selectedAge && row.gender === gender );
 
             data.attr("fill", (d) => {
                     const score = filteredData.filter(row =>
@@ -641,23 +634,12 @@
                 .on("mouseleave", mouseleave);
            }
 
-           function update_type(selectedType) {
-            const color = d3.scaleSequential([0, 1], d3.interpolateReds);
-
-            d3.range(0, 1, .1 ).forEach((stop, i) => {
-            gradient
-                .append("stop")
-                .attr("offset", `${(i / (10 - 1)) * 100}%`)
-                .attr("stop-color", color(stop));
-            });
-
-            const level = selectedType;
-
+           function update_type(selectedType, color) {
             var age = d3.select("#ageButton").property("value");
             var gender = d3.select("#incomeButton").property("value");
 
             const filteredData = insurance_data.filter(row => 
-            row.level === level && row.age === age && row.gender === gender );
+            row.level === selectedType && row.age === age && row.gender === gender );
 
             data.attr("fill", (d) => {
                     const score = filteredData.filter(row =>
@@ -683,23 +665,12 @@
                 .on("mouseleave", mouseleave);
            }
 
-           function update_gender(selectedGender) {
-            const color = d3.scaleSequential([0, 1], d3.interpolateReds);
-
-            d3.range(0, 1, .1 ).forEach((stop, i) => {
-            gradient
-                .append("stop")
-                .attr("offset", `${(i / (10 - 1)) * 100}%`)
-                .attr("stop-color", color(stop));
-            });
-
-            const gender = selectedGender;
-
+           function update_gender(selectedGender, color) {
             var age = d3.select("#ageButton").property("value");
             var level = d3.select("#typeButton").property("value");
 
             const filteredData = insurance_data.filter(row => 
-            row.level === level && row.age === age && row.gender === gender );
+            row.level === level && row.age === age && row.gender === selectedGender );
 
             data.attr("fill", (d) => {
                     const score = filteredData.filter(row =>
