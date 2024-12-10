@@ -4,6 +4,7 @@ section {
   padding-left: 1em;
   margin: 1em;
 }
+/* alignment and size of the overall elements */
 h1 {
   text-align: center;
 }
@@ -12,6 +13,7 @@ html {
   margin: 0 auto;
   vertical-align: middle;
 }
+/* also add dark background */
 body {
   display: table-cell;
   vertical-align: middle;
@@ -27,6 +29,7 @@ footer {
 svg {
   border: 1px dashed grey;
 }
+/* tooltip format, color, etc. */
 .tooltip {
   position: absolute;
   padding: 8px;
@@ -41,7 +44,8 @@ svg {
   margin: 0 auto;
   align-content: center;
 }
-.buttons {
+/* Position each of the buttons */
+.button1 {
   position: relative;
   left: 680px;
   top: -750px;
@@ -61,13 +65,14 @@ svg {
   left: 150px;
   top: -700px;
 }
+/* Position each of the dropdown texts */
 .text {
   position: relative;
   left: 20px;
-  top: -650px;         
+  top: -650px;
 }
 .text2 {
-  position: relative; 
+  position: relative;
   left: 90px;
-  top: -680px;  
+  top: -680px;
 }

@@ -5,7 +5,7 @@
       State-Level Health Insurance Enrollment Rates by Demographic Characteristics
     </title>
     <link rel="stylesheet" href="style.css" />
-
+  
   </head>
 
   <body>
@@ -29,8 +29,8 @@
 
   </div> 
     <!-- buttons -->
-     <div >
-        <select id="topicButton" class="buttons"></select>
+     <div>
+        <select id="topicButton" class="button1"></select>
         <select id="ageButton" class="button2"></select>
         <select id="incomeButton" class="button3"></select>
         <select id="typeButton" class="button4"></select>
@@ -72,10 +72,6 @@
             const income_path = "data/income_clean.csv";
             const race_eth_path = "data/race_ethnicity_clean.csv";
             const insurance_type_path = "data/insurance_type_clean.csv";
-            
-            // const income_path = "http://localhost:8080/www/data/income_clean.csv";
-            // const race_eth_path = "http://localhost:8080/www/data/race_ethnicity_clean.csv";
-            // const insurance_type_path = "http://localhost:8080/www/data/insurance_type_clean.csv";
             const states_path = "https://cdn.jsdelivr.net/npm/us-atlas@3/states-10m.json";
 
             Promise.all([
@@ -85,20 +81,20 @@
               return {
                 state: d.state, level: d.level,
                 age: d.age, type: d.type,
-                value: +d.value // numeric
+                value: +d.value
               }; }),
             d3.csv(race_eth_path, 
             function(d) {
               return {
                 state: d.state, level: d.level, age: d.age,
-                value: +d.value // numeric
+                value: +d.value
               }; }),
             d3.csv(insurance_type_path, 
             function(d) {
               return {
                 state: d.state, level: d.level,
                 age: d.age, gender: d.gender,
-                value: +d.value // numeric
+                value: +d.value
               }; })
         ]).then(function(
             [states_data, income_data, race_eth_data, insurance_data]){
@@ -159,8 +155,7 @@
             const legend = svg
             .append("g")
             .attr("transform",
-                `translate(${width - legendWidth - 225}, ${height - 40})`,
-            );
+                `translate(${width - legendWidth - 225}, ${height - 40})`);
 
             legend
             .append("rect")
@@ -178,20 +173,17 @@
             var topics = [
                     {"label": "Income Level and Insurance Type", "value": "income"},
                     {"label": "Race/Ethnicity", "value": "race_eth"},
-                    {"label": "Detailed Insurance Type and Gender", "value": "insurance_type"}
-            ];
+                    {"label": "Detailed Insurance Type and Gender", "value": "insurance_type"}];
 
             var ages_for_inc = [
                 {"label": "All", "value": "all"},
                 {"label": "Under 19", "value": "u19"},
                 {"label": "19-64", "value": "1964"},
-                {"label": "Over 65", "value": "o65"}
-            ];
+                {"label": "Over 65", "value": "o65"}];
 
             var types_for_inc = [
                 {"label": "Private", "value": "private"},
-                {"label": "Public", "value": "public"}
-            ];
+                {"label": "Public", "value": "public"}];
 
             var incomes = [
                     {"label": "All", "value": "all"},
@@ -203,8 +195,7 @@
                     {"label": "200–249% of poverty threshold", "value": "200249"},
                     {"label": "250–299% of poverty threshold", "value": "250299"},
                     {"label": "300–399% of poverty threshold", "value": "300399"},
-                    {"label": "> 400% of poverty threshold", "value": "o400"}
-            ];
+                    {"label": "> 400% of poverty threshold", "value": "o400"}];
 
             var ages_race_insurance = [
                 {"label": "All", "value": "all"},
@@ -216,8 +207,7 @@
                 {"label": "45-54", "value": "4554"},
                 {"label": "55-64", "value": "5564"},
                 {"label": "65-74", "value": "6574"},
-                {"label": "Over 75", "value": "o75"}
-            ];
+                {"label": "Over 75", "value": "o75"}];
 
             var race_eths = [
                 {"label": "White", "value": "white"},
@@ -226,22 +216,19 @@
                 {"label": "Multiple Races", "value": "multi"},
                 {"label": "American Indian/Alaska Native", "value": "aian"},
                 {"label": "Native Hawaiian/Pacific Islander", "value": "nhpi"},
-                {"label": "Hispanic or Latino", "value": "hispanic"}
-            ];
+                {"label": "Hispanic or Latino", "value": "hispanic"}];
 
             var types = [
                 {"label": "Private", "value": "private"},
                 {"label": "Public", "value": "public"},
                 {"label": "Employer-Sponsored", "value": "employer"},
                 {"label": "Medicare", "value": "medicare"},
-                {"label": "Medicaid", "value": "medicaid"}
-            ];
+                {"label": "Medicaid", "value": "medicaid"}];
 
             var genders = [
                 {"label": "All", "value": "all"},
                 {"label": "Male", "value": "male"},
-                {"label": "Female", "value": "female"}
-            ];
+                {"label": "Female", "value": "female"}];
 
         ///////////////////// Set up the topic dropdown
 
@@ -259,7 +246,7 @@
               update_topic(d3.select(this).property("value"))
             })
 
-            // Default level
+            // Default view is the default income map
             update_topic("income")
 
         ///////////////////// Income topic
@@ -272,22 +259,16 @@
                 svg.selectAll("text").remove();
 
                 d3.select("svg").append("text")
-                .text("Age Group")
-                .style('fill', '#ffffee')
-                .attr("transform",
-                `translate(330, 60)` );
+                .text("Age Group").style('fill', '#ffffee')
+                .attr("transform", `translate(330, 60)` );
 
                 svg.append("text")
-                .text("Income Level")
-                .style('fill', '#ffffee')
-                .attr("transform",
-                `translate(500, 60)` );
+                .text("Income Level").style('fill', '#ffffee')
+                .attr("transform", `translate(500, 60)` );
 
                 svg.append("text")
-                .text("Insurance Type")
-                .style('fill', '#ffffee')
-                .attr("transform",
-                `translate(720, 60)` );
+                .text("Insurance Type").style('fill', '#ffffee')
+                .attr("transform", `translate(720, 60)` );
 
                 // Set the color of the legend
                 d3.range(0, 1, .1 ).forEach((stop, i) => {
@@ -316,10 +297,12 @@
                             return score ? color(score) : "#ccc"; })
                       .on("mouseover", function (event, d) {
                       tooltip.style("opacity", 1);
+                      // Pull the state's value and the subgroup's mean
                       const score = filteredData.filter(row =>
                           row.state == d.properties.name)[0].value;
                       const mean_value = d3.mean(filteredData, 
                         function(d) { return +d.value;} );
+                      // Label based on whether above or below the national average
                       const pct_diff = (score / mean_value) - 1;
                       if (pct_diff < 0) {
                         tooltip.html(`
@@ -376,7 +359,7 @@
                         update_inc(d3.select(this).property("value"), color)
                     })
 
-                // Age button
+                // Insurance type button
                 d3.select("#typeButton").on("change", function(d) {
                         update_type_inc(d3.select(this).property("value"), color)
                     })
@@ -388,16 +371,12 @@
                 svg.selectAll("text").remove();
 
                 d3.select("svg").append("text")
-                .text("Age Group")
-                .style('fill', '#ffffee')
-                .attr("transform",
-                `translate(330, 60)` );
+                .text("Age Group").style('fill', '#ffffee')
+                .attr("transform", `translate(330, 60)` );
 
                 svg.append("text")
-                .text("Race/Ethnicity")
-                .style('fill', '#ffffee')
-                .attr("transform",
-                `translate(500, 60)` );
+                .text("Race/Ethnicity").style('fill', '#ffffee')
+                .attr("transform", `translate(500, 60)` );
 
                 // Set the color of the legend
                 d3.range(0, 1, .1 ).forEach((stop, i) => {
@@ -476,7 +455,7 @@
                       update_age_race(d3.select(this).property("value"), color)
                     })
 
-                // Income button
+                // race/ethnicity button
                 d3.select("#incomeButton").on("change", function(d) {
                       update_race(d3.select(this).property("value"), color)
                     })
@@ -488,22 +467,16 @@
                 svg.selectAll("text").remove();
 
                 d3.select("svg").append("text")
-                .text("Age Group")
-                .style('fill', '#ffffee')
-                .attr("transform",
-                `translate(330, 60)` );
+                .text("Age Group").style('fill', '#ffffee')
+                .attr("transform", `translate(330, 60)` );
 
                 svg.append("text")
-                .text("Gender")
-                .style('fill', '#ffffee')
-                .attr("transform",
-                `translate(460, 60)` );
+                .text("Gender").style('fill', '#ffffee')
+                .attr("transform", `translate(460, 60)` );
                 
                 svg.append("text")
-                .text("Insurance Type")
-                .style('fill', '#ffffee')
-                .attr("transform",
-                `translate(600, 60)` );
+                .text("Insurance Type").style('fill', '#ffffee')
+                .attr("transform", `translate(600, 60)` );
 
                 // Set the color of the legend
                 d3.range(0, 1, .1 ).forEach((stop, i) => {
@@ -562,7 +535,7 @@
                     .text(function (d) { return d.label; })
                     .attr("value", function (d) { return d.value; })
 
-                // income Button
+                // gender Button
                 d3.select("#incomeButton").selectAll("option").remove();
 
                 d3.select("#incomeButton")
@@ -587,12 +560,12 @@
                         update_age_type(d3.select(this).property("value"), color)
                     })
 
-                // Income button
+                // gender button
                 d3.select("#incomeButton").on("change", function(d) {
                         update_gender(d3.select(this).property("value"), color)
                     })
 
-                // Age button
+                // Insurance type button
                 d3.select("#typeButton").on("change", function(d) {
                         update_type(d3.select(this).property("value"), color)
                     })
@@ -611,7 +584,7 @@
                     const score = filteredData.filter(row =>
                         row.state == d.properties.name)[0].value;
                         return score ? color(score) : "#ccc"; })
-                  .on("mouseover", function (event, d) {
+                .on("mouseover", function (event, d) {
                   tooltip.style("opacity", 1);
                   const score = filteredData.filter(row =>
                       row.state == d.properties.name)[0].value;
@@ -645,7 +618,7 @@
                     const score = filteredData.filter(row =>
                         row.state == d.properties.name)[0].value;
                         return score ? color(score) : "#ccc"; })
-                  .on("mouseover", function (event, d) {
+                .on("mouseover", function (event, d) {
                   tooltip.style("opacity", 1);
                   const score = filteredData.filter(row =>
                       row.state == d.properties.name)[0].value;
@@ -679,7 +652,7 @@
                     const score = filteredData.filter(row =>
                         row.state == d.properties.name)[0].value;
                         return score ? color(score) : "#ccc"; })
-                  .on("mouseover", function (event, d) {
+                .on("mouseover", function (event, d) {
                   tooltip.style("opacity", 1);
                   const score = filteredData.filter(row =>
                       row.state == d.properties.name)[0].value;
@@ -714,7 +687,7 @@
                     const score = filteredData.filter(row =>
                         row.state == d.properties.name)[0].value;
                         return score ? color(score) : "#ccc"; })
-                  .on("mouseover", function (event, d) {
+                .on("mouseover", function (event, d) {
                   tooltip.style("opacity", 1);
                   const score = filteredData.filter(row =>
                       row.state == d.properties.name)[0].value;
@@ -754,7 +727,7 @@
                     const score = filteredData.filter(row =>
                         row.state == d.properties.name)[0].value;
                         return score ? color(score) : "#ccc"; })
-                  .on("mouseover", function (event, d) {
+                .on("mouseover", function (event, d) {
                   tooltip.style("opacity", 1);
                   const score = filteredData.filter(row =>
                       row.state == d.properties.name)[0].value;
@@ -796,7 +769,7 @@
                     const score = filteredData.filter(row =>
                         row.state == d.properties.name)[0].value;
                         return score ? color(score) : "#ccc"; })
-                  .on("mouseover", function (event, d) {
+                .on("mouseover", function (event, d) {
                   tooltip.style("opacity", 1);
                   const score = filteredData.filter(row =>
                       row.state == d.properties.name)[0].value;
@@ -830,7 +803,7 @@
                     const score = filteredData.filter(row =>
                         row.state == d.properties.name)[0].value;
                         return score ? color(score) : "#ccc"; })
-                  .on("mouseover", function (event, d) {
+                .on("mouseover", function (event, d) {
                   tooltip.style("opacity", 1);
                   const score = filteredData.filter(row =>
                       row.state == d.properties.name)[0].value;
@@ -864,7 +837,7 @@
                     const score = filteredData.filter(row =>
                         row.state == d.properties.name)[0].value;
                         return score ? color(score) : "#ccc"; })
-                  .on("mouseover", function (event, d) {
+                .on("mouseover", function (event, d) {
                   tooltip.style("opacity", 1);
                   const score = filteredData.filter(row =>
                       row.state == d.properties.name)[0].value;
@@ -895,7 +868,7 @@
 
 <footer>
   <strong>Notes:</strong> <br>
-  All data is from the 2023 American Community Survey (ACS).<br>
+  All data is from the 2023 American Community Survey (ACS), accessed through <a href="https://data.census.gov/"></a>.<br>
    &nbsp; Tables B27018-B27019 for income, B27001 for race/ethnicity, and B27002-B27009 for insurance type. <br>
   Poverty thresholds are determined for each household based on size of family, number of related
   children, and age of householder. <br>
