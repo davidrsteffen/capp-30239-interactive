@@ -2,14 +2,15 @@
   <head>
     <link href="style.css" rel="stylesheet" />
     <title>
-      State-Level Health Insurance Enrollment Rates by Subgroup
+      State-Level Health Insurance Enrollment Rates by Demographic Characteristics
     </title>
     <link rel="stylesheet" href="style.css" />
 
   </head>
 
   <body>
-    <h1>State-Level Health Insurance Enrollment Rates by Subgroup</h1>
+    <h1>State-Level Health Insurance Enrollment Rates <br>
+      by Demographic Characteristics and Insurance Type</h1>
 
     <div class="container">
         <div id="map">
@@ -28,9 +29,8 @@
 
   </div> 
     <!-- buttons -->
-     <div class="buttons">
-        <select id="topicButton"></select>
-     </div>
+     <div >
+        <select id="topicButton" class="buttons"></select>
         <select id="ageButton" class="button2"></select>
         <select id="incomeButton" class="button3"></select>
         <select id="typeButton" class="button4"></select>
@@ -61,21 +61,21 @@
 
             var mousemove = function (event, d) {
                   tooltip
-                  .style("left", event.pageX + 20)
-                  .style("top", event.pageY + 10)
+                  .style("left", event.pageX - 100)
+                  .style("top", event.pageY + 20)
                   .style("opacity", 1); }
             var mouseleave = function (d) {
                   tooltip.html('');
                   tooltip.style("opacity", 0); }
 
         ///////////////////// Read in the data
-            const income_path = "data/income_clean.csv";
-            const race_eth_path = "data/race_ethnicity_clean.csv";
-            const insurance_type_path = "data/insurance_type_clean.csv";
+            // const income_path = "data/income_clean.csv";
+            // const race_eth_path = "data/race_ethnicity_clean.csv";
+            // const insurance_type_path = "data/insurance_type_clean.csv";
             
-            // const income_path = "http://localhost:8080/www/data/income_clean.csv";
-            // const race_eth_path = "http://localhost:8080/www/data/race_ethnicity_clean.csv";
-            // const insurance_type_path = "http://localhost:8080/www/data/insurance_type_clean.csv";
+            const income_path = "http://localhost:8080/www/data/income_clean.csv";
+            const race_eth_path = "http://localhost:8080/www/data/race_ethnicity_clean.csv";
+            const insurance_type_path = "http://localhost:8080/www/data/insurance_type_clean.csv";
             const states_path = "https://cdn.jsdelivr.net/npm/us-atlas@3/states-10m.json";
 
             Promise.all([
@@ -267,23 +267,27 @@
             function update_topic(selectedTopic) {
 
               if (selectedTopic == "income") {
+                d3.select("#typeButton").style("visibility", "visible");
                 // Set the dropdown titles
                 svg.selectAll("text").remove();
 
                 d3.select("svg").append("text")
                 .text("Age Group")
+                .style('fill', '#ffffee')
                 .attr("transform",
-                `translate(320, 60)` );
+                `translate(330, 60)` );
 
                 svg.append("text")
                 .text("Income Level")
+                .style('fill', '#ffffee')
                 .attr("transform",
                 `translate(500, 60)` );
 
                 svg.append("text")
                 .text("Insurance Type")
+                .style('fill', '#ffffee')
                 .attr("transform",
-                `translate(680, 60)` );
+                `translate(720, 60)` );
 
                 // Set the color of the legend
                 d3.range(0, 1, .1 ).forEach((stop, i) => {
@@ -316,11 +320,18 @@
                           row.state == d.properties.name)[0].value;
                       const mean_value = d3.mean(filteredData, 
                         function(d) { return +d.value;} );
-                      const relative = score / mean_value;
-                      tooltip.html(`
+                      const pct_diff = (score / mean_value) - 1;
+                      if (pct_diff < 0) {
+                        tooltip.html(`
                         <strong>${d.properties.name}</strong><br/>
-                        Percentage: ${d3.format(".1%")(score)}<br/>
-                        ${d3.format(".0%")(relative)} of national average`)
+                        Percentage of subgroup insured: ${d3.format(".1%")(score)}<br/>
+                        ${d3.format(".0%")(Math.abs(pct_diff))} below national average for subgroup`)
+                      } else {
+                        tooltip.html(`
+                        <strong>${d.properties.name}</strong><br/>
+                        Percentage of subgroup insured: ${d3.format(".1%")(score)}<br/>
+                        ${d3.format(".0%")(pct_diff)} above national average for subgroup`)
+                      };
                     })
                     .on("mousemove", mousemove)
                     .on("mouseleave", mouseleave);
@@ -372,16 +383,19 @@
 
         ///////////////////// Race/ethnicity topic
               } else if (selectedTopic == "race_eth") {
+                d3.select("#typeButton").style("visibility", "hidden");
                 // Set the dropdown titles
                 svg.selectAll("text").remove();
 
                 d3.select("svg").append("text")
                 .text("Age Group")
+                .style('fill', '#ffffee')
                 .attr("transform",
-                `translate(320, 60)` );
+                `translate(330, 60)` );
 
                 svg.append("text")
                 .text("Race/Ethnicity")
+                .style('fill', '#ffffee')
                 .attr("transform",
                 `translate(500, 60)` );
 
@@ -418,11 +432,18 @@
                           row.state == d.properties.name)[0].value;
                       const mean_value = d3.mean(filteredData, 
                         function(d) { return +d.value;} );
-                      const relative = score / mean_value;
-                      tooltip.html(`
+                        const pct_diff = (score / mean_value) - 1;
+                      if (pct_diff < 0) {
+                        tooltip.html(`
                         <strong>${d.properties.name}</strong><br/>
-                        Percentage: ${d3.format(".1%")(score)}<br/>
-                        ${d3.format(".0%")(relative)} of national average`)
+                        Percentage of subgroup insured: ${d3.format(".1%")(score)}<br/>
+                        ${d3.format(".0%")(Math.abs(pct_diff))} below national average for subgroup`)
+                      } else {
+                        tooltip.html(`
+                        <strong>${d.properties.name}</strong><br/>
+                        Percentage of subgroup insured: ${d3.format(".1%")(score)}<br/>
+                        ${d3.format(".0%")(pct_diff)} above national average for subgroup`)
+                      };
                     })
                     .on("mousemove", mousemove)
                     .on("mouseleave", mouseleave);
@@ -462,23 +483,27 @@
 
         ///////////////////// Insurance type topic
               } else {
+                d3.select("#typeButton").style("visibility", "visible");
                 // Set the dropdown titles
                 svg.selectAll("text").remove();
 
                 d3.select("svg").append("text")
                 .text("Age Group")
+                .style('fill', '#ffffee')
                 .attr("transform",
-                `translate(320, 60)` );
+                `translate(330, 60)` );
 
                 svg.append("text")
                 .text("Gender")
+                .style('fill', '#ffffee')
                 .attr("transform",
                 `translate(460, 60)` );
                 
                 svg.append("text")
                 .text("Insurance Type")
+                .style('fill', '#ffffee')
                 .attr("transform",
-                `translate(720, 60)` );
+                `translate(600, 60)` );
 
                 // Set the color of the legend
                 d3.range(0, 1, .1 ).forEach((stop, i) => {
@@ -511,11 +536,18 @@
                           row.state == d.properties.name)[0].value;
                       const mean_value = d3.mean(filteredData, 
                         function(d) { return +d.value;} );
-                      const relative = score / mean_value;
-                      tooltip.html(`
+                        const pct_diff = (score / mean_value) - 1;
+                      if (pct_diff < 0) {
+                        tooltip.html(`
                         <strong>${d.properties.name}</strong><br/>
-                        Percentage: ${d3.format(".1%")(score)}<br/>
-                        ${d3.format(".0%")(relative)} of national average`)
+                        Percentage of subgroup insured: ${d3.format(".1%")(score)}<br/>
+                        ${d3.format(".0%")(Math.abs(pct_diff))} below national average for subgroup`)
+                      } else {
+                        tooltip.html(`
+                        <strong>${d.properties.name}</strong><br/>
+                        Percentage of subgroup insured: ${d3.format(".1%")(score)}<br/>
+                        ${d3.format(".0%")(pct_diff)} above national average for subgroup`)
+                      };
                     })
                     .on("mousemove", mousemove)
                     .on("mouseleave", mouseleave);
@@ -585,11 +617,18 @@
                       row.state == d.properties.name)[0].value;
                   const mean_value = d3.mean(filteredData, 
                     function(d) { return +d.value;} );
-                  const relative = score / mean_value;
-                  tooltip.html(`
-                    <strong>${d.properties.name}</strong><br/>
-                    Percentage: ${d3.format(".1%")(score)}<br/>
-                    ${d3.format(".0%")(relative)} of national average`)
+                    const pct_diff = (score / mean_value) - 1;
+                      if (pct_diff < 0) {
+                        tooltip.html(`
+                        <strong>${d.properties.name}</strong><br/>
+                        Percentage of subgroup insured: ${d3.format(".1%")(score)}<br/>
+                        ${d3.format(".0%")(Math.abs(pct_diff))} below national average for subgroup`)
+                      } else {
+                        tooltip.html(`
+                        <strong>${d.properties.name}</strong><br/>
+                        Percentage of subgroup insured: ${d3.format(".1%")(score)}<br/>
+                        ${d3.format(".0%")(pct_diff)} above national average for subgroup`)
+                      };
                 })
                 .on("mousemove", mousemove)
                 .on("mouseleave", mouseleave);
@@ -612,11 +651,18 @@
                       row.state == d.properties.name)[0].value;
                   const mean_value = d3.mean(filteredData, 
                     function(d) { return +d.value;} );
-                  const relative = score / mean_value;
-                  tooltip.html(`
-                    <strong>${d.properties.name}</strong><br/>
-                    Percentage: ${d3.format(".1%")(score)}<br/>
-                    ${d3.format(".0%")(relative)} of national average`)
+                    const pct_diff = (score / mean_value) - 1;
+                      if (pct_diff < 0) {
+                        tooltip.html(`
+                        <strong>${d.properties.name}</strong><br/>
+                        Percentage of subgroup insured: ${d3.format(".1%")(score)}<br/>
+                        ${d3.format(".0%")(Math.abs(pct_diff))} below national average for subgroup`)
+                      } else {
+                        tooltip.html(`
+                        <strong>${d.properties.name}</strong><br/>
+                        Percentage of subgroup insured: ${d3.format(".1%")(score)}<br/>
+                        ${d3.format(".0%")(pct_diff)} above national average for subgroup`)
+                      };
                 })
                 .on("mousemove", mousemove)
                 .on("mouseleave", mouseleave);
@@ -639,11 +685,18 @@
                       row.state == d.properties.name)[0].value;
                   const mean_value = d3.mean(filteredData, 
                     function(d) { return +d.value;} );
-                  const relative = score / mean_value;
-                  tooltip.html(`
-                    <strong>${d.properties.name}</strong><br/>
-                    Percentage: ${d3.format(".1%")(score)}<br/>
-                    ${d3.format(".0%")(relative)} of national average`)
+                    const pct_diff = (score / mean_value) - 1;
+                      if (pct_diff < 0) {
+                        tooltip.html(`
+                        <strong>${d.properties.name}</strong><br/>
+                        Percentage of subgroup insured: ${d3.format(".1%")(score)}<br/>
+                        ${d3.format(".0%")(Math.abs(pct_diff))} below national average for subgroup`)
+                      } else {
+                        tooltip.html(`
+                        <strong>${d.properties.name}</strong><br/>
+                        Percentage of subgroup insured: ${d3.format(".1%")(score)}<br/>
+                        ${d3.format(".0%")(pct_diff)} above national average for subgroup`)
+                      };
                 })
                 .on("mousemove", mousemove)
                 .on("mouseleave", mouseleave);
@@ -668,12 +721,19 @@
                   // Take mean only of non-missing values
                   const mean_value = d3.mean(filteredData, 
                     function(d) { return +d.value !== 0 ? +d.value : NaN;} );
-                  const relative = score / mean_value;
+                    const pct_diff = (score / mean_value) - 1;
                   if (score != 0) {
-                    tooltip.html(`
-                    <strong>${d.properties.name}</strong><br/>
-                    Percentage: ${d3.format(".1%")(score)}<br/>
-                    ${d3.format(".0%")(relative)} of national average`)
+                    if (pct_diff < 0) {
+                        tooltip.html(`
+                        <strong>${d.properties.name}</strong><br/>
+                        Percentage of subgroup insured: ${d3.format(".1%")(score)}<br/>
+                        ${d3.format(".0%")(Math.abs(pct_diff))} below national average for subgroup`)
+                      } else {
+                        tooltip.html(`
+                        <strong>${d.properties.name}</strong><br/>
+                        Percentage of subgroup insured: ${d3.format(".1%")(score)}<br/>
+                        ${d3.format(".0%")(pct_diff)} above national average for subgroup`)
+                      };
                   } else {
                     tooltip.html(`
                     <strong>${d.properties.name}</strong><br/>
@@ -700,12 +760,19 @@
                       row.state == d.properties.name)[0].value;
                   const mean_value = d3.mean(filteredData, 
                     function(d) { return +d.value !== 0 ? +d.value : NaN;} );
-                  const relative = score / mean_value;
+                    const pct_diff = (score / mean_value) - 1;
                   if (score != 0) {
-                    tooltip.html(`
-                    <strong>${d.properties.name}</strong><br/>
-                    Percentage: ${d3.format(".1%")(score)}<br/>
-                    ${d3.format(".0%")(relative)} of national average`)
+                      if (pct_diff < 0) {
+                        tooltip.html(`
+                        <strong>${d.properties.name}</strong><br/>
+                        Percentage of subgroup insured: ${d3.format(".1%")(score)}<br/>
+                        ${d3.format(".0%")(Math.abs(pct_diff))} below national average for subgroup`)
+                      } else {
+                        tooltip.html(`
+                        <strong>${d.properties.name}</strong><br/>
+                        Percentage of subgroup insured: ${d3.format(".1%")(score)}<br/>
+                        ${d3.format(".0%")(pct_diff)} above national average for subgroup`)
+                      };
                   } else {
                     tooltip.html(`
                     <strong>${d.properties.name}</strong><br/>
@@ -735,11 +802,18 @@
                       row.state == d.properties.name)[0].value;
                   const mean_value = d3.mean(filteredData, 
                     function(d) { return +d.value;} );
-                  const relative = score / mean_value;
-                  tooltip.html(`
-                    <strong>${d.properties.name}</strong><br/>
-                    Percentage: ${d3.format(".1%")(score)}<br/>
-                    ${d3.format(".0%")(relative)} of national average`)
+                    const pct_diff = (score / mean_value) - 1;
+                      if (pct_diff < 0) {
+                        tooltip.html(`
+                        <strong>${d.properties.name}</strong><br/>
+                        Percentage of subgroup insured: ${d3.format(".1%")(score)}<br/>
+                        ${d3.format(".0%")(Math.abs(pct_diff))} below national average for subgroup`)
+                      } else {
+                        tooltip.html(`
+                        <strong>${d.properties.name}</strong><br/>
+                        Percentage of subgroup insured: ${d3.format(".1%")(score)}<br/>
+                        ${d3.format(".0%")(pct_diff)} above national average for subgroup`)
+                      };
                 })
                 .on("mousemove", mousemove)
                 .on("mouseleave", mouseleave);
@@ -762,11 +836,18 @@
                       row.state == d.properties.name)[0].value;
                   const mean_value = d3.mean(filteredData, 
                     function(d) { return +d.value;} );
-                  const relative = score / mean_value;
-                  tooltip.html(`
-                    <strong>${d.properties.name}</strong><br/>
-                    Percentage: ${d3.format(".1%")(score)}<br/>
-                    ${d3.format(".0%")(relative)} of national average`)
+                    const pct_diff = (score / mean_value) - 1;
+                      if (pct_diff < 0) {
+                        tooltip.html(`
+                        <strong>${d.properties.name}</strong><br/>
+                        Percentage of subgroup insured: ${d3.format(".1%")(score)}<br/>
+                        ${d3.format(".0%")(Math.abs(pct_diff))} below national average for subgroup`)
+                      } else {
+                        tooltip.html(`
+                        <strong>${d.properties.name}</strong><br/>
+                        Percentage of subgroup insured: ${d3.format(".1%")(score)}<br/>
+                        ${d3.format(".0%")(pct_diff)} above national average for subgroup`)
+                      };
                 })
                 .on("mousemove", mousemove)
                 .on("mouseleave", mouseleave);
@@ -789,11 +870,18 @@
                       row.state == d.properties.name)[0].value;
                   const mean_value = d3.mean(filteredData, 
                     function(d) { return +d.value;} );
-                  const relative = score / mean_value;
-                  tooltip.html(`
-                    <strong>${d.properties.name}</strong><br/>
-                    Percentage: ${d3.format(".1%")(score)}<br/>
-                    ${d3.format(".0%")(relative)} of national average`)
+                    const pct_diff = (score / mean_value) - 1;
+                      if (pct_diff < 0) {
+                        tooltip.html(`
+                        <strong>${d.properties.name}</strong><br/>
+                        Percentage of subgroup insured: ${d3.format(".1%")(score)}<br/>
+                        ${d3.format(".0%")(Math.abs(pct_diff))} below national average for subgroup`)
+                      } else {
+                        tooltip.html(`
+                        <strong>${d.properties.name}</strong><br/>
+                        Percentage of subgroup insured: ${d3.format(".1%")(score)}<br/>
+                        ${d3.format(".0%")(pct_diff)} above national average for subgroup`)
+                      };
                 })
                 .on("mousemove", mousemove)
                 .on("mouseleave", mouseleave);
@@ -806,10 +894,12 @@
     </body>
 
 <footer>
+  <strong>Notes:</strong> <br>
   All data is from the 2023 American Community Survey (ACS).<br>
    &nbsp; Tables B27018-B27019 for income, B27001 for race/ethnicity, and B27002-B27009 for insurance type. <br>
   Poverty thresholds are determined for each household based on size of family, number of related
-  children, and age of householder <br>
+  children, and age of householder. <br>
+  Race and ethnicity categories are not mutually exclusive. Insurance types are also not mutually exclusive. <br>
   Site author: David Steffen
 
 </footer>

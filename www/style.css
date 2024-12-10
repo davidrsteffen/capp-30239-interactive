@@ -5,10 +5,24 @@ section {
   margin: 1em;
 }
 h1 {
-  text-align: left;
+  text-align: center;
+}
+html {
+  display: table;
+  margin: 0 auto;
+  vertical-align: middle;
 }
 body {
+  display: table-cell;
+  vertical-align: middle;
   font-family: sans-serif;
+  background-color: #333333;
+  color: #ffffee;
+}
+footer {
+  position: relative;
+  left: 0px;
+  top: -130px;
 }
 svg {
   border: 1px dashed grey;
@@ -16,7 +30,7 @@ svg {
 .tooltip {
   position: absolute;
   padding: 8px;
-  background: white;
+  background: black;
   border: 1px solid #333333;
   border-radius: 4px;
   pointer-events: none;
@@ -28,35 +42,32 @@ svg {
   align-content: center;
 }
 .buttons {
-  position: absolute;
+  position: relative;
   left: 680px;
-  top: 75px;
+  top: -750px;
 }
 .button2 {
-  position: absolute;
-  left: 325px;
-  top: 125px;
-  margin: 10px;
+  position: relative;
+  left: 65px;
+  top: -700px;
 }
 .button3 {
-  position: absolute;
-  left: 450px;
-  top: 125px;
-  margin: 10px;
+  position: relative;
+  left: 110px;
+  top: -700px;
 }
 .button4 {
-  position: absolute;
-  left: 700px;
-  top: 125px;
-  margin: 10px;
+  position: relative;
+  left: 150px;
+  top: -700px;
 }
 .text {
-  position: absolute;
+  position: relative;
   left: 20px;
-  top: 60px;         
+  top: -650px;         
 }
 .text2 {
-  position: absolute; 
+  position: relative; 
   left: 90px;
-  top: 90px;  
+  top: -680px;  
 }
